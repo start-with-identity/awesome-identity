@@ -1,0 +1,83 @@
+- name: 2FA Directory
+  url: https://2fa.directory/
+  description: Community-maintained list of sites and the second factors each supports, from SMS and TOTP to hardware keys, with data on GitHub.
+  tags: [free]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: DID Extensions
+  url: https://www.w3.org/TR/did-extensions/
+  description: W3C registry of DID methods, properties, and extensions that succeeded the DID Specification Registries note.
+  tags: [standard]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: eduGAIN Entities Database
+  url: https://technical.edugain.org/entities
+  description: Searchable list of identity providers and service providers published through the eduGAIN interfederation of research and education federations.
+  tags: [free]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: eIDAS Trusted List Browser
+  url: https://eidas.ec.europa.eu/efda/tl-browser/
+  description: European Commission browser for the national lists of qualified trust service providers under eIDAS and their services in each member state.
+  tags: [free, gov]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: Have I Been Pwned
+  url: https://haveibeenpwned.com/
+  description: Searchable index of accounts exposed in public data breaches, with domain monitoring and an API for checking email addresses.
+  tags: [freemium]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: Identity Breach Database
+  url: https://startwithidentity.com/breaches/incidents/
+  description: Maintained by Start With Identity, a filterable record of breaches since 2021 where identity was the way in, each linked to primary sources.
+  tags: [free]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: Identity CVE Catalog
+  url: https://startwithidentity.com/cves/
+  description: Maintained by Start With Identity, a catalog of authentication and IAM CVEs such as SAML and JWT signature bypasses and Kerberos flaws.
+  tags: [free]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: Kantara Trust Status List
+  url: https://kantarainitiative.org/trust-status-list/
+  description: Kantara Initiative list of identity providers and services certified against its assurance frameworks, including NIST 800-63 classes.
+  tags: [free]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: OpenID Certification
+  url: https://openid.net/certification/
+  description: OpenID Foundation program pages listing implementations certified against OpenID Connect, FAPI, and related conformance profiles.
+  tags: [free]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: Passkeys Directory
+  url: https://passkeys.directory/
+  description: Community-driven index of websites, apps, and services that let users sign in with passkeys, run by the 2FA Directory team.
+  tags: [free]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: Privacy Rights Clearinghouse Data Breach Chronology
+  url: https://privacyrights.org/data-breaches
+  description: Searchable US breach database compiled from government breach notifications since 2005, with the full dataset sold for research.
+  tags: [freemium]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: Pwned Passwords
+  url: https://haveibeenpwned.com/Passwords
+  description: Corpus of passwords seen in breaches, queryable through a k-anonymity range API or downloadable for blocklist checks.
+  tags: [free]
+  added: 2026-11-10
+  verified: 2026-11-10

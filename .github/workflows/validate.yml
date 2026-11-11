@@ -1,0 +1,50 @@
+name: Validate
+
+on:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 22
+          cache: npm
+
+      - run: npm ci
+
+      - name: Generated files are not edited by hand
+        run: |
+          changed=$(git diff --name-only "origin/${{ github.base_ref }}...HEAD" -- README.md VENDORS.md LEARNING-PATHS.md)
+          if [ -n "$changed" ]; then
+            echo "::error::README.md, VENDORS.md, and LEARNING-PATHS.md are generated. Edit the YAML in data/ instead and leave these files out of the PR."
+            exit 1
+          fi
+
+      - name: Check entries
+        run: npm run validate
+
+      - name: Build
+        run: npm run build
+
+      - name: Lint README
+        run: npx awesome-lint
+
+      - name: Preview changes
+        if: always()
+        run: |
+          {
+            echo "### Rendered changes"
+            echo
+            echo '```diff'
+            git diff --unified=0 README.md VENDORS.md LEARNING-PATHS.md | grep -E '^[+-]- |^[+-]\| \[' || echo "No rendered changes."
+            echo '```'
+          } >> "$GITHUB_STEP_SUMMARY"

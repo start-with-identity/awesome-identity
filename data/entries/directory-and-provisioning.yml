@@ -1,0 +1,107 @@
+- name: OpenLDAP
+  url: https://www.openldap.org/
+  repo: https://github.com/openldap/openldap
+  description: Reference LDAPv3 server and client tools, with syncrepl-based multi-provider replication and the LMDB storage backend.
+  tags: [oss]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: 389 Directory Server
+  url: https://www.port389.org/
+  repo: https://github.com/389ds/389-ds-base
+  description: LDAP server developed in the Fedora and Red Hat community, offering multi-supplier replication and a Cockpit-based admin console.
+  tags: [oss]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: FreeIPA
+  url: https://www.freeipa.org/
+  repo: https://github.com/freeipa/freeipa
+  description: Linux identity stack that bundles 389 DS, MIT Kerberos, the Dogtag CA, and DNS, with host-based access control and Active Directory trusts.
+  tags: [oss]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: Samba
+  url: https://www.samba.org/
+  repo: https://github.com/samba-team/samba
+  description: SMB and CIFS suite whose Active Directory domain controller mode serves Kerberos, LDAP, and Group Policy to Windows clients.
+  tags: [oss]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: LLDAP
+  url: https://github.com/lldap/lldap
+  description: Lightweight LDAP server in Rust with a web UI for users and groups, meant as a small backend for self-hosted SSO and apps.
+  tags: [oss]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: GLAuth
+  url: https://glauth.github.io/
+  repo: https://github.com/glauth/glauth
+  description: Small Go LDAP server that serves accounts from a config file, a SQL database, or an upstream directory, popular in home labs and test rigs.
+  tags: [oss]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: OpenDJ
+  url: https://www.openidentityplatform.org/opendj
+  repo: https://github.com/OpenIdentityPlatform/OpenDJ
+  description: Java LDAPv3 directory server kept alive by Open Identity Platform as a community continuation of the ForgeRock OpenDJ codebase.
+  tags: [oss]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: Apache Directory Server
+  url: https://directory.apache.org/apacheds/
+  repo: https://github.com/apache/directory-server
+  description: Embeddable LDAP and Kerberos server written in Java, often started in-process for integration tests of directory-backed code.
+  tags: [oss]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: midPoint
+  url: https://evolveum.com/midpoint/
+  repo: https://github.com/Evolveum/midpoint
+  description: Identity governance and administration platform from Evolveum, with provisioning connectors, role mining, access certifications, and audit.
+  tags: [oss]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: Apache Syncope
+  url: https://syncope.apache.org/
+  repo: https://github.com/apache/syncope
+  description: Identity management system that provisions through ConnId connectors, runs approval workflows, and ships a CAS-based access manager.
+  tags: [oss]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: scim2-models
+  url: https://scim2-models.readthedocs.io/
+  repo: https://github.com/python-scim/scim2-models
+  description: Pydantic models for SCIM 2.0 resources and messages, with sibling scim2-client, scim2-server, and scim2-cli projects in the same org.
+  tags: [oss]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: UnboundID SCIM 2 SDK
+  url: https://github.com/pingidentity/scim2
+  description: Java SDK maintained by Ping Identity for building SCIM 2.0 clients and services, with typed resources, filters, and PATCH support.
+  tags: [oss]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: SCIM Gateway
+  url: https://github.com/jelhub/scimgateway
+  description: Node.js gateway whose plugins translate inbound SCIM calls into operations on Entra ID, LDAP, SQL databases, or arbitrary REST APIs.
+  tags: [oss]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: Elimity SCIM
+  url: https://github.com/elimity-com/scim
+  description: Go package for building SCIM 2.0 service providers, handling routing, schema validation, and filter parsing around your own handlers.
+  tags: [oss]
+  added: 2026-11-10
+  verified: 2026-11-10

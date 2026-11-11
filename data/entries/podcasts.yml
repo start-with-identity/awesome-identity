@@ -1,0 +1,102 @@
+- name: Identity at the Center
+  url: https://www.identityatthecenter.com/
+  description: Weekly independent IAM interview show hosted by Jeff Steadman and Jim McDonald, with more than 450 episodes since 2019.
+  tags: [free]
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: A Digital Identity Digest
+  url: https://sphericalcowconsulting.com/podcast-episodes/
+  description: Heather Flanagan's short solo episodes on identity standards, digital wallets, and internet policy.
+  tags: [free]
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: Entra.Chat
+  url: https://entra.news/podcast
+  description: Merill Fernando talks with Microsoft Entra engineers and community experts about features, rollouts, and identity defenses.
+  tags: [free]
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: The Identity Jedi Show
+  url: https://www.theidentityjedi.com/identity-jedi-show-podcast
+  description: Independent interview show hosted by David Lee on IAM strategy and the people who run identity programs.
+  tags: [free]
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: KuppingerCole Analyst Chat
+  url: https://podcasts.apple.com/us/podcast/kuppingercole-analysts/id1505659521
+  description: Short weekly conversations between KuppingerCole analysts on IAM, cybersecurity markets, and regulation, running since 2020.
+  tags: [free]
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: The ID Talk Podcast
+  url: https://idtalk.transistor.fm/
+  description: Produced by the ID Tech news site; interviews on biometrics, digital ID programs, and identity verification with industry guests.
+  tags: [free]
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: The Biometric Update Podcast
+  url: https://biometricupdatepodcast.podbean.com/
+  description: Companion show to the Biometric Update news site covering deepfakes, national ID schemes, and biometric policy.
+  tags: [free]
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: The Analyst Brief
+  url: https://www.thecyberhut.com/podcast/
+  description: Simon Moffatt and David Mahdi discuss identity security market trends, vendor categories, and buyer questions.
+  tags: [free]
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: Trust Talks & Digital Dives
+  url: https://podcasts.apple.com/us/podcast/trust-talks-digital-dives/id1591963906
+  description: Produced by DIACC; episodes on verifiable credentials, age estimation, access control, and cross-border digital trust.
+  tags: [free]
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: Hybrid Identity Protection Podcast
+  url: https://www.hipconf.com/podcasts/
+  description: Produced by Semperis; interviews on Active Directory and Entra ID defense, breach recovery, and running security teams.
+  tags: [free]
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: "Root Causes: A PKI and Security Podcast"
+  url: https://www.sectigo.com/root-causes-podcast
+  description: Produced by Sectigo; short co-hosted episodes on certificate lifecycles, PKI operations, and machine identity.
+  tags: [free]
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: The Future of Identity
+  url: https://www.trinsic.id/podcast
+  description: Produced by Trinsic; Riley Hughes interviews teams building eIDs, wallets, and mobile driver's licenses about adoption.
+  tags: [free]
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: Identity Matters (SailPoint)
+  url: https://sailpoint.podbean.com/
+  description: Produced by SailPoint; Mark McClain interviews technology and business leaders, with identity security as a recurring thread.
+  tags: [free]
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: SaviTalk
+  url: https://saviynt.com/savitalk
+  description: Produced by Saviynt; conversations with practitioners on identity governance, AI agents, and access risk.
+  tags: [free]
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: Identity, Unlocked
+  url: https://open.spotify.com/show/1Y6XBZcVK45QijvV0o7RVs
+  description: Ended in 2022 after 26 episodes; Vittorio Bertocci's interviews with authors of OAuth, OpenID Connect, WebAuthn, and SAML specs, produced by Auth0.
+  tags: [free, archived]
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: State of Identity
+  url: https://podcasts.apple.com/us/podcast/state-of-identity-podcast-series-by-liminal/id1183881265
+  description: Ended in May 2024 after more than 350 episodes; Liminal's interviews with identity verification, fraud, and digital ID executives.
+  tags: [free, archived]
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: Let's Talk About Digital Identity
+  url: https://www.ubisecure.com/podcast/
+  description: Produced by Ubisecure and silent since January 2024; 102 interviews on digital identity, organisation identity, and LEIs.
+  tags: [free, archived]
+  added: 2026-11-10
+  verified: 2026-11-10

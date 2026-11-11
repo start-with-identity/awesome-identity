@@ -1,0 +1,126 @@
+- name: OpenID Foundation on YouTube
+  url: https://www.youtube.com/@openid
+  description: Recordings of OpenID Foundation workshops held before IIW and other events, with working group updates on OIDC, FAPI, and OpenID4VC.
+  tags: [free]
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: Identiverse on YouTube
+  url: https://www.youtube.com/@Identiverse
+  description: Session recordings from the Identiverse conference, including standards updates such as OAuth 2.1 talks.
+  tags: [free]
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: FIDO Alliance on YouTube
+  url: https://www.youtube.com/@TheFIDOAlliance
+  description: Authenticate conference keynotes, passkey deployment case studies from large services, and FIDO webinars.
+  tags: [free]
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: OktaDev on YouTube
+  url: https://www.youtube.com/@OktaDev
+  description: Okta's developer channel; its OAuth and OIDC explainers and screencasts are often useful regardless of which provider you use.
+  tags: [free]
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: OAuth 2.0 and OpenID Connect (in plain English)
+  url: https://www.youtube.com/watch?v=996OiexHze0
+  description: Nate Barbettini's 2018 hour-long walkthrough of OAuth flows and OIDC; the implicit flow parts are now outdated, as the video notes.
+  tags: [free]
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: A Deep Dive into the Past, Present and Future of OAuth
+  url: https://www.youtube.com/watch?v=JL38YBogo2Y
+  description: Aaron Parecki at GOTO Chicago 2024 tracing OAuth from 1.0 through 2.0 extensions to OAuth 2.1 and current working group drafts.
+  tags: [free]
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: Forget about OAuth 2.0. Here comes OAuth 2.1
+  url: https://www.youtube.com/watch?v=Z9DJzVJD_vg
+  description: Philippe De Ryck at NDC Oslo 2022 on what OAuth 2.1 removes and tightens compared with OAuth 2.0, and what that means for apps.
+  tags: [free]
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: How (Not) to Use OAuth in 2024
+  url: https://www.youtube.com/watch?v=eIxKfzVDdi4
+  description: Daniel Fett, an editor of the OAuth security BCP, on the attacks that shaped current OAuth guidance and how to avoid them.
+  tags: [free]
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: "Authenticate 2025 Keynote: Get the Most Out of Passkeys"
+  url: https://www.youtube.com/watch?v=otObbUSxcqs
+  description: Ricky Mondello of Apple gives the Authenticate 2025 keynote on getting more out of passkeys in apps and on the web.
+  tags: [free]
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: "I'm In Your Cloud: Pwning Your Azure Environment"
+  url: https://www.youtube.com/watch?v=xei8lAPitX8
+  description: Dirk-jan Mollema's DEF CON 27 talk on Azure AD privileges, hybrid sync weaknesses, and what attackers can do once inside a tenant.
+  tags: [free]
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: Advanced Active Directory to Entra ID Lateral Movement Techniques
+  url: https://www.youtube.com/watch?v=rzfAutv6sB8
+  description: Black Hat USA 2025 session on new lateral movement paths from on-premises AD into Entra ID that bypass authentication and MFA.
+  tags: [free]
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: Abusing Entra OAuth for Fun and Access to Internal Microsoft Applications
+  url: https://www.youtube.com/watch?v=sWV_3k-_S7Y
+  description: Black Hat USA 2025 talk on an Entra OAuth misconfiguration that let a personal account into more than 20 internal Microsoft apps.
+  tags: [free]
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: "Writing Your Own Ticket to the Cloud Like APT"
+  url: https://www.youtube.com/watch?v=NqCqfBCV_18
+  description: Black Hat talk on stealing AD FS token-signing keys to forge SAML tokens, with detections and mitigations for federated tenants.
+  tags: [free]
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: "Certified Pre-Owned: Abusing Active Directory Certificate Services"
+  url: https://www.youtube.com/watch?v=ejmAIgxFRgM
+  description: Will Schroeder and Lee Christensen at Black Hat USA 2021 on AD CS misconfigurations that enable credential theft and domain escalation.
+  tags: [free]
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: Six Degrees of Domain Admin
+  url: https://www.youtube.com/watch?v=wP8ZCczC1OU
+  description: DEF CON 24 talk where Andy Robbins, Rohan Vazarkar, and Will Schroeder released BloodHound and graph-based AD attack path analysis.
+  tags: [free]
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: "An ACE Up the Sleeve: Designing Active Directory DACL Backdoors"
+  url: https://www.youtube.com/watch?v=ys1LZ1MzIxE
+  description: Black Hat USA 2017 talk on hiding persistence in AD object permissions and how defenders can find it.
+  tags: [free]
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: "Abusing Microsoft Kerberos: Sorry You Guys Don't Get It"
+  url: https://www.youtube.com/watch?v=lJQn06QLwEw
+  description: Skip Duckwall and Benjamin Delpy's Black Hat USA 2014 talk that introduced Golden Tickets and showed Kerberos abuse after domain compromise.
+  tags: [free]
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: Attacking Microsoft Kerberos, Kicking the Guard Dog of Hades
+  url: https://www.youtube.com/watch?v=PUyhlN-E5MU
+  description: Tim Medin's DerbyCon 4 talk that introduced Kerberoasting, cracking service account passwords from requested service tickets.
+  tags: [free]
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: "Red vs. Blue: Modern Active Directory Attacks, Detection, and Protection"
+  url: https://www.youtube.com/watch?v=b6GUXerE9Ac
+  description: Sean Metcalf's Black Hat USA 2015 survey of Kerberos ticket attacks against AD and the event log signals that reveal them.
+  tags: [free]
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: "Identity Theft: Attacks on SSO Systems"
+  url: https://www.youtube.com/watch?v=Zjrty05REoc
+  description: Kelby Ludwig at Black Hat USA 2018 on an XML signature handling flaw that let attackers alter signed SAML assertions in several libraries.
+  tags: [free]
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: "The Fragile Lock: Novel Bypasses for SAML Authentication"
+  url: https://www.youtube.com/watch?v=o5KpYzbQYG0
+  description: Zak Fedotkin of PortSwigger at Black Hat Europe 2025 on new XML handling tricks that bypass SAML authentication, with a toolkit release.
+  tags: [free]
+  added: 2026-11-10
+  verified: 2026-11-10

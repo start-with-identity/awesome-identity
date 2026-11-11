@@ -1,0 +1,144 @@
+- name: Phil Windley's Technometria
+  url: https://www.windley.com/
+  description: Long-running blog by IIW co-founder Phil Windley on decentralized identity, verifiable credentials, and authorization models.
+  tags: [free]
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: Justin Richer on Medium
+  url: https://justinsecurity.medium.com/
+  description: Essays from an OAuth 2 in Action co-author on GNAP, HTTP message signatures, token design, and authorization for software agents.
+  tags: [free]
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: dirkjanm.io
+  url: https://dirkjanm.io/
+  description: Dirk-jan Mollema's research on Entra ID and AD attacks, from Primary Refresh Token phishing to Actor token abuse and Conditional Access bypasses.
+  tags: [free]
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: AADInternals Blog
+  url: https://aadinternals.com/post/
+  description: Nestori Syynimaa's deep dives into Entra ID internals, AD FS, pass-through authentication, and hybrid identity attack paths.
+  tags: [free]
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: SpecterOps Blog
+  url: https://specterops.io/blog/
+  description: Research from the BloodHound team on Active Directory, AD CS, Entra ID, and identity attack path analysis; the firm sells related products.
+  tags: [free]
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: Active Directory Security (ADSecurity.org)
+  url: https://adsecurity.org/
+  description: Sean Metcalf's site on Kerberos attacks, AD hardening, and Entra ID security, plus slides from his conference talks.
+  tags: [free]
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: Troy Hunt
+  url: https://www.troyhunt.com/
+  description: Frequent posts from the creator of Have I Been Pwned on breaches, password practice, and credential stuffing.
+  tags: [free]
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: Talking Identity
+  url: https://blog.talkingidentity.com/
+  description: Nishant Kaushik writes on identity strategy, IGA, CIAM, and how identity programs fail or succeed in practice.
+  tags: [free]
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: Entra.News
+  url: https://entra.news/
+  description: Weekly newsletter by Merill Fernando rounding up Microsoft Entra changes, community tools, and admin tips.
+  tags: [free]
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: Scott Brady
+  url: https://www.scottbrady.io/
+  description: Posts on OAuth, OpenID Connect, WS-Federation, JWT signing, and RSA key handling in .NET from a long-time identity developer.
+  tags: [free]
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: Damien Bod
+  url: https://damienbod.com/
+  description: Code-heavy posts on securing ASP.NET Core apps with OpenID Connect, Entra ID, passkeys, and token handling patterns.
+  tags: [free]
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: Neil Madden
+  url: https://neilmadden.blog/
+  description: The API Security in Action author on applied cryptography, Java security footguns, and capability and token design.
+  tags: [free]
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: Thomas Naunheim
+  url: https://www.cloud-architekt.net/
+  description: Thomas Naunheim's write-ups on Entra ID workload identities, privileged identity classification, and community talk slides.
+  tags: [free]
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: Cloudbrothers
+  url: https://cloudbrothers.info/
+  description: Posts on Entra ID Conditional Access bypasses, token broker abuse, Graph activity logs, and KQL detections for Microsoft clouds.
+  tags: [free]
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: Okta Security
+  url: https://sec.okta.com/
+  description: Okta's security team publishes threat research, vulnerability write-ups, and detection guidance relevant to identity providers.
+  tags: [free]
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: Okta Developer Blog
+  url: https://developer.okta.com/blog/
+  description: Vendor developer blog with framework tutorials for OAuth, OIDC, and passkeys that mostly apply outside Okta's own products.
+  tags: [free]
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: Curity Resource Library
+  url: https://curity.io/resources/
+  description: Vendor-published guides and code examples on OAuth and OpenID Connect flows, token design, and API security patterns.
+  tags: [free]
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: OpenID Foundation News
+  url: https://openid.net/news/
+  description: Announcements of new OpenID specifications, public review periods, certification updates, and working group activity.
+  tags: [free]
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: IDPro Newsletter
+  url: https://idpro.org/category/newsletter/
+  description: Member-written articles from the IDPro newsletter on topics like non-human identity, passkeys, and continuous identity.
+  tags: [free]
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: KuppingerCole Blog
+  url: https://www.kuppingercole.com/research/blog
+  description: Short analyst posts on IAM market shifts, regulation, and emerging identity product categories from a European analyst firm.
+  tags: [free]
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: Biometric Update
+  url: https://www.biometricupdate.com/
+  description: Daily news site covering biometrics, national digital ID programs, mobile driver's licenses, and identity verification.
+  tags: [free]
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: Push Security Blog
+  url: https://pushsecurity.com/blog/
+  description: Vendor research on SaaS identity attacks, including adversary-in-the-middle phishing kits, OAuth consent abuse, and ghost logins.
+  tags: [free]
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: Kim Cameron's Identity Weblog
+  url: https://www.identityblog.com/
+  description: Archive of the late Microsoft identity architect's blog and the original home of The Laws of Identity; no longer updated.
+  tags: [free, archived]
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: CloudIdentity
+  url: https://www.cloudidentity.com/blog/
+  description: Archived blog of the late Vittorio Bertocci, with posts on claims-based identity, token handling, and why clients should not read access tokens.
+  tags: [free, archived]
+  added: 2026-11-10
+  verified: 2026-11-10

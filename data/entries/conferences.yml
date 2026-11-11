@@ -1,0 +1,96 @@
+- name: Internet Identity Workshop (IIW)
+  url: https://internetidentityworkshop.com/
+  description: Twice-yearly unconference at the Computer History Museum in Mountain View where attendees set the agenda each morning; running since 2005.
+  tags: [paid]
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: Identiverse
+  url: https://identiverse.com/
+  description: Large annual identity conference in Las Vegas run by CyberRisk Alliance, with workshops on passkeys, wallets, and non-human identity.
+  tags: [paid]
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: European Identity and Cloud Conference (EIC)
+  url: https://www.kuppingercole.com/events/eic2027
+  description: KuppingerCole's annual identity conference in Berlin, covering enterprise IAM, decentralized identity, and European regulation.
+  tags: [paid]
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: Authenticate
+  url: https://authenticatecon.com/
+  description: FIDO Alliance's yearly conference on authentication and passkeys, mixing standards updates with deployment stories.
+  tags: [paid]
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: OAuth Security Workshop (OSW)
+  url: https://oauth.secworkshop.events/
+  description: Small technical workshop where researchers, implementers, and spec editors examine attacks and new work on OAuth and OpenID.
+  tags: [paid]
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: OpenID Well-Known Conference
+  url: https://openid.net/conference/
+  description: OpenID Foundation conference with working group meetings, interop events, and hackathons beside the main track; the first edition is in 2027.
+  tags: [paid]
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: Digital Identity unConference Europe (DICE)
+  url: https://internetidentityworkshop.com/regional/dice/
+  description: IIW-style regional unconference in Europe, run with local co-hosts and focused on European digital identity collaboration.
+  tags: [paid]
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: Identity Week Europe
+  url: https://www.terrapinn.com/exhibition/identity-week/index.stm
+  description: Two-day trade show and conference at RAI Amsterdam on identity and trust for governments, enterprises, and their partners.
+  tags: [paid]
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: Identity Week America
+  url: https://www.terrapinn.com/exhibition/identity-week-america/index.stm
+  description: Terrapinn's Washington, D.C. trade show on identity and trust for government, enterprise, and partners, with free passes for some attendees.
+  tags: [paid]
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: ID4Africa AGM
+  url: https://id4africa.com/
+  description: Annual general meeting where African governments, agencies, and suppliers share experience on national ID and civil registration.
+  tags: [paid]
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: MOSIP Connect
+  url: https://connect.mosip.io/
+  description: Yearly gathering of governments and implementers using the open-source MOSIP platform for national foundational ID systems.
+  tags: [paid]
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: Biometrics Institute Congress
+  url: https://www.biometricsinstitute.org/event/biometrics-institute-congress-and-side-events-2027/
+  description: London congress of the Biometrics Institute on responsible and ethical biometrics use, with side events across the same week.
+  tags: [paid]
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: IETF Meetings
+  url: https://www.ietf.org/meeting/
+  description: Three meetings a year where the OAuth, SCIM, and other identity working groups hold sessions; remote participation is available.
+  tags: [paid]
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: Hybrid Identity Protection Conference (HIP Conf)
+  url: https://www.hipconf.com/
+  description: Vendor event run by Semperis on defending and recovering Active Directory and Entra ID, with sessions from outside practitioners.
+  tags: [paid]
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: Oktane
+  url: https://www.okta.com/oktane/
+  description: Okta's annual user conference in Las Vegas; a vendor event centered on Okta and Auth0 products and roadmap.
+  tags: [paid]
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: SailPoint Navigate
+  url: https://www.sailpoint.com/navigate
+  description: SailPoint's annual customer conference; a vendor event focused on its identity governance products and customer case studies.
+  tags: [paid]
+  added: 2026-11-10
+  verified: 2026-11-10

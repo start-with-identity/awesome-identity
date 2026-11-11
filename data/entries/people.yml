@@ -1,0 +1,222 @@
+- name: Aaron Parecki
+  url: https://aaronparecki.com/
+  description: Editor of OAuth 2.1, maintainer of oauth.net, and author of OAuth 2.0 Simplified; also known for IndieAuth and IndieWeb work.
+  tags: [free]
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: Justin Richer
+  url: https://github.com/jricher
+  description: Co-author of OAuth 2 in Action and editor of GNAP (RFC 9635) and HTTP Message Signatures (RFC 9421).
+  tags: [free]
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: Mike Jones
+  url: https://self-issued.info/
+  description: Editor of JWT (RFC 7519) and the JOSE specs, co-author of OpenID Connect Core, and a former WebAuthn editor; his blog tracks spec milestones.
+  tags: [free]
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: Brian Campbell
+  url: https://github.com/bc-pi
+  description: Co-author of OAuth RFCs including Token Exchange (RFC 8693), mutual-TLS client auth (RFC 8705), DPoP (RFC 9449), and SD-JWT VC.
+  tags: [free]
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: Daniel Fett
+  url: https://danielfett.de/
+  description: Co-author of the OAuth 2.0 Security BCP (RFC 9700) and DPoP, editor of SD-JWT, and author of formal security analyses of OAuth and OIDC.
+  tags: [free]
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: Torsten Lodderstedt
+  url: https://github.com/tlodderstedt
+  description: Lead author of the OAuth threat model (RFC 6819) and Security BCP (RFC 9700), and co-author of PAR, RAR, and OpenID for Verifiable Credential Issuance.
+  tags: [free]
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: Nat Sakimura
+  url: https://nat.sakimura.org/
+  description: Chairman of the OpenID Foundation and co-author of OpenID Connect Core, JWT, PKCE (RFC 7636), and the FAPI profiles.
+  tags: [free]
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: John Bradley
+  url: https://github.com/ve7jtb
+  description: Co-author of JWT, PKCE, OpenID Connect Core, and several OAuth RFCs, and a long-time contributor to FIDO2 and WebAuthn.
+  tags: [free]
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: Tim Cappalli
+  url: https://timcappalli.me/
+  description: Editor of W3C Web Authentication Level 3 and the Digital Credentials API, and maintainer of the passkeys.dev developer site.
+  tags: [free]
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: Emil Lundberg
+  url: https://emlun.se/
+  description: Editor of W3C Web Authentication and maintainer of Yubico's java-webauthn-server relying party library.
+  tags: [free]
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: Kristina Yasuda
+  url: https://github.com/Sakurann
+  description: Co-editor of OpenID for Verifiable Credential Issuance and OpenID for Verifiable Presentations, the core EUDI wallet protocols.
+  tags: [free]
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: Tobias Looker
+  url: https://github.com/tplooker
+  description: Co-editor of OpenID for Verifiable Credential Issuance and of the BBS signature scheme draft for selective disclosure.
+  tags: [free]
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: Dick Hardt
+  url: https://www.identity20.com/about-dick-hardt/
+  description: Editor of the OAuth 2.0 framework (RFC 6749) and speaker of the 2005 Identity 2.0 talk on user-centric identity.
+  tags: [free]
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: Phil Hunt
+  url: https://independentid.com/
+  description: Lead author of the SCIM protocol (RFC 7644), co-author of the OAuth threat model (RFC 6819), and contributor to Shared Signals.
+  tags: [free]
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: Hannes Tschofenig
+  url: https://github.com/hannestschofenig
+  description: Long-time IETF contributor and co-author of security RFCs including OAuth proof-of-possession key semantics (RFC 7800).
+  tags: [free]
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: Manu Sporny
+  url: https://github.com/msporny
+  description: Editor of the W3C Verifiable Credentials Data Model and DID 1.0 specifications, and co-creator of JSON-LD.
+  tags: [free]
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: Drummond Reed
+  url: https://github.com/talltree
+  description: Co-editor of W3C Decentralized Identifiers 1.0 and co-author of the Manning book Self-Sovereign Identity.
+  tags: [free]
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: Christopher Allen
+  url: https://www.lifewithalacrity.com/
+  description: Co-author of TLS 1.0 (RFC 2246), author of the 2016 essay The Path to Self-Sovereign Identity, and founder of Rebooting the Web of Trust.
+  tags: [free]
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: Samuel M. Smith
+  url: https://github.com/SmithSamuelM
+  description: Designer of KERI (Key Event Receipt Infrastructure) and author of the ACDC specification for chained verifiable data.
+  tags: [free]
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: Eve Maler
+  url: https://www.vennfactory.com/
+  description: Lead author of the User-Managed Access (UMA) specs at Kantara and an editor of SAML 2.0 at OASIS; now runs an identity strategy firm.
+  tags: [free]
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: Scott Cantor
+  url: https://www.shibboleth.net/about-us/the-shibboleth-team/scott-cantor/
+  description: Technical editor of much of the SAML 2.0 specification set and long-time architect of the Shibboleth identity and service provider software.
+  tags: [free]
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: Filip Skokan
+  url: https://github.com/panva
+  description: Maintainer of the certified openid-client, oidc-provider, and jose libraries for Node.js, and a Node.js core collaborator.
+  tags: [free]
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: Stian Thorgersen
+  url: https://github.com/stianst
+  description: Keycloak project lead since its start at Red Hat and co-author of a Packt book on Keycloak.
+  tags: [free]
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: Evan Gilman
+  url: https://github.com/evan2645
+  description: Maintainer of SPIFFE and SPIRE for workload identity and co-author of the O'Reilly book Zero Trust Networks.
+  tags: [free]
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: Balázs Orbán
+  url: https://balazsorban.com/
+  description: Creator of Auth.js and former lead maintainer of NextAuth.js, the authentication library many Next.js apps start with.
+  tags: [free]
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: Roland Hedberg
+  url: https://github.com/rohe
+  description: Author of pysaml2 and pyoidc, the long-standing Python implementations of SAML 2.0 and OpenID Connect.
+  tags: [free]
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: Misagh Moayyed
+  url: https://github.com/mmoayyed
+  description: Project lead and chair of Apereo CAS, the single sign-on server widely run in higher education, and a pac4j committer.
+  tags: [free]
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: Torin Sandall
+  url: https://github.com/tsandall
+  description: Co-creator of Open Policy Agent and the Rego policy language used for authorization in cloud-native systems.
+  tags: [free]
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: Dirk-jan Mollema
+  url: https://github.com/dirkjanm
+  description: Author of ROADtools, mitm6, krbrelayx, and BloodHound.py, and finder of several critical Entra ID and Active Directory flaws.
+  tags: [free]
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: Will Schroeder
+  url: https://github.com/HarmJ0y
+  description: Co-creator of BloodHound, author of PowerView and Rubeus, and co-author of the Certified Pre-Owned research on AD CS abuse.
+  tags: [free]
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: Benjamin Delpy
+  url: https://github.com/gentilkiwi
+  description: Creator of mimikatz and kekeo, whose research brought Golden Ticket and pass-the-ticket attacks on Kerberos into the open.
+  tags: [free]
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: Steve Syfuhs
+  url: https://syfuhs.net/
+  description: Windows authentication engineer at Microsoft and primary developer of Kerberos.NET; writes about Kerberos and Windows sign-in internals.
+  tags: [free]
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: Heather Flanagan
+  url: https://sphericalcowconsulting.com/
+  description: Former RFC Series Editor and principal editor of the IDPro Body of Knowledge; writes and podcasts on identity standards.
+  tags: [free]
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: Kaliya Young
+  url: https://identitywoman.net/
+  description: Co-founder of the Internet Identity Workshop and co-author, with Heather Vescent, of a book-length guide to self-sovereign identity.
+  tags: [free]
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: Doc Searls
+  url: https://doc.searls.com/
+  description: Co-founder of the Internet Identity Workshop, founder of ProjectVRM, and author of The Intention Economy on customer-driven markets.
+  tags: [free]
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: Ian Glazer
+  url: https://www.tuesdaynight.org/
+  description: Co-founder of IDPro and a former Gartner identity analyst who writes and speaks on IAM strategy and the identity profession.
+  tags: [free]
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: Lorrie Faith Cranor
+  url: https://lorrie.cranor.org/
+  description: Carnegie Mellon professor whose lab has published large studies of password policies, password meters, and usable authentication.
+  tags: [free]
+  added: 2026-11-10
+  verified: 2026-11-10

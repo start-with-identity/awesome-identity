@@ -1,0 +1,198 @@
+- name: Keycloak
+  url: https://www.keycloak.org/
+  repo: https://github.com/keycloak/keycloak
+  description: Identity and access management server with SSO, user federation, and OIDC and SAML support.
+  tags: [oss]
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: Apereo CAS
+  url: https://apereo.github.io/cas/
+  repo: https://github.com/apereo/cas
+  description: Java SSO server long used in higher education, speaking the CAS protocol plus SAML2, OpenID Connect, OAuth 2.0, and WS-Federation.
+  tags: [oss]
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: Authelia
+  url: https://www.authelia.com/
+  repo: https://github.com/authelia/authelia
+  description: Single Go binary that adds login, 2FA, and an OpenID Connect provider in front of apps via reverse proxy forward-auth.
+  tags: [oss]
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: Authentik
+  url: https://goauthentik.io/
+  repo: https://github.com/goauthentik/authentik
+  description: Self-hosted IdP with visual login flows, OIDC, SAML, LDAP and RADIUS outposts, and a proxy mode for apps without SSO support.
+  tags: [oss]
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: Authgear
+  url: https://github.com/authgear/authgear-server
+  description: Customer-facing auth server in Go with passwordless, passkey, and social login, issuing OIDC tokens and including an admin portal.
+  tags: [oss]
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: Casdoor
+  url: https://casdoor.ai/
+  repo: https://github.com/casdoor/casdoor
+  description: Go and React auth server with a web UI, acting as an OAuth 2.0, OIDC, SAML, CAS, and LDAP provider with many upstream connectors.
+  tags: [oss]
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: Dex
+  url: https://dexidp.io/
+  repo: https://github.com/dexidp/dex
+  description: CNCF OpenID Connect provider that federates to LDAP, SAML, GitHub, and other upstreams; common for Kubernetes cluster login.
+  tags: [oss]
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: Gravitee Access Management
+  url: https://github.com/gravitee-io/gravitee-access-management
+  description: Java IAM server from the Gravitee API platform covering OAuth 2.0, OIDC, SAML, MFA, and user management.
+  tags: [oss]
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: Hanko
+  url: https://www.hanko.io/
+  repo: https://github.com/teamhanko/hanko
+  description: Self-hostable auth backend with passkeys, passcodes, and social login, plus drop-in web components for the login UI.
+  tags: [oss]
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: Hexclave
+  url: https://www.hexclave.com/
+  repo: https://github.com/hexclave/hexclave
+  description: Auth and user management platform formerly called Stack Auth, with AGPL server components and MIT-licensed Next.js and React SDKs.
+  tags: [oss]
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: Janssen Project
+  url: https://docs.jans.io/
+  repo: https://github.com/JanssenProject/jans
+  description: Linux Foundation continuation of the Gluu Server, a modular OAuth 2.0 and OpenID Connect server with FIDO2 and Cedar-based policy hooks.
+  tags: [oss]
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: Kanidm
+  url: https://kanidm.com/
+  repo: https://github.com/kanidm/kanidm
+  description: Identity server written in Rust that combines an account database with OAuth2/OIDC, LDAPS, RADIUS, and Unix login integration.
+  tags: [oss]
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: Logto
+  url: https://logto.io/
+  repo: https://github.com/logto-io/logto
+  description: OIDC-based auth service for apps and SaaS, with hosted sign-in pages, organizations for multi-tenancy, and RBAC.
+  tags: [oss]
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: OAuth2 Proxy
+  url: https://oauth2-proxy.github.io/oauth2-proxy/
+  repo: https://github.com/oauth2-proxy/oauth2-proxy
+  description: Reverse proxy that puts OIDC or OAuth 2.0 login in front of web apps and passes the user identity upstream in headers.
+  tags: [oss]
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: OpenAM
+  url: https://www.openidentityplatform.org/openam
+  repo: https://github.com/OpenIdentityPlatform/OpenAM
+  description: Community-maintained fork of ForgeRock OpenAM providing SSO, SAML federation, OAuth 2.0, and adaptive authentication chains.
+  tags: [oss]
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: Ory Hydra
+  url: https://www.ory.com/hydra
+  repo: https://github.com/ory/hydra
+  description: Headless OAuth 2.0 and OpenID Connect server in Go that delegates login and consent screens to your own app.
+  tags: [oss]
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: Ory Kratos
+  url: https://www.ory.com/kratos
+  repo: https://github.com/ory/kratos
+  description: API-first identity and user management server handling registration, login, MFA, account recovery, and profile flows.
+  tags: [oss]
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: Ory Polis
+  url: https://www.ory.com/polis
+  repo: https://github.com/ory/polis
+  description: Bridge formerly known as BoxyHQ SAML Jackson that turns enterprise SAML logins into an OAuth 2.0 flow, with Directory Sync support.
+  tags: [oss]
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: Pocket ID
+  url: https://pocket-id.org/
+  repo: https://github.com/pocket-id/pocket-id
+  description: Small OIDC provider for homelabs and small teams where users sign in only with passkeys, no passwords.
+  tags: [oss]
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: privacyIDEA
+  url: https://www.privacyidea.org/
+  repo: https://github.com/privacyidea/privacyidea
+  description: MFA server that manages OTP, push, WebAuthn, and SMS tokens and checks them for VPNs, RADIUS clients, and IdPs via plugins.
+  tags: [oss]
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: Rauthy
+  url: https://sebadob.github.io/rauthy/
+  repo: https://github.com/sebadob/rauthy
+  description: Lightweight OIDC provider in Rust with passkey and MFA support, an admin UI, and embedded Hiqlite or Postgres storage.
+  tags: [oss]
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: SATOSA
+  url: https://github.com/IdentityPython/SATOSA
+  description: Python proxy that translates between SAML2, OpenID Connect, and OAuth 2.0 so services on one protocol can use IdPs on another.
+  tags: [oss]
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: Shibboleth Identity Provider
+  url: https://www.shibboleth.net/
+  repo: https://codeberg.org/Shibboleth/java-identity-provider
+  description: SAML IdP widely deployed in research and education federations, with an OIDC extension and attribute release controls.
+  tags: [oss]
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: SimpleSAMLphp
+  url: https://simplesamlphp.org/
+  repo: https://github.com/simplesamlphp/simplesamlphp
+  description: PHP application that can run as a SAML 2.0 IdP or SP, with modules for LDAP, SQL, and other auth sources.
+  tags: [oss]
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: Supabase Auth
+  url: https://supabase.com/docs/guides/auth
+  repo: https://github.com/supabase/auth
+  description: Go service (originally GoTrue) that issues JWTs for Supabase apps, with email, phone, OAuth, SAML SSO, and anonymous sign-in.
+  tags: [oss]
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: SuperTokens
+  url: https://github.com/supertokens/supertokens-core
+  description: Self-hostable auth core with backend SDKs for Node, Python, and Go that manage sessions, rotating refresh tokens, and login recipes.
+  tags: [oss]
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: Tinyauth
+  url: https://tinyauth.app/
+  repo: https://github.com/tinyauthapp/tinyauth
+  description: Minimal forward-auth login server for Traefik, Caddy, and Nginx that protects self-hosted apps with local users or OAuth providers.
+  tags: [oss]
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: WSO2 Identity Server
+  url: https://github.com/wso2/product-is
+  description: Java IAM server with SAML, OIDC, WS-Federation, SCIM 2.0 provisioning, adaptive authentication scripts, and identity federation.
+  tags: [oss]
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: ZITADEL
+  url: https://zitadel.com/
+  repo: https://github.com/zitadel/zitadel
+  description: Multi-tenant identity platform in Go with an event-sourced store, OIDC and SAML, passkeys, and per-organization branding.
+  tags: [oss]
+  added: 2026-11-10
+  verified: 2026-11-10

@@ -1,0 +1,174 @@
+- name: Amazon Cognito
+  url: https://aws.amazon.com/cognito/
+  description: "User directory and sign-in service for web and mobile apps on AWS, with OIDC, SAML federation, and social login."
+  tags: [freemium]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: Auth0
+  url: https://auth0.com
+  description: "Developer-oriented authentication and authorization service from Okta, with hosted login, SDKs, social connections, and MFA."
+  tags: [freemium]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: Authgear
+  url: https://www.authgear.com/pricing
+  description: "Authentication service for consumer and business apps with passkeys, social login, and MFA, run hosted or self-managed."
+  tags: [oss]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: cidaas
+  url: https://www.cidaas.com
+  description: "European cloud identity service for customer and partner login, with consent management and EU data residency."
+  tags: [commercial]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: Clerk
+  url: https://clerk.com
+  description: "Drop-in user management and sign-in components for React, Next.js, and other JavaScript frameworks."
+  tags: [freemium]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: Curity
+  url: https://curity.io
+  description: "OAuth and OpenID Connect server for API and customer identity, deployable on premises, in containers, or in the cloud."
+  tags: [freemium]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: Descope
+  url: https://www.descope.com
+  description: "Authentication and user management with a visual flow editor for passwordless, social, and enterprise SSO login."
+  tags: [freemium]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: Firebase Authentication
+  url: https://firebase.google.com/products/auth
+  description: "Google service that adds email, phone, and social sign-in to mobile and web apps through client SDKs and a hosted backend."
+  tags: [freemium]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: Frontegg
+  url: https://frontegg.com
+  description: "User management for B2B SaaS products, with multi-tenant organizations, SSO, roles, and a self-service admin portal."
+  tags: [freemium]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: FusionAuth
+  url: https://fusionauth.io
+  description: "Customer authentication server with OAuth, SAML, passkeys, and multi-tenancy, available self-hosted or as a cloud service."
+  tags: [freemium]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: Kinde
+  url: https://www.kinde.com/
+  description: "Authentication and user management for SaaS apps, with organizations, feature flags, and built-in subscription billing."
+  tags: [freemium]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: Microsoft Entra External ID
+  url: https://www.microsoft.com/en-us/security/business/identity-access/microsoft-entra-external-id
+  description: "Microsoft service for adding customer and partner sign-up, sign-in, and B2B collaboration to applications."
+  tags: [freemium]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: MojoAuth
+  url: https://mojoauth.com
+  description: "Passwordless authentication service for customer apps using passkeys, magic links, and one-time codes."
+  tags: [freemium]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: Nevis
+  url: https://www.nevis.net/en/
+  description: "Swiss customer identity and access management product with FIDO2 passwordless login and a mobile authenticator SDK."
+  tags: [commercial]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: PropelAuth
+  url: https://www.propelauth.com
+  description: "B2B authentication with organizations, roles, enterprise SSO, and hosted account pages for SaaS products."
+  tags: [freemium]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: Salesforce Customer Identity
+  url: https://www.salesforce.com/platform/single-sign-on-solutions/
+  description: "Customer login and registration on the Salesforce Platform, with social sign-on, branded login pages, and CRM profile data."
+  tags: [commercial]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: SAP Customer Identity and Access Management
+  url: https://www.sap.com/products/technology-platform/customer-identity.html
+  description: "Customer identity service from SAP, formerly part of SAP Customer Data Cloud, covering registration, consent, and B2B and B2C login."
+  tags: [commercial]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: Scalekit
+  url: https://www.scalekit.com
+  description: "Authentication infrastructure for B2B apps and AI agents, covering enterprise SSO, SCIM provisioning, and MCP server auth."
+  tags: [freemium]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: SSOJet
+  url: https://ssojet.com
+  description: "Adds enterprise SSO and SCIM directory sync to the login of existing B2B applications without replacing the current auth stack."
+  tags: [freemium]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: Strivacity
+  url: https://www.strivacity.com
+  description: "Customer identity platform with no-code journey orchestration for registration, login, consent, and account recovery."
+  tags: [commercial]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: Stytch
+  url: https://stytch.com
+  description: "Authentication APIs and SDKs for consumer and B2B apps, including passkeys, one-time codes, and fraud signals; part of Twilio."
+  tags: [freemium]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: SuperTokens
+  url: https://supertokens.com/pricing
+  description: "Open-source authentication for web and mobile apps, run self-hosted or as a managed service with paid add-ons."
+  tags: [oss]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: Transmit Security
+  url: https://transmitsecurity.com/
+  description: "Customer identity, fraud prevention, and identity verification services delivered through the Mosaic platform."
+  tags: [commercial]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: WorkOS
+  url: https://workos.com
+  description: "APIs for adding enterprise SSO, directory sync, audit logs, and hosted authentication to B2B SaaS applications."
+  tags: [freemium]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: WSO2 Identity Server
+  url: https://wso2.com/identity-server/
+  description: "Open-source identity server for customer IAM with SSO, federation, and API authorization; Asgardeo is the SaaS edition."
+  tags: [oss]
+  added: 2026-11-10
+  verified: 2026-11-10

@@ -1,0 +1,217 @@
+- name: "RFC 6749: The OAuth 2.0 Authorization Framework"
+  url: https://datatracker.ietf.org/doc/html/rfc6749
+  description: Base OAuth 2.0 spec with client, resource owner, and server roles, the authorization code and client credentials grants, and refresh tokens.
+  tags: [standard]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: "RFC 6750: OAuth 2.0 Bearer Token Usage"
+  url: https://datatracker.ietf.org/doc/html/rfc6750
+  description: How a client sends a bearer access token in the Authorization header, and the WWW-Authenticate errors a resource server returns.
+  tags: [standard]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: "RFC 7636: Proof Key for Code Exchange by OAuth Public Clients"
+  url: https://datatracker.ietf.org/doc/html/rfc7636
+  description: PKCE binds the code request to the token request with a code_verifier and code_challenge, stopping authorization code interception.
+  tags: [standard]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: "RFC 8252: OAuth 2.0 for Native Apps"
+  url: https://datatracker.ietf.org/doc/html/rfc8252
+  description: Mobile and desktop apps should use the system browser, not embedded web views, with claimed HTTPS or loopback redirect URIs.
+  tags: [standard]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: "RFC 8628: OAuth 2.0 Device Authorization Grant"
+  url: https://datatracker.ietf.org/doc/html/rfc8628
+  description: Sign-in for TVs, CLIs, and other input-constrained devices, where the user enters a short code on a second device.
+  tags: [standard]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: "RFC 9700: Best Current Practice for OAuth 2.0 Security"
+  url: https://datatracker.ietf.org/doc/html/rfc9700
+  description: Current OAuth threat guidance, covering mix-up, code injection, and token replay, and recommending PKCE and sender-constrained tokens.
+  tags: [standard]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: "RFC 10017: OAuth 2.0 for Browser-Based Applications"
+  url: https://datatracker.ietf.org/doc/html/rfc10017
+  description: Compares backend-for-frontend, token-mediating backend, and browser-only architectures for single-page apps, with the attacks each must handle.
+  tags: [standard]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: "RFC 10027: Best Current Practice for Security of Cross-Device Flows"
+  url: https://datatracker.ietf.org/doc/html/rfc10027
+  description: Threats to flows that start on one device and finish on another, such as device grant and CIBA, with mitigations and protocol selection advice.
+  tags: [standard]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: "The OAuth 2.1 Authorization Framework (draft)"
+  url: https://datatracker.ietf.org/doc/draft-ietf-oauth-v2-1/
+  description: Consolidation of OAuth 2.0 and its security BCP that requires PKCE, drops the implicit and password grants, and enforces exact redirect URI matching.
+  tags: [standard]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: "RFC 9126: OAuth 2.0 Pushed Authorization Requests"
+  url: https://datatracker.ietf.org/doc/html/rfc9126
+  description: PAR lets the client POST authorization parameters to the server first and send only a request_uri through the browser.
+  tags: [standard]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: "RFC 9396: OAuth 2.0 Rich Authorization Requests"
+  url: https://datatracker.ietf.org/doc/html/rfc9396
+  description: Adds the authorization_details JSON parameter for fine-grained requests such as a specific payment amount, beyond what scope strings can carry.
+  tags: [standard]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: "RFC 9101: JWT-Secured Authorization Request (JAR)"
+  url: https://datatracker.ietf.org/doc/html/rfc9101
+  description: Authorization request parameters packed into a signed and optionally encrypted request object, passed by value or by reference.
+  tags: [standard]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: "RFC 9207: OAuth 2.0 Authorization Server Issuer Identification"
+  url: https://datatracker.ietf.org/doc/html/rfc9207
+  description: Adds an iss parameter to the authorization response so clients that talk to several servers can detect mix-up attacks.
+  tags: [standard]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: "RFC 8414: OAuth 2.0 Authorization Server Metadata"
+  url: https://datatracker.ietf.org/doc/html/rfc8414
+  description: JSON document at a well-known URL that advertises a server's endpoints, supported grants, and signing algorithms.
+  tags: [standard]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: "RFC 9728: OAuth 2.0 Protected Resource Metadata"
+  url: https://datatracker.ietf.org/doc/html/rfc9728
+  description: Lets an API publish which authorization servers and scopes it accepts, so clients can discover how to get a token for it.
+  tags: [standard]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: "RFC 7662: OAuth 2.0 Token Introspection"
+  url: https://datatracker.ietf.org/doc/html/rfc7662
+  description: Endpoint a resource server calls to ask whether an opaque token is active and to read its scope, subject, and expiry.
+  tags: [standard]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: "RFC 7009: OAuth 2.0 Token Revocation"
+  url: https://datatracker.ietf.org/doc/html/rfc7009
+  description: Endpoint for clients to invalidate an access or refresh token, typically on logout or app uninstall.
+  tags: [standard]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: "RFC 8693: OAuth 2.0 Token Exchange"
+  url: https://datatracker.ietf.org/doc/html/rfc8693
+  description: Grant type for swapping one security token for another, used for delegation and impersonation between services.
+  tags: [standard]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: "RFC 9068: JSON Web Token (JWT) Profile for OAuth 2.0 Access Tokens"
+  url: https://datatracker.ietf.org/doc/html/rfc9068
+  description: Standard claims and the at+jwt type header for JWT access tokens, plus the validation steps a resource server should follow.
+  tags: [standard]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: "RFC 7591: OAuth 2.0 Dynamic Client Registration Protocol"
+  url: https://datatracker.ietf.org/doc/html/rfc7591
+  description: Clients register themselves at runtime by posting metadata such as redirect URIs and auth method to a registration endpoint.
+  tags: [standard]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: "RFC 8707: Resource Indicators for OAuth 2.0"
+  url: https://datatracker.ietf.org/doc/html/rfc8707
+  description: The resource parameter tells the authorization server which API a token is for, so it can restrict the audience.
+  tags: [standard]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: "RFC 9470: OAuth 2.0 Step Up Authentication Challenge Protocol"
+  url: https://datatracker.ietf.org/doc/html/rfc9470
+  description: Error code and parameters an API uses to demand a fresher login or a stronger acr level before it accepts a token.
+  tags: [standard]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: "RFC 7523: JWT Profile for OAuth 2.0 Client Authentication and Authorization Grants"
+  url: https://datatracker.ietf.org/doc/html/rfc7523
+  description: Covers private_key_jwt client authentication and the JWT bearer grant, where a signed assertion is traded for an access token.
+  tags: [standard]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: "RFC 10070: Updates to OAuth 2.0 JWT Client Authentication and Assertion-Based Authorization Grants"
+  url: https://datatracker.ietf.org/doc/html/rfc10070
+  description: Tightens the audience rules for client assertions and assertion grants to fix a vulnerability in RFC 7521, 7522, 7523, and 9126.
+  tags: [standard]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: OpenID Connect Core 1.0
+  url: https://openid.net/specs/openid-connect-core-1_0.html
+  description: Identity layer over OAuth 2.0 that adds the ID token, the UserInfo endpoint, standard claims, and the nonce check.
+  tags: [standard]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: OpenID Connect Discovery 1.0
+  url: https://openid.net/specs/openid-connect-discovery-1_0.html
+  description: Covers the /.well-known/openid-configuration document and WebFinger lookup that relying parties use to find a provider's endpoints and keys.
+  tags: [standard]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: OpenID Connect Dynamic Client Registration 1.0
+  url: https://openid.net/specs/openid-connect-registration-1_0.html
+  description: OIDC-specific client metadata and the registration endpoint relying parties call to obtain a client_id from a provider.
+  tags: [standard]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: OpenID Connect RP-Initiated Logout 1.0
+  url: https://openid.net/specs/openid-connect-rpinitiated-1_0.html
+  description: How a relying party sends the user to the provider's end_session_endpoint with an id_token_hint to sign out.
+  tags: [standard]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: OpenID Connect Front-Channel Logout 1.0
+  url: https://openid.net/specs/openid-connect-frontchannel-1_0.html
+  description: Logout propagation through hidden iframes that load each relying party's logout URL in the browser.
+  tags: [standard]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: OpenID Connect Back-Channel Logout 1.0
+  url: https://openid.net/specs/openid-connect-backchannel-1_0.html
+  description: Server-to-server logout where the provider posts a signed logout token to each relying party, with no browser involvement.
+  tags: [standard]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: OpenID Connect Client-Initiated Backchannel Authentication Flow (CIBA) Core 1.0
+  url: https://openid.net/specs/openid-client-initiated-backchannel-authentication-core-1_0.html
+  description: Decoupled flow where a call center or point of sale starts the login and the user approves it on their own phone.
+  tags: [standard]
+  added: 2026-11-10
+  verified: 2026-11-10
+

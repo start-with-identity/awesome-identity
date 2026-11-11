@@ -1,0 +1,23 @@
+{
+  "name": "awesome-identity",
+  "private": true,
+  "description": "Data and build scripts for the Awesome Identity list.",
+  "license": "CC0-1.0",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "check": "node scripts/build.mjs --check",
+    "validate": "node scripts/validate.mjs",
+    "lint": "awesome-lint",
+    "test": "npm run validate && npm run check"
+  },
+  "dependencies": {
+    "yaml": "^2.6.0"
+  },
+  "devDependencies": {
+    "awesome-lint": "^2.3.0"
+  }
+}

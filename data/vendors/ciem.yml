@@ -1,0 +1,48 @@
+- name: Britive
+  url: https://www.britive.com
+  description: "Just-in-time privileged access for cloud, SaaS, and infrastructure with no standing permissions for humans and non-human identities."
+  tags: [commercial]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: Cortex Cloud
+  url: https://www.paloaltonetworks.com/cortex/cloud
+  description: "Palo Alto Networks cloud security platform, successor to Prisma Cloud, combining CNAPP, CIEM, and runtime protection."
+  tags: [commercial]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: Orca Security
+  url: https://orca.security
+  description: "Agentless cloud security that scans workloads, configurations, and identities, including analysis of excessive permissions."
+  tags: [commercial]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: Sonrai Security
+  url: https://sonraisecurity.com
+  description: "Cloud permissions management that finds unused privileges and identities and restricts them across AWS, Azure, and GCP."
+  tags: [commercial]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: Sysdig
+  url: https://www.sysdig.com/
+  description: "Cloud and container security with Falco-based runtime detection, posture management, and cloud permission analysis."
+  tags: [commercial]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: Uptycs
+  url: https://www.uptycs.com
+  description: "Telemetry-based cloud and endpoint security with CNAPP features that include cloud entitlement analysis."
+  tags: [commercial]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: Wiz
+  url: https://www.wiz.io
+  description: "Cloud security platform, owned by Google, that scans cloud environments for risks including excessive identity permissions."
+  tags: [commercial]
+  added: 2026-11-10
+  verified: 2026-11-10

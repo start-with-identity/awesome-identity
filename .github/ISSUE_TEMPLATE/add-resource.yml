@@ -1,0 +1,122 @@
+name: Add a resource
+description: Suggest a tool, spec, vendor, book, or other resource for the list.
+title: "Add "
+labels: [new-resource]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for the suggestion. Please check the [inclusion rules](https://github.com/start-with-identity/awesome-identity/blob/main/CONTRIBUTING.md#what-gets-in) and search existing entries first.
+  - type: input
+    id: name
+    attributes:
+      label: Name
+      description: Official name of the resource.
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: URL
+      description: Official site, repository, or publisher page. No tracking or referral parameters.
+      placeholder: https://
+    validations:
+      required: true
+  - type: dropdown
+    id: section
+    attributes:
+      label: Section
+      options:
+        - "OAuth and OpenID Connect"
+        - "Tokens and Keys"
+        - "Federation, Directory, and Provisioning"
+        - "Authentication and Passkeys"
+        - "Shared Signals and Session Events"
+        - "Digital Credentials and Wallets"
+        - "High-Assurance Profiles"
+        - "Government and Regulatory Guidance"
+        - "Glossaries and Reference Models"
+        - "Identity Providers and Auth Servers"
+        - "Libraries for JavaScript and TypeScript"
+        - "Libraries for Python"
+        - "Libraries for Go"
+        - "Libraries for Java and Kotlin"
+        - "Libraries for .NET"
+        - "Libraries for Rust"
+        - "Libraries for PHP"
+        - "Libraries for Ruby"
+        - "Libraries for Mobile"
+        - "Passkeys and WebAuthn"
+        - "Authorization Engines and Policy"
+        - "Directory and Provisioning"
+        - "Secrets and Workload Identity"
+        - "Privileged Access and Session Tooling"
+        - "Decentralized Identity Tooling"
+        - "Testing and Developer Tools"
+        - "Assessment and Attack Tooling"
+        - "Detection and Threat Hunting"
+        - "Hardening Guides and Benchmarks"
+        - "Breach Analyses and Incident Write-ups"
+        - "Threat and Industry Reports"
+        - "Vendor: Workforce IAM"
+        - "Vendor: Customer Identity (CIAM)"
+        - "Vendor: MFA and Passwordless"
+        - "Vendor: Privileged Access Management"
+        - "Vendor: Identity Governance and Administration"
+        - "Vendor: Identity Threat Detection and Response"
+        - "Vendor: Cloud Entitlements (CIEM)"
+        - "Vendor: Secrets Management"
+        - "Vendor: Machine, Workload, and AI Agent Identity"
+        - "Vendor: Authorization"
+        - "Vendor: Identity Verification"
+        - "Vendor: Decentralized Identity"
+        - "Vendor: PKI and Certificate Lifecycle"
+        - "Vendor: Password Management"
+        - "Vendor: Zero Trust Access"
+        - "Books"
+        - "Courses and Certifications"
+        - "Blogs and Newsletters"
+        - "Podcasts"
+        - "Videos and Talks"
+        - "Learning Paths"
+        - "Careers"
+        - "Conferences and Events"
+        - "Communities and Organizations"
+        - "People to Follow"
+        - "Datasets and Trackers"
+    validations:
+      required: true
+  - type: input
+    id: description
+    attributes:
+      label: Description
+      description: One neutral sentence, 40 to 160 characters, ending with a period. No marketing language.
+    validations:
+      required: true
+  - type: checkboxes
+    id: tags
+    attributes:
+      label: Tags
+      options:
+        - label: oss (OSI-approved license)
+        - label: free
+        - label: freemium
+        - label: commercial
+        - label: paid (book, course, event)
+        - label: standard
+        - label: gov
+  - type: textarea
+    id: why
+    attributes:
+      label: Why it belongs
+      description: What makes it useful to people working in identity? For open-source projects, mention the license and recent activity.
+  - type: dropdown
+    id: affiliation
+    attributes:
+      label: Are you affiliated with this resource or a competitor?
+      options:
+        - "No"
+        - "Yes, I work on or for it"
+        - "Yes, I work for a competitor"
+    validations:
+      required: true

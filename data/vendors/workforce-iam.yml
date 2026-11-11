@@ -1,0 +1,118 @@
+- name: Avatier
+  url: https://www.avatier.com
+  description: "Identity management suite with self-service access requests, password resets, and lifecycle automation for employees."
+  tags: [commercial]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: AWS IAM Identity Center
+  url: https://aws.amazon.com/iam/identity-center/
+  description: "Central workforce sign-in for AWS accounts and applications, with permission sets and links to external identity providers."
+  tags: [freemium]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: Entrust Identity as a Service
+  url: https://www.entrust.com/products/iam/identity-as-a-service
+  description: "Cloud identity service from Entrust offering SSO, MFA, and passwordless and certificate-based login for workforce and consumers."
+  tags: [commercial]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: Eviden Identity and Access Management
+  url: https://eviden.com/en/products/cybersecurity/identity-access-management
+  description: "Access management, identity governance, and authentication products from Eviden, the Atos group cybersecurity business."
+  tags: [commercial]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: IBM Verify
+  url: https://www.ibm.com/products/verify
+  description: "Cloud and on-premises identity service from IBM covering SSO, adaptive MFA, lifecycle management, and identity governance."
+  tags: [commercial]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: Imprivata
+  url: https://www.imprivata.com
+  description: "Digital identity products for healthcare and other regulated sectors, including badge-tap SSO on shared workstations."
+  tags: [commercial]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: JumpCloud
+  url: https://jumpcloud.com
+  description: "Cloud directory that combines user identity, SSO, MFA, and device management for Windows, macOS, and Linux fleets."
+  tags: [commercial]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: Microsoft Entra ID
+  url: https://www.microsoft.com/en-us/security/business/identity-access/microsoft-entra-id
+  description: "Cloud directory and access service from Microsoft handling SSO, conditional access, and MFA for Microsoft 365 and other apps."
+  tags: [freemium]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: miniOrange
+  url: https://www.miniorange.com
+  description: "Vendor of SSO, MFA, privileged access, and governance products, offered as cloud services or on-premises deployments."
+  tags: [commercial]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: Okta
+  url: https://www.okta.com/
+  description: "Cloud identity service for employees and contractors covering SSO, MFA, a universal directory, and automated app provisioning."
+  tags: [commercial]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: OneLogin
+  url: https://www.onelogin.com
+  description: "Cloud SSO, MFA, and user provisioning service owned by One Identity, used for workforce access to SaaS and on-premises apps."
+  tags: [commercial]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: Oracle Identity Management
+  url: https://www.oracle.com/security/identity-management/
+  description: "Oracle's identity portfolio, including OCI IAM in the cloud and on-premises access management and identity governance products."
+  tags: [commercial]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: Ping Identity
+  url: https://www.pingidentity.com/en.html
+  description: "Identity platform for workforce and customer access, including the PingOne cloud service and the former ForgeRock products."
+  tags: [commercial]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: SecureAuth
+  url: https://secureauth.com/
+  description: "Access management service with risk-based authentication, SSO, and passwordless login for workforce and customer identities."
+  tags: [commercial]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: Simeio
+  url: https://simeio.com
+  description: "Managed identity services plus an orchestration layer that connects existing IAM, IGA, and PAM products from other vendors."
+  tags: [commercial]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: Symantec IAM
+  url: https://www.broadcom.com/products/identity
+  description: "Broadcom identity suite with SSO, advanced authentication, privileged access, and identity governance for large organizations."
+  tags: [commercial]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: Thales SafeNet Trusted Access
+  url: https://cpl.thalesgroup.com/access-management
+  description: "Cloud access management service from Thales with SSO, access policies, and MFA using hardware tokens, smart cards, or apps."
+  tags: [commercial]
+  added: 2026-11-10
+  verified: 2026-11-10

@@ -1,0 +1,52 @@
+- name: AppAuth for Android
+  url: https://github.com/openid/AppAuth-Android
+  description: OpenID Foundation OAuth 2.0 and OIDC client for Android that runs the flow in Custom Tabs, following RFC 8252 for native apps.
+  tags: [oss]
+  language: Java
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: AppAuth for iOS and macOS
+  url: https://openid.github.io/AppAuth-iOS/
+  repo: https://github.com/openid/AppAuth-iOS
+  description: OpenID Foundation OAuth 2.0 and OIDC client for Apple platforms, using ASWebAuthenticationSession and PKCE per RFC 8252.
+  tags: [oss]
+  language: Objective-C
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: flutter_appauth
+  url: https://github.com/MaikuB/flutter_appauth
+  description: Flutter plugin wrapping AppAuth for Android and iOS so Dart apps can run OAuth 2.0 and OIDC code flow with PKCE.
+  tags: [oss]
+  language: Dart
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: Kotlin Multiplatform OIDC
+  url: https://kalinjul.github.io/kotlin-multiplatform-oidc/
+  repo: https://github.com/kalinjul/kotlin-multiplatform-oidc
+  description: OpenID Connect code flow client for Kotlin Multiplatform, sharing auth logic across Android, iOS, and desktop targets.
+  tags: [oss]
+  language: Kotlin
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: MSAL for Android
+  url: https://github.com/AzureAD/microsoft-authentication-library-for-android
+  description: Microsoft Authentication Library for Android apps signing in with Entra ID, with broker support through Authenticator.
+  tags: [oss]
+  language: Java
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: MSAL for iOS and macOS
+  url: https://github.com/AzureAD/microsoft-authentication-library-for-objc
+  description: Microsoft Authentication Library for Apple platforms that acquires Entra ID tokens, with SSO via the Authenticator broker.
+  tags: [oss]
+  language: Swift
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: React Native App Auth
+  url: https://nearform.com/open-source/react-native-app-auth
+  repo: https://github.com/FormidableLabs/react-native-app-auth
+  description: React Native bridge to AppAuth-iOS and AppAuth-Android for OAuth 2.0 and OIDC sign-in with PKCE.
+  tags: [oss]
+  language: TypeScript
+  added: 2026-11-10
+  verified: 2026-11-10

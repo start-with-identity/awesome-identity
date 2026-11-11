@@ -1,0 +1,104 @@
+- name: "RFC 7519: JSON Web Token (JWT)"
+  url: https://datatracker.ietf.org/doc/html/rfc7519
+  description: Compact claims format behind ID tokens and most access tokens, with registered claims such as iss, sub, aud, exp, and nbf.
+  tags: [standard]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: "RFC 7515: JSON Web Signature (JWS)"
+  url: https://datatracker.ietf.org/doc/html/rfc7515
+  description: Signing or MACing arbitrary content as JSON, in compact and JSON serializations, with protected and unprotected headers.
+  tags: [standard]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: "RFC 7516: JSON Web Encryption (JWE)"
+  url: https://datatracker.ietf.org/doc/html/rfc7516
+  description: Encrypted JSON objects with a key management step and authenticated content encryption, used for encrypted ID tokens and request objects.
+  tags: [standard]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: "RFC 7517: JSON Web Key (JWK)"
+  url: https://datatracker.ietf.org/doc/html/rfc7517
+  description: JSON representation of public and private keys and of key sets, the format served from a provider's jwks_uri.
+  tags: [standard]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: "RFC 7518: JSON Web Algorithms (JWA)"
+  url: https://datatracker.ietf.org/doc/html/rfc7518
+  description: Registers the alg and enc identifiers used in JOSE, including RS256, ES256, PS256, ECDH-ES, and A256GCM.
+  tags: [standard]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: "RFC 8725: JSON Web Token Best Current Practices"
+  url: https://datatracker.ietf.org/doc/html/rfc8725
+  description: Countermeasures for alg none, algorithm confusion, weak HMAC keys, and token substitution across different JWT uses.
+  tags: [standard]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: "RFC 7638: JSON Web Key (JWK) Thumbprint"
+  url: https://datatracker.ietf.org/doc/html/rfc7638
+  description: Deterministic hash over a JWK's required members, used as a key ID and for binding tokens to keys in DPoP.
+  tags: [standard]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: "RFC 9864: Fully-Specified Algorithms for JOSE and COSE"
+  url: https://datatracker.ietf.org/doc/html/rfc9864
+  description: Replaces polymorphic identifiers like EdDSA with algorithm names that pin the curve, such as Ed25519, and deprecates the old ones.
+  tags: [standard]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: "RFC 7800: Proof-of-Possession Key Semantics for JSON Web Tokens (JWTs)"
+  url: https://datatracker.ietf.org/doc/html/rfc7800
+  description: Introduces the cnf claim, which states the key a presenter must prove control of before a JWT is accepted.
+  tags: [standard]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: "RFC 9449: OAuth 2.0 Demonstrating Proof of Possession (DPoP)"
+  url: https://datatracker.ietf.org/doc/html/rfc9449
+  description: Application-layer sender constraint where the client signs a per-request proof JWT so a stolen access token cannot be replayed.
+  tags: [standard]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: "RFC 8705: OAuth 2.0 Mutual-TLS Client Authentication and Certificate-Bound Access Tokens"
+  url: https://datatracker.ietf.org/doc/html/rfc8705
+  description: Client authentication with X.509 certificates over mutual TLS, and access tokens bound to the certificate's thumbprint.
+  tags: [standard]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: "RFC 9901: Selective Disclosure for JSON Web Tokens"
+  url: https://datatracker.ietf.org/doc/html/rfc9901
+  description: SD-JWT replaces claim values with salted digests so the holder can reveal only chosen claims, with optional key binding.
+  tags: [standard]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: Token Status List (draft)
+  url: https://datatracker.ietf.org/doc/draft-ietf-oauth-status-list/
+  description: Compressed bit array published as a JWT or CWT so verifiers can check whether a token or credential has been revoked or suspended.
+  tags: [standard]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: "RFC 8392: CBOR Web Token (CWT)"
+  url: https://datatracker.ietf.org/doc/html/rfc8392
+  description: Binary equivalent of JWT built on CBOR and COSE, aimed at constrained devices and used in some credential formats.
+  tags: [standard]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: "RFC 9421: HTTP Message Signatures"
+  url: https://datatracker.ietf.org/doc/html/rfc9421
+  description: Signs selected HTTP components such as method, path, and headers, giving request and response integrity independent of TLS.
+  tags: [standard]
+  added: 2026-11-10
+  verified: 2026-11-10

@@ -1,0 +1,122 @@
+- name: JWT.io
+  url: https://www.jwt.io/
+  description: Browser-based decoder and signature checker for JSON Web Tokens, run by Auth0, with an index of JWT libraries by language.
+  tags: [free]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: jwt.ms
+  url: https://jwt.ms/
+  description: Microsoft-hosted token decoder that shows Entra ID claims alongside short explanations of what each claim means.
+  tags: [free]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: OpenID Connect Debugger
+  url: https://oidcdebugger.com/
+  repo: https://github.com/nbarbettini/oidc-debugger
+  description: Builds an OIDC authorization request, sends you to the provider, and displays the code or tokens that come back.
+  tags: [free, oss]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: OAuth 2.0 Debugger
+  url: https://oauthdebugger.com/
+  description: Hosted page from Okta for composing an OAuth 2.0 authorization request against any server and capturing the redirect response.
+  tags: [free]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: OAuth Tools
+  url: https://oauth.tools/
+  description: Curity web app for running OAuth and OIDC flows against any provider and inspecting tokens, introspection, and userinfo responses.
+  tags: [free]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: Google OAuth 2.0 Playground
+  url: https://developers.google.com/oauthplayground/
+  description: Google-hosted walkthrough of authorization and token exchange against Google APIs, or against a custom OAuth endpoint you configure.
+  tags: [free]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: OAuth.com Playground
+  url: https://www.oauth.com/playground/
+  description: Interactive step-by-step run of authorization code, PKCE, device, and OIDC flows against a sandbox server, with each request shown.
+  tags: [free]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: SAML-tracer
+  url: https://github.com/simplesamlphp/SAML-tracer
+  description: Firefox and Chrome extension that captures SAML and WS-Federation messages in browser traffic and decodes them for inspection.
+  tags: [free, oss]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: OpenID Conformance Suite
+  url: https://gitlab.com/openid/conformance-suite
+  description: OpenID Foundation test harness for OIDC, FAPI, CIBA, PAR, and DPoP implementations, used for certification and runnable locally.
+  tags: [oss]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: mock-oauth2-server
+  url: https://github.com/navikt/mock-oauth2-server
+  description: Scriptable OAuth 2.0 and OIDC server from NAV for tests, issuing tokens with configurable claims from Docker or inside JVM test suites.
+  tags: [oss]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: OIDC Server Mock
+  url: https://github.com/Soluto/oidc-server-mock
+  description: Docker image wrapping Duende IdentityServer with configurable users and clients, for exercising OIDC flows in local and CI environments.
+  tags: [oss]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: webauthn.io
+  url: https://webauthn.io/
+  repo: https://github.com/duo-labs/webauthn.io
+  description: Duo Labs demo for trying passkey registration and login while toggling attestation, user verification, and discoverable credential options.
+  tags: [free, oss]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: webauthn.me
+  url: https://www.webauthn.me/
+  repo: https://github.com/auth0/webauthn.me
+  description: Auth0 demo and debugger that steps through a WebAuthn ceremony and decodes the client data and authenticator data it produces.
+  tags: [free, oss]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: Passkeys Debugger
+  url: https://www.passkeys-debugger.io/
+  description: Hosted WebAuthn tester from Corbado that runs passkey ceremonies with custom options and parses the resulting responses.
+  tags: [free]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: jwt-cli
+  url: https://github.com/mike-engel/jwt-cli
+  description: Command-line tool written in Rust for encoding and decoding JWTs, with flags for algorithm, claims, and secret or key files.
+  tags: [oss]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: step CLI
+  url: https://smallstep.com/docs/step-cli/
+  repo: https://github.com/smallstep/cli
+  description: Smallstep command-line toolkit for creating and inspecting X.509 certificates, JWTs, and JWKs, and for running OAuth flows from a terminal.
+  tags: [oss]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: oauth2l
+  url: https://github.com/google/oauth2l
+  description: Google command-line tool for fetching, caching, and inspecting OAuth 2.0 access tokens, with a curl wrapper that attaches them to requests.
+  tags: [oss]
+  added: 2026-11-10
+  verified: 2026-11-10

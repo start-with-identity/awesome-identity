@@ -1,0 +1,111 @@
+- name: walt.id Identity
+  url: https://github.com/walt-id/waltid-identity
+  description: Kotlin libraries and services for issuing, holding, and verifying credentials over OpenID4VCI and OpenID4VP, including SD-JWT VC and mdoc.
+  tags: [oss]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: ACA-Py
+  url: https://aca-py.org/
+  repo: https://github.com/openwallet-foundation/acapy
+  description: Python cloud agent for issuing, holding, and verifying AnonCreds and W3C credentials over DIDComm, controlled through an admin API.
+  tags: [oss]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: Credo
+  url: https://credo.js.org/
+  repo: https://github.com/openwallet-foundation/credo-ts
+  description: TypeScript framework, formerly Aries Framework JavaScript, for building wallets, issuers, and verifiers on Node.js and React Native.
+  tags: [oss]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: Bifold Wallet
+  url: https://github.com/openwallet-foundation/bifold-wallet
+  description: React Native wallet foundation built on Credo, reused as the base for government mobile credential wallets in Canada and elsewhere.
+  tags: [oss]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: Askar
+  url: https://github.com/openwallet-foundation/askar
+  description: Rust secure storage and crypto library used by ACA-Py and Credo to hold keys, credentials, and wallet records, with Python and JS wrappers.
+  tags: [oss]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: Veramo
+  url: https://veramo.io/
+  repo: https://github.com/decentralized-identity/veramo
+  description: Modular TypeScript framework for DIDs and verifiable credentials, extended through plugins for key management, DID methods, and formats.
+  tags: [oss]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: Sphereon SSI SDK
+  url: https://github.com/Sphereon-Opensource/SSI-SDK
+  description: Veramo plugins covering OpenID4VCI, OpenID4VP, SIOPv2, and Presentation Exchange for building wallets and issuers in TypeScript.
+  tags: [oss]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: Universal Resolver
+  url: https://uniresolver.io/
+  repo: https://github.com/decentralized-identity/universal-resolver
+  description: DIF service that resolves DIDs across many methods by routing to per-method driver containers, with a public development instance.
+  tags: [oss]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: Universal Registrar
+  url: https://uniregistrar.io/
+  repo: https://github.com/decentralized-identity/universal-registrar
+  description: Counterpart to the Universal Resolver that creates, updates, and deactivates DIDs through per-method drivers behind one HTTP API.
+  tags: [oss]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: SpruceID ssi
+  url: https://github.com/spruceid/ssi
+  description: Rust crates implementing DIDs, W3C verifiable credentials, and data integrity and JWT proofs, used across SpruceID's own tooling.
+  tags: [oss]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: EUDI Wallet Reference Implementation
+  url: https://github.com/eu-digital-identity-wallet
+  description: European Commission GitHub org with reference Android and iOS wallets, issuer and verifier services, and libraries for the EUDI Wallet.
+  tags: [oss]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: Hyperledger Identus
+  url: https://identus.io/
+  repo: https://github.com/hyperledger-identus/cloud-agent
+  description: Credential stack with a Scala cloud agent and edge SDKs for mobile and web, anchoring identifiers through the did:prism method.
+  tags: [oss]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: Inji Wallet
+  url: https://github.com/inji/inji-wallet
+  description: Mobile credential wallet from the MOSIP ecosystem for downloading, storing, and sharing verifiable credentials, including offline QR sharing.
+  tags: [oss]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: KERIpy
+  url: https://keripy.readthedocs.io/en/latest/
+  repo: https://github.com/WebOfTrust/keripy
+  description: Python reference implementation of KERI, the Key Event Receipt Infrastructure for self-certifying identifiers with pre-rotated keys.
+  tags: [oss]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: Hyperledger Indy Node
+  url: https://github.com/hyperledger-indy/indy-node
+  description: Permissioned ledger for public DIDs and AnonCreds artifacts that underpinned Sovrin; the repository has had no commits since February 2025.
+  tags: [oss, archived]
+  added: 2026-11-10
+  verified: 2026-11-10

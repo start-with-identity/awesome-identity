@@ -1,0 +1,66 @@
+- name: ASP.NET Core Identity
+  url: https://learn.microsoft.com/en-us/aspnet/core/security/authentication/identity
+  repo: https://github.com/dotnet/aspnetcore
+  description: Membership system built into ASP.NET Core for local accounts, password hashing, lockout, 2FA, and external OAuth logins.
+  tags: [oss]
+  language: C#
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: AspNet.Security.OAuth.Providers
+  url: https://github.com/aspnet-contrib/AspNet.Security.OAuth.Providers
+  description: Community collection of ASP.NET Core authentication handlers for well over a hundred OAuth 2.0 and OIDC social providers.
+  tags: [oss]
+  language: C#
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: Duende IdentityModel
+  url: https://docs.duendesoftware.com/identitymodel/
+  repo: https://github.com/DuendeSoftware/foss
+  description: Apache-licensed .NET helpers for OAuth 2.0 and OIDC endpoints, token management, introspection, and native OIDC clients.
+  tags: [oss]
+  language: C#
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: ITfoxtec Identity SAML2
+  url: https://github.com/ITfoxtec/ITfoxtec.Identity.Saml2
+  description: SAML 2.0 library for .NET and ASP.NET Core apps acting as a service provider or identity provider, maintained by FoxIDs.
+  tags: [oss]
+  language: C#
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: Microsoft Identity Web
+  url: https://github.com/AzureAD/microsoft-identity-web
+  description: ASP.NET Core and OWIN glue on top of MSAL.NET for signing users in with Entra ID and calling protected downstream APIs.
+  tags: [oss]
+  language: C#
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: Microsoft IdentityModel
+  url: https://github.com/AzureAD/azure-activedirectory-identitymodel-extensions-for-dotnet
+  description: Token libraries behind ASP.NET Core JWT bearer auth, covering JWT and SAML token validation, OIDC metadata, and key handling.
+  tags: [oss]
+  language: C#
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: MSAL.NET
+  url: https://github.com/AzureAD/microsoft-authentication-library-for-dotnet
+  description: Microsoft Authentication Library for .NET apps, services, and MAUI clients that acquire tokens from Entra ID and Entra External ID.
+  tags: [oss]
+  language: C#
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: OpenIddict
+  url: https://openiddict.com/
+  repo: https://github.com/openiddict/openiddict-core
+  description: OAuth 2.0 and OpenID Connect server and client stack for ASP.NET Core and OWIN that you host inside your own app.
+  tags: [oss]
+  language: C#
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: Sustainsys.Saml2
+  url: https://github.com/Sustainsys/Saml2
+  description: SAML 2.0 service provider handler for ASP.NET Core and older .NET stacks; v2 is MIT, while the v3 line splits MIT and commercial parts.
+  tags: [oss]
+  language: C#
+  added: 2026-11-10
+  verified: 2026-11-10

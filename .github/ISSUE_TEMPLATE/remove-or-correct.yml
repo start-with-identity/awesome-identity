@@ -1,0 +1,45 @@
+name: Correct or remove an entry
+description: Fix a wrong description, name, category, or tag, or ask for an entry to be removed.
+title: "Correct: "
+labels: [correction]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Vendors, authors, and people listed are welcome to use this form. Requests from people asking to be removed from People to Follow are honored without discussion.
+  - type: input
+    id: name
+    attributes:
+      label: Entry name
+    validations:
+      required: true
+  - type: dropdown
+    id: kind
+    attributes:
+      label: Request
+      options:
+        - Correct the description
+        - Change the name or URL (rename, acquisition)
+        - Move to another category
+        - Change tags
+        - Remove the entry
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: Details
+      description: What should change, and a public source that backs it up where possible.
+    validations:
+      required: true
+  - type: dropdown
+    id: affiliation
+    attributes:
+      label: Your relationship to the entry
+      options:
+        - None
+        - I work for or on it
+        - I am the person listed
+        - I work for a competitor
+    validations:
+      required: true

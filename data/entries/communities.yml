@@ -1,0 +1,96 @@
+- name: IDPro
+  url: https://idpro.org/
+  description: Professional association for identity practitioners; publishes the Body of Knowledge and runs the CIDPRO certification.
+  tags: [free]
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: OpenID Foundation
+  url: https://openid.net/
+  description: Standards body behind OpenID Connect, FAPI, Shared Signals, and OpenID for Verifiable Credentials; working groups are open to non-members.
+  tags: [free]
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: FIDO Alliance
+  url: https://fidoalliance.org/
+  description: Industry consortium that writes the FIDO2, CTAP, and passkey specifications and runs product certification programs.
+  tags: [free]
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: IETF OAuth Working Group
+  url: https://datatracker.ietf.org/wg/oauth/about/
+  description: Where OAuth RFCs and drafts are written; anyone can join the mailing list, comment on drafts, and attend sessions.
+  tags: [free]
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: W3C Credentials Community Group
+  url: https://www.w3.org/community/credentials/
+  description: Open W3C group that incubates verifiable credential and DID work before it moves to formal W3C working groups.
+  tags: [free]
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: Decentralized Identity Foundation (DIF)
+  url: https://identity.foundation/
+  description: Engineering-focused foundation developing DID methods, presentation exchange, and interop work for decentralized identity.
+  tags: [free]
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: OpenWallet Foundation
+  url: https://openwallet.foundation/
+  description: Linux Foundation project hosting open-source digital wallet components and libraries for verifiable credential interoperability.
+  tags: [free]
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: Trust Over IP Foundation
+  url: https://trustoverip.org/
+  description: Project under LF Decentralized Trust working on a layered architecture for digital trust, including the Trust Spanning Protocol.
+  tags: [free]
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: Kantara Initiative
+  url: https://kantarainitiative.org/
+  description: Nonprofit that assesses identity services against NIST 800-63 and UK frameworks and hosts identity and privacy working groups.
+  tags: [free]
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: Identity Defined Security Alliance (IDSA)
+  url: https://www.idsalliance.org/
+  description: Nonprofit backed by identity and security vendors that publishes survey research, webinars, and working group guidance.
+  tags: [free]
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: Better Identity Coalition
+  url: https://www.betteridentity.org/
+  description: US policy coalition of companies pushing for improved identity verification and authentication through government action.
+  tags: [free]
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: Digital ID and Authentication Council of Canada (DIACC)
+  url: https://diacc.ca/
+  description: Canadian public-private nonprofit that maintains the Pan-Canadian Trust Framework and certifies services against it.
+  tags: [free]
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: Secure Identity Alliance
+  url: https://secureidentityalliance.org/
+  description: Global nonprofit of governments, industry, and academia working on interoperable physical and digital ID, including OSIA.
+  tags: [free]
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: MOSIP Community
+  url: https://community.mosip.io/
+  description: Discussion forum for developers and governments building national ID systems on the open-source MOSIP platform.
+  tags: [free]
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: Women in Identity
+  url: https://www.womeninidentity.org/
+  description: Volunteer-run nonprofit working on inclusive identity systems, known for its ID Code of Conduct and network of country ambassadors.
+  tags: [free]
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: InCommon
+  url: https://www.incommon.org/
+  description: Research and education identity federation operated by Internet2, letting universities and labs share access across institutions.
+  tags: [free]
+  added: 2026-11-10
+  verified: 2026-11-10

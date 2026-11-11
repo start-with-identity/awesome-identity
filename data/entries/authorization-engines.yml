@@ -1,0 +1,100 @@
+- name: Open Policy Agent
+  url: https://www.openpolicyagent.org/
+  repo: https://github.com/open-policy-agent/opa
+  description: General-purpose policy engine that evaluates Rego against JSON input, used for API authorization, Kubernetes admission, and CI checks.
+  tags: [oss]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: Cedar
+  url: https://www.cedarpolicy.com/
+  repo: https://github.com/cedar-policy/cedar
+  description: Policy language and Rust evaluator from AWS for RBAC and ABAC rules, with schema validation and formally verified semantics.
+  tags: [oss]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: OpenFGA
+  url: https://openfga.dev/
+  repo: https://github.com/openfga/openfga
+  description: Relationship-based authorization server modeled on Google Zanzibar, with a modeling DSL, a browser playground, and SDKs for several languages.
+  tags: [oss]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: SpiceDB
+  url: https://authzed.com/spicedb
+  repo: https://github.com/authzed/spicedb
+  description: Zanzibar-style permissions database from AuthZed with a schema language, consistency tokens, and Postgres, CockroachDB, or Spanner storage.
+  tags: [oss]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: Casbin
+  url: https://casbin.apache.org/
+  repo: https://github.com/apache/casbin
+  description: Embeddable access control library that expresses ACL, RBAC, and ABAC through a model config file, with ports in many languages.
+  tags: [oss]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: Cerbos
+  url: https://github.com/cerbos/cerbos
+  description: Stateless policy decision point driven by YAML policies, deployed as a sidecar or service and queried over gRPC or HTTP.
+  tags: [oss]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: Topaz
+  url: https://www.topaz.sh/
+  repo: https://github.com/aserto-dev/topaz
+  description: Local authorization service that pairs an OPA decision engine with a built-in directory for Zanzibar-style relationship data.
+  tags: [oss]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: Ory Keto
+  url: https://www.ory.com/keto
+  repo: https://github.com/ory/keto
+  description: Server for Zanzibar relation tuples exposing check, expand, and list operations over REST and gRPC, built to sit alongside other Ory services.
+  tags: [oss]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: Permify
+  url: https://permify.co/
+  repo: https://github.com/Permify/permify
+  description: Zanzibar-inspired authorization service whose schema DSL mixes relationship and attribute rules, served over gRPC and REST under AGPL-3.0.
+  tags: [oss]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: OPAL
+  url: https://opal.ac/
+  repo: https://github.com/permitio/opal
+  description: Administration layer that pushes policy and data changes from Git and other sources to running OPA or Cedar agents in real time.
+  tags: [oss]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: Biscuit
+  url: https://www.biscuitsec.org/
+  repo: https://github.com/eclipse-biscuit/biscuit
+  description: Bearer token format with offline attenuation and a Datalog authorization language, implemented in Rust, Java, Go, and other languages.
+  tags: [oss]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: Regorus
+  url: https://github.com/microsoft/regorus
+  description: Rego interpreter written in Rust by Microsoft, small enough to embed OPA-compatible policy evaluation without a Go runtime.
+  tags: [oss]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: Oso
+  url: https://github.com/osohq/oso
+  description: Archived open source library that embedded the Polar policy language in applications; its maintainers now point users to the hosted Oso Cloud.
+  tags: [oss, archived]
+  added: 2026-11-10
+  verified: 2026-11-10

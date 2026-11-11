@@ -1,0 +1,132 @@
+- name: Bravura Security
+  url: https://www.bravurasecurity.com
+  description: "Identity, privileged access, and password management products, including Bravura Identity for lifecycle and governance."
+  tags: [commercial]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: C1
+  url: https://www.c1.ai
+  description: "Access governance with requests, reviews, and just-in-time permissions; formerly ConductorOne and being acquired by Workday."
+  tags: [commercial]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: Clear Skye
+  url: https://clearskye.com
+  description: "Identity governance built natively on the ServiceNow platform, covering access requests, certifications, and lifecycle events."
+  tags: [commercial]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: EmpowerID
+  url: https://www.empowerid.com
+  description: "Identity governance and access management suite with role and policy based access; acquired by Omada in 2026."
+  tags: [commercial]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: Evolveum midPoint
+  url: https://evolveum.com
+  description: "Open-source identity governance and provisioning system, with paid subscriptions and support from Evolveum."
+  tags: [oss]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: Fischer Identity
+  url: https://www.fischeridentity.com
+  description: "Cloud-delivered identity governance, lifecycle automation, and access management for compliance-driven organizations."
+  tags: [commercial]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: Lumos
+  url: https://www.lumos.com
+  description: "Identity governance for SaaS-heavy companies, covering app access requests, access reviews, and license management."
+  tags: [commercial]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: Omada
+  url: https://omadaidentity.com
+  description: "Identity governance and administration delivered as SaaS, with role modeling, access certification, and provisioning."
+  tags: [commercial]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: One Identity Manager
+  url: https://www.oneidentity.com/products/identity-manager/
+  description: "Identity governance and administration from One Identity, with provisioning, attestation, and role management."
+  tags: [commercial]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: Opal Security
+  url: https://www.opal.dev
+  description: "Access management for engineering and cloud resources, with just-in-time requests, reviews, and least-privilege analysis."
+  tags: [commercial]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: OpenText NetIQ Identity Management
+  url: https://www.opentext.com/products/identity-governance-and-administration
+  description: "Identity governance, provisioning, and access management from OpenText, based on the former NetIQ product line."
+  tags: [commercial]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: Radiant Logic
+  url: https://www.radiantlogic.com
+  description: "Identity data platform that unifies directories and other identity sources into one view for governance and access."
+  tags: [commercial]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: SailPoint
+  url: https://www.sailpoint.com
+  description: "Identity governance covering lifecycle management, access certifications, and role and policy management."
+  tags: [commercial]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: Saviynt
+  url: https://saviynt.com
+  description: "Cloud identity governance with access requests, certifications, application access governance, and privileged access."
+  tags: [commercial]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: SecurEnds
+  url: https://www.securends.com
+  description: "Identity governance and user access reviews for human, non-human, and AI agent identities in regulated industries."
+  tags: [commercial]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: Soffid
+  url: https://www.soffid.com
+  description: "Open-source IAM covering SSO, provisioning, and governance, sold with commercial subscriptions and support."
+  tags: [oss]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: Tuebora
+  url: https://www.tuebora.com
+  description: "Identity governance and administration with access analytics and automated certification campaigns."
+  tags: [commercial]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: Veza
+  url: https://veza.com/
+  description: "Authorization graph mapping who can access which data across SaaS, cloud, and on-premises systems; owned by ServiceNow."
+  tags: [commercial]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: Zluri
+  url: https://www.zluri.com
+  description: "SaaS management and identity governance with app discovery, access reviews, and onboarding and offboarding; part of Infotech."
+  tags: [commercial]
+  added: 2026-11-10
+  verified: 2026-11-10

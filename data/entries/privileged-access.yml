@@ -1,0 +1,82 @@
+- name: Teleport
+  url: https://github.com/gravitational/teleport
+  description: Access proxy for SSH, Kubernetes, databases, and RDP using short-lived certificates; source is AGPL-3.0, official Community builds are not.
+  tags: [oss]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: Apache Guacamole
+  url: https://guacamole.apache.org/
+  repo: https://github.com/apache/guacamole-server
+  description: Clientless gateway that brokers RDP, VNC, and SSH sessions into the browser, with LDAP, SAML, and OIDC extensions and session recording.
+  tags: [oss]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: JumpServer
+  url: https://github.com/jumpserver/jumpserver
+  description: Web-based bastion host for SSH, RDP, Kubernetes, and database access, with asset authorization rules and session audit and replay.
+  tags: [oss]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: Warpgate
+  url: https://warpgate.null.page/
+  repo: https://github.com/warp-tech/warpgate
+  description: Rust bastion that transparently proxies SSH, HTTPS, Kubernetes, MySQL, PostgreSQL, RDP, and VNC connections without a client wrapper.
+  tags: [oss]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: Pomerium
+  url: https://www.pomerium.com/
+  repo: https://github.com/pomerium/pomerium
+  description: Identity-aware reverse proxy that checks every request to internal apps against IdP claims and policy, replacing VPN access.
+  tags: [oss]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: opkssh
+  url: https://github.com/openpubkey/opkssh
+  description: SSH login with OpenID Connect via OpenPubkey, minting SSH keys that expire within hours from Google, Microsoft, or GitLab sign-in.
+  tags: [oss]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: Ory Oathkeeper
+  url: https://www.ory.com/oathkeeper
+  repo: https://github.com/ory/oathkeeper
+  description: Identity and access proxy that authenticates requests, applies access rules, and forwards headers or signed JWTs to upstream services.
+  tags: [oss]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: Vouch Proxy
+  url: https://github.com/vouch/vouch-proxy
+  description: SSO helper for the NGINX auth_request module that validates a session cookie and sends users to an OAuth or OIDC provider to log in.
+  tags: [oss]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: Cashier
+  url: https://github.com/cashier-go/cashier
+  description: SSH certificate authority that issues short-lived user certificates after an OAuth login, with a client that loads them into the agent.
+  tags: [oss]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: ShellHub
+  url: https://www.shellhub.io/
+  repo: https://github.com/shellhub-io/shellhub
+  description: Centralized SSH gateway that reaches Linux devices behind NAT and firewalls through an agent, with a web terminal and per-device access.
+  tags: [oss]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: Octelium
+  url: https://octelium.com/
+  repo: https://github.com/octelium/octelium
+  description: Self-hosted zero trust access platform built from layer-7 identity-aware proxies, usable as a VPN replacement with secretless upstream access.
+  tags: [oss]
+  added: 2026-11-10
+  verified: 2026-11-10

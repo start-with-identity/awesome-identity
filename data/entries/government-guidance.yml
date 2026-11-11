@@ -1,0 +1,133 @@
+- name: "NIST SP 800-63-4: Digital Identity Guidelines"
+  url: https://pages.nist.gov/800-63-4/sp800-63.html
+  description: Top-level volume of the US digital identity guidelines, setting out IAL, AAL, and FAL and the risk process for choosing among them.
+  tags: [gov]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: "NIST SP 800-63A-4: Identity Proofing and Enrollment"
+  url: https://pages.nist.gov/800-63-4/sp800-63a.html
+  description: Requirements for remote and in-person identity proofing at each IAL, including evidence strength and fraud controls.
+  tags: [gov]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: "NIST SP 800-63B-4: Authentication and Authenticator Management"
+  url: https://pages.nist.gov/800-63-4/sp800-63b.html
+  description: Password rules, authenticator types, syncable passkeys, phishing resistance, and reauthentication limits for each AAL.
+  tags: [gov]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: "NIST SP 800-63C-4: Federation and Assertions"
+  url: https://pages.nist.gov/800-63-4/sp800-63c.html
+  description: Assertion protection, audience restriction, and trust agreement requirements for each federation assurance level.
+  tags: [gov]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: "NIST SP 800-207: Zero Trust Architecture"
+  url: https://csrc.nist.gov/pubs/sp/800/207/final
+  description: Reference publication for zero trust, describing policy decision and enforcement points and the deployment models built around them.
+  tags: [gov]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: "NIST SP 800-53 Rev. 5: Security and Privacy Controls"
+  url: https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final
+  description: US federal control catalog; the AC (Access Control) and IA (Identification and Authentication) families are the ones identity teams map to.
+  tags: [gov]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: "NIST IR 8587: Protecting Tokens and Assertions from Forgery, Theft, and Misuse"
+  url: https://csrc.nist.gov/pubs/ir/8587/final
+  description: Guidance for agencies and cloud providers on key management, token verification, and token life cycle controls, written after high-profile forgeries.
+  tags: [gov]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: "OMB M-22-09: Moving the U.S. Government Toward Zero Trust Cybersecurity Principles"
+  url: https://www.whitehouse.gov/wp-content/uploads/2022/01/M-22-09.pdf
+  description: Federal memo requiring phishing-resistant MFA for staff and an option for the public, and dropping periodic password rotation.
+  tags: [gov]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: "CISA: Implementing Phishing-Resistant MFA"
+  url: https://www.cisa.gov/sites/default/files/publications/fact-sheet-implementing-phishing-resistant-mfa-508c.pdf
+  description: Fact sheet comparing MFA methods by phishing resistance, with FIDO2 and PKI-based authenticators as the strongest options.
+  tags: [gov]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: "CISA and NSA: Identity and Access Management Recommended Best Practices for Administrators"
+  url: https://www.cisa.gov/sites/default/files/2023-12/ESF%20IDENTITY%20AND%20ACCESS%20MANAGEMENT%20RECOMMENDED%20BEST%20PRACTICES%20FOR%20ADMINISTRATORS%20PP-23-0248_508C.pdf
+  description: Enduring Security Framework guidance on identity governance, environment hardening, federation, MFA, and IAM monitoring.
+  tags: [gov]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: CISA Zero Trust Maturity Model
+  url: https://www.cisa.gov/resources-tools/resources/zero-trust-maturity-model
+  description: Five pillars, with identity first, each scored from traditional to optimal so agencies can plan zero trust adoption in stages.
+  tags: [gov]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: CISA Secure by Design
+  url: https://www.cisa.gov/securebydesign
+  description: CISA program asking software makers to ship secure defaults, including MFA on by default and no default passwords.
+  tags: [gov]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: "Regulation (EU) 2024/1183 (eIDAS 2.0)"
+  url: https://eur-lex.europa.eu/eli/reg/2024/1183/oj/eng
+  description: Amends eIDAS to create the European Digital Identity Wallet and sets the duties of member states, relying parties, and trust service providers.
+  tags: [gov]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: "ENISA: Remote ID Proofing"
+  url: https://www.enisa.europa.eu/publications/enisa-report-remote-id-proofing
+  description: Report on video and document-based remote identity proofing methods across the EU, with the attacks they face and countermeasures.
+  tags: [gov]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: UK Digital Verification Services Trust Framework
+  url: https://www.gov.uk/government/collections/uk-digital-verification-services-trust-framework
+  description: UK government rules for certified identity and attribute providers, formerly the digital identity and attributes trust framework (DIATF).
+  tags: [gov]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: "NCSC: Multi-factor Authentication for Your Corporate Online Services"
+  url: https://www.ncsc.gov.uk/collection/mfa-for-your-corporate-online-services
+  description: UK National Cyber Security Centre advice on choosing MFA methods for staff accounts on cloud services, and on handling recovery.
+  tags: [gov]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: Australia Digital ID (Accreditation) Rules 2024
+  url: https://www.legislation.gov.au/F2024L01438/latest/text
+  description: Rules under the Digital ID Act 2024, successor to the TDIF, setting proofing, authentication, and privacy requirements for accredited providers.
+  tags: [gov]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: Aadhaar Authentication API Specification 2.5
+  url: https://uidai.gov.in/images/resource/Aadhaar_Authentication_API-2.5_Revision-1_of_January_2022.pdf
+  description: UIDAI interface for verifying an Aadhaar number with biometric, OTP, or demographic data, including the encrypted PID block format.
+  tags: [gov]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: DIACC Pan-Canadian Trust Framework
+  url: https://diacc.ca/trust-framework/
+  description: Canadian framework of conformance criteria for digital ID providers, covering verified person, authentication, and privacy components.
+  tags: [free]
+  added: 2026-11-10
+  verified: 2026-11-10
+

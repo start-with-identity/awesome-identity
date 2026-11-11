@@ -1,0 +1,49 @@
+- name: axum-login
+  url: https://github.com/maxcountryman/axum-login
+  description: Session-backed user login and permission checks for the axum web framework, built on tower-sessions.
+  tags: [oss]
+  language: Rust
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: jsonwebtoken
+  url: https://github.com/Keats/jsonwebtoken
+  description: JWT crate for Rust that encodes and decodes serde-typed claims and validates exp, nbf, aud, and iss on decode.
+  tags: [oss]
+  language: Rust
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: jwt-simple
+  url: https://github.com/jedisct1/rust-jwt-simple
+  description: JWT crate focused on a hard-to-misuse API, with optional pure-Rust crypto so it compiles to WebAssembly.
+  tags: [oss]
+  language: Rust
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: oauth2-rs
+  url: https://github.com/ramosbugs/oauth2-rs
+  description: Strongly typed OAuth 2.0 client for Rust with PKCE, device flow, token introspection, and revocation, sync or async.
+  tags: [oss]
+  language: Rust
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: openidconnect-rs
+  url: https://github.com/ramosbugs/openidconnect-rs
+  description: OpenID Connect relying party and provider types for Rust built on oauth2-rs, with discovery and ID token verification.
+  tags: [oss]
+  language: Rust
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: oxide-auth
+  url: https://github.com/197g/oxide-auth
+  description: OAuth 2.0 authorization server building blocks for Rust, with frontend crates for actix, axum, rocket, and other web frameworks.
+  tags: [oss]
+  language: Rust
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: samael
+  url: https://github.com/njaremko/samael
+  description: SAML 2.0 crate for Rust that parses and builds assertions and handles service provider flows, with optional xmlsec signing.
+  tags: [oss]
+  language: Rust
+  added: 2026-11-10
+  verified: 2026-11-10

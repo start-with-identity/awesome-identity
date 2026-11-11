@@ -1,0 +1,96 @@
+- name: OAuth 2 in Action
+  url: https://www.manning.com/books/oauth-2-in-action
+  description: Justin Richer and Antonio Sanso build a client, authorization server, and protected resource in code, then break each one with real attacks.
+  tags: [paid]
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: OAuth 2.0 Simplified
+  url: https://www.oauth.com/
+  description: Aaron Parecki's guide to building an OAuth 2.0 server, with the full text readable online and print or ebook editions sold separately.
+  tags: [free]
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: API Security in Action
+  url: https://www.manning.com/books/api-security-in-action
+  description: Neil Madden covers token-based auth, OAuth, capability URLs, and Kubernetes service identity while hardening a working Java API.
+  tags: [paid]
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: Solving Identity Management in Modern Applications
+  url: https://link.springer.com/book/10.1007/978-1-4842-8261-8
+  description: Yvonne Wilson and Abhishek Hingnikar explain OAuth 2, OpenID Connect, and SAML 2 through the lifecycle of an application user (2nd edition, Apress).
+  tags: [paid]
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: Learning Digital Identity
+  url: https://www.oreilly.com/library/view/learning-digital-identity/9781098117689/
+  description: Phil Windley's 2023 O'Reilly book on identity architectures, from federation and access control to verifiable credentials and wallets.
+  tags: [paid]
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: Digital Identity (Windley, 2005)
+  url: https://www.oreilly.com/library/view/digital-identity/0596008783/
+  description: Early O'Reilly title on identity management architecture for enterprises, still useful for the reasoning behind federation and directories.
+  tags: [paid]
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: Self-Sovereign Identity
+  url: https://www.manning.com/books/self-sovereign-identity
+  description: Alex Preukschat and Drummond Reed lead a multi-author book on DIDs, verifiable credentials, wallets, and governance frameworks.
+  tags: [paid]
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: Identity Attack Vectors
+  url: https://link.springer.com/book/10.1007/979-8-8688-0233-1
+  description: Morey Haber and Darran Rolls map how attackers abuse accounts and credentials, then lay out an IAM program to counter them (2nd edition, 2024).
+  tags: [paid]
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: Privileged Attack Vectors
+  url: https://link.springer.com/book/10.1007/978-1-4842-5914-6
+  description: Morey Haber's Apress book on how privileged credentials get stolen and misused, with controls for vaulting, least privilege, and session monitoring.
+  tags: [paid]
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: Advanced API Security
+  url: https://link.springer.com/book/10.1007/978-1-4842-2050-4
+  description: Prabath Siriwardena walks through OAuth 2.0 grant types, token binding, JWT, JOSE, and UMA in the context of securing APIs (2nd edition, 2020).
+  tags: [paid]
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: Microservices Security in Action
+  url: https://www.manning.com/books/microservices-security-in-action
+  description: Prabath Siriwardena and Nuwan Dias apply OAuth, JWT, and mTLS to service-to-service calls, API gateways, and Kubernetes deployments.
+  tags: [paid]
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: Spring Security in Action
+  url: https://www.manning.com/books/spring-security-in-action-second-edition
+  description: Laurentiu Spilca's second edition covers authentication, authorization, and OAuth 2 and OpenID Connect resource servers and clients in Spring.
+  tags: [paid]
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: Zero Trust Networks
+  url: https://www.oreilly.com/library/view/zero-trust-networks/9781492096580/
+  description: Second edition by Razi Rais, Christina Morillo, Evan Gilman, and Doug Barth on building trust from device, user, and workload identity instead of the network.
+  tags: [paid]
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: Identity and Data Security for Web Development
+  url: https://www.oreilly.com/library/view/identity-and-data/9781491937006/
+  description: Jonathan LeBlanc and Tim Messerschmidt cover password hashing, OAuth 2, OpenID Connect, and multifactor login for web developers (O'Reilly, 2016).
+  tags: [paid]
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: Hacking Multifactor Authentication
+  url: https://www.wiley.com/en-us/Hacking+Multifactor+Authentication-p-9781119650799
+  description: Roger Grimes catalogs ways MFA gets bypassed, from SIM swaps and phishing proxies to recovery flows, and how to choose sturdier factors.
+  tags: [paid]
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: Security Engineering
+  url: https://www.cl.cam.ac.uk/archive/rja14/book.html
+  description: Ross Anderson's textbook, with chapters on authentication protocols, access control, usability, and biometrics free to download from Cambridge.
+  tags: [free]
+  added: 2026-11-10
+  verified: 2026-11-10

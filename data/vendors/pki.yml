@@ -1,0 +1,56 @@
+- name: AppViewX
+  url: https://www.appviewx.com/
+  description: "Certificate lifecycle automation and PKI as a service, including post-quantum readiness tooling."
+  tags: [commercial]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: DigiCert
+  url: https://www.digicert.com/
+  description: "Public certificate authority and certificate lifecycle management for TLS, code signing, document signing, and IoT."
+  tags: [commercial]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: GlobalSign
+  url: https://www.globalsign.com/en
+  description: "Public certificate authority offering TLS, S/MIME, code signing, and managed PKI services."
+  tags: [commercial]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: HID PKI-as-a-Service
+  url: https://www.hidglobal.com/solutions/pki-iot-security/pkiaas
+  description: "Managed private PKI from HID Global, providing dedicated issuing CAs or a private root for devices and users."
+  tags: [commercial]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: Keyfactor
+  url: https://www.keyfactor.com/
+  description: "Certificate lifecycle management and PKI software, including the EJBCA certificate authority and code signing."
+  tags: [commercial]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: Next-Gen Trust Security
+  url: https://www.paloaltonetworks.com/network-security/next-gen-trust-security
+  description: "Machine identity and certificate lifecycle management from Palo Alto Networks, formerly Venafi."
+  tags: [commercial]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: Sectigo
+  url: https://www.sectigo.com/
+  description: "Public certificate authority with certificate lifecycle management for TLS, S/MIME, and private PKI."
+  tags: [commercial]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: Smallstep
+  url: https://smallstep.com/
+  description: "Private CA and device identity platform built on the open-source step-ca, issuing certificates for devices and workloads."
+  tags: [oss]
+  added: 2026-11-10
+  verified: 2026-11-10
+

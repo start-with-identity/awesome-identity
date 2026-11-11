@@ -1,0 +1,20 @@
+# Link checker settings, used by .github/workflows/links.yml
+
+max_retries = 3
+retry_wait_time = 5
+timeout = 30
+max_concurrency = 16
+user_agent = "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0 Safari/537.36"
+
+# 403 and 429 usually mean bot protection or rate limiting, not a dead page.
+accept = ["200..=299", "403", "429"]
+
+exclude = [
+  # Sites that block automated requests outright
+  "^https://(www\\.)?linkedin\\.com",
+  "^https://(www\\.)?x\\.com",
+  "^https://(www\\.)?twitter\\.com",
+  "^https://(www\\.)?iso\\.org",
+  # Prefilled issue links in the docs
+  "^https://github\\.com/start-with-identity/awesome-identity/issues/new",
+]

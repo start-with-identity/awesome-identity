@@ -1,0 +1,70 @@
+- name: Aembit
+  url: https://aembit.io/
+  description: "Workload and AI agent access management that issues short-lived credentials based on policy instead of stored secrets."
+  tags: [freemium]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: Andromeda Security
+  url: https://www.andromedasecurity.com/
+  description: "Identity security and governance for human, non-human, and AI agent identities across cloud and SaaS environments."
+  tags: [commercial]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: Clutch Security
+  url: https://www.clutch.security/
+  description: "Discovers and governs non-human identities, AI agents, and secrets across cloud, SaaS, and on-premises systems."
+  tags: [commercial]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: Corsha
+  url: https://corsha.com/
+  description: "Identity provider for machines that authenticates API and machine-to-machine traffic in cloud and industrial settings."
+  tags: [commercial]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: Defakto
+  url: https://www.defakto.security/
+  description: "Workload identity platform, formerly SPIRL, that issues short-lived SPIFFE-based credentials to services and AI agents."
+  tags: [commercial]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: Oasis Security
+  url: https://www.oasis.security/
+  description: "Inventory, posture, and lifecycle management for non-human identities and AI agents, operating as part of Cyera."
+  tags: [commercial]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: P0 Security
+  url: https://p0.dev/
+  description: "Runtime access control and just-in-time permissions for AI agents, workloads, and human users across cloud infrastructure."
+  tags: [commercial]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: SlashID
+  url: https://www.slashid.dev/
+  description: "Maps AI agents, workloads, and people on one identity graph for posture management, threat detection, and access governance."
+  tags: [commercial]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: Token Security
+  url: https://www.token.security/
+  description: "Discovery and lifecycle governance for AI agents and non-human identities such as service accounts and API keys."
+  tags: [commercial]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: Whiteswan Security
+  url: https://www.whiteswansecurity.com/
+  description: "Runtime authorization that grants just-in-time access to identities ranging from Active Directory accounts to AI agents using MCP."
+  tags: [commercial]
+  added: 2026-11-10
+  verified: 2026-11-10
+

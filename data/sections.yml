@@ -1,0 +1,167 @@
+# Order here is the order in README.md and VENDORS.md.
+# Each section id maps to data/entries/<id>.yml (or data/vendors/<id>.yml for the vendor directory).
+# A section with no entries is left out of the generated output until someone fills it.
+
+parts:
+  - title: Standards and Specifications
+    intro: Primary sources. Links point at the published spec, not at summaries of it.
+    tags: false
+    sections:
+      - id: oauth-and-openid-connect
+        title: OAuth and OpenID Connect
+      - id: tokens-and-keys
+        title: Tokens and Keys
+      - id: federation-and-provisioning
+        title: Federation, Directory, and Provisioning
+      - id: authentication-and-passkeys
+        title: Authentication and Passkeys
+      - id: shared-signals
+        title: Shared Signals and Session Events
+      - id: digital-credentials
+        title: Digital Credentials and Wallets
+      - id: high-assurance-profiles
+        title: High-Assurance Profiles
+
+  - title: Guidance and Reference
+    intro: Government guidance, regulation, and reference material that shapes how identity systems are built and audited.
+    tags: false
+    sections:
+      - id: government-guidance
+        title: Government and Regulatory Guidance
+      - id: reference-models
+        title: Glossaries and Reference Models
+
+  - title: Open Source
+    intro: Projects under an OSI-approved license with a commit or release in the last 12 months, unless tagged `Archived`.
+    sections:
+      - id: identity-providers
+        title: Identity Providers and Auth Servers
+      - id: libraries-javascript
+        title: Libraries for JavaScript and TypeScript
+      - id: libraries-python
+        title: Libraries for Python
+      - id: libraries-go
+        title: Libraries for Go
+      - id: libraries-java
+        title: Libraries for Java and Kotlin
+      - id: libraries-dotnet
+        title: Libraries for .NET
+      - id: libraries-rust
+        title: Libraries for Rust
+      - id: libraries-php
+        title: Libraries for PHP
+      - id: libraries-ruby
+        title: Libraries for Ruby
+      - id: libraries-mobile
+        title: Libraries for Mobile
+      - id: passkeys-and-webauthn
+        title: Passkeys and WebAuthn
+      - id: authorization-engines
+        title: Authorization Engines and Policy
+      - id: directory-and-provisioning
+        title: Directory and Provisioning
+      - id: secrets-and-workload-identity
+        title: Secrets and Workload Identity
+      - id: privileged-access
+        title: Privileged Access and Session Tooling
+      - id: decentralized-identity-tools
+        title: Decentralized Identity Tooling
+      - id: developer-tools
+        title: Testing and Developer Tools
+
+  - title: Security Research
+    intro: Offensive tooling is listed for authorized assessment only. Breach write-ups link to primary sources where they exist.
+    sections:
+      - id: assessment-tools
+        title: Assessment and Attack Tooling
+      - id: detection
+        title: Detection and Threat Hunting
+      - id: hardening
+        title: Hardening Guides and Benchmarks
+      - id: breach-analyses
+        title: Breach Analyses and Incident Write-ups
+      - id: threat-reports
+        title: Threat and Industry Reports
+
+  - title: Vendor Directory
+    intro: Commercial products, one category each, alphabetical, one neutral sentence per vendor. The full directory with every vendor lives in VENDORS.md to keep this page readable.
+    output: vendors
+    sections:
+      - id: workforce-iam
+        title: Workforce IAM
+        summary: Single sign-on, directory, and access management for employees.
+      - id: ciam
+        title: Customer Identity (CIAM)
+        summary: Sign-up, login, and profile management for customer-facing apps.
+      - id: mfa-and-passwordless
+        title: MFA and Passwordless
+        summary: Second factors, hardware keys, and passwordless sign-in.
+      - id: pam
+        title: Privileged Access Management
+        summary: Vaulting, brokering, and recording of privileged sessions.
+      - id: iga
+        title: Identity Governance and Administration
+        summary: Access requests, certifications, and lifecycle automation.
+      - id: itdr
+        title: Identity Threat Detection and Response
+        summary: Detection of attacks against identity infrastructure and accounts.
+      - id: ciem
+        title: Cloud Entitlements (CIEM)
+        summary: Discovery and right-sizing of cloud permissions.
+      - id: secrets-management
+        title: Secrets Management
+        summary: Storage, rotation, and delivery of credentials and keys.
+      - id: machine-identity
+        title: Machine, Workload, and AI Agent Identity
+        summary: Identity and access for services, workloads, and AI agents.
+      - id: authorization
+        title: Authorization
+        summary: Hosted and managed fine-grained authorization services.
+      - id: identity-verification
+        title: Identity Verification
+        summary: Document checks, biometrics, and KYC onboarding.
+      - id: decentralized-identity
+        title: Decentralized Identity
+        summary: Verifiable credential issuance, wallets, and verification.
+      - id: pki
+        title: PKI and Certificate Lifecycle
+        summary: Certificate authorities and certificate lifecycle management.
+      - id: password-management
+        title: Password Management
+        summary: Password managers for individuals and teams.
+      - id: zero-trust-access
+        title: Zero Trust Access
+        summary: Identity-aware access to private apps and infrastructure.
+
+  - title: Learning
+    sections:
+      - id: books
+        title: Books
+      - id: courses-and-certifications
+        title: Courses and Certifications
+      - id: blogs-and-newsletters
+        title: Blogs and Newsletters
+      - id: podcasts
+        title: Podcasts
+      - id: videos-and-talks
+        title: Videos and Talks
+      - id: learning-paths
+        title: Learning Paths
+        type: paths
+      - id: careers
+        title: Careers
+
+  - title: Community
+    sections:
+      - id: conferences
+        title: Conferences and Events
+      - id: communities
+        title: Communities and Organizations
+      - id: people
+        title: People to Follow
+        intro: People with a public body of identity work such as specs, books, talks, or open source. Anyone listed can ask to be removed and it will be done without discussion.
+
+  - title: Data and Datasets
+    sections:
+      - id: datasets
+        title: Datasets and Trackers

@@ -1,0 +1,110 @@
+- name: SimpleWebAuthn
+  url: https://simplewebauthn.dev/
+  repo: https://github.com/MasterKale/SimpleWebAuthn
+  description: TypeScript packages for browsers and Node.js that run passkey registration and authentication ceremonies and verify attestation.
+  language: TypeScript
+  tags: [oss]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: webauthn-rs
+  url: https://github.com/kanidm/webauthn-rs
+  description: Rust relying party implementation from the Kanidm project, with opinionated APIs for passkeys, security keys, and attested credentials.
+  language: Rust
+  tags: [oss]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: py_webauthn
+  url: https://duo-labs.github.io/py_webauthn/
+  repo: https://github.com/duo-labs/py_webauthn
+  description: Duo Labs helpers for generating WebAuthn options and verifying registration and authentication responses on a Python server.
+  language: Python
+  tags: [oss]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: go-webauthn
+  url: https://github.com/go-webauthn/webauthn
+  description: Go relying party library that grew out of the original Duo Labs code, handling passkey login and the common attestation formats.
+  language: Go
+  tags: [oss]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: WebAuthn4J
+  url: https://webauthn4j.github.io/webauthn4j/en/
+  repo: https://github.com/webauthn4j/webauthn4j
+  description: Java library for parsing and verifying WebAuthn and CTAP2 attestation and assertion data, with a separate Spring Security module.
+  language: Java
+  tags: [oss]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: java-webauthn-server
+  url: https://developers.yubico.com/java-webauthn-server/
+  repo: https://github.com/Yubico/java-webauthn-server
+  description: Yubico relying party library for the JVM, including an attestation module that can resolve trust through the FIDO Metadata Service.
+  language: Java
+  tags: [oss]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: FIDO2 .NET Library
+  url: https://github.com/passwordless-lib/fido2-net-lib
+  description: Server-side WebAuthn validation for .NET apps, covering the standard attestation formats and FIDO Metadata Service lookups.
+  language: C#
+  tags: [oss]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: WebAuthn Framework
+  url: https://docs.spomky-labs.com/webauthn/
+  repo: https://github.com/web-auth/webauthn-framework
+  description: PHP library plus Symfony bundle for registering and verifying passkeys, with attestation statement and metadata service support.
+  language: PHP
+  tags: [oss]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: webauthn-ruby
+  url: https://github.com/cedarcode/webauthn-ruby
+  description: Ruby gem for WebAuthn relying party operations that works in Rails or any Rack app to add passkey and security key sign-in.
+  language: Ruby
+  tags: [oss]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: libfido2
+  url: https://developers.yubico.com/libfido2/
+  repo: https://github.com/Yubico/libfido2
+  description: C library and command-line utilities for talking to FIDO2 and U2F authenticators, and the code OpenSSH uses for security keys.
+  language: C
+  tags: [oss]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: python-fido2
+  url: https://developers.yubico.com/python-fido2/
+  repo: https://github.com/Yubico/python-fido2
+  description: Yubico package covering both sides of FIDO2 in Python, talking CTAP to authenticators and verifying WebAuthn on the server.
+  language: Python
+  tags: [oss]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: OpenSK
+  url: https://github.com/google/OpenSK
+  description: Security key firmware written in Rust by Google, implementing FIDO U2F and CTAP2 on Nordic nRF52840 boards and dongles.
+  language: Rust
+  tags: [oss]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: virtualwebauthn
+  url: https://github.com/descope/virtualwebauthn
+  description: Go helpers from Descope that emulate an authenticator so WebAuthn registration and login can be exercised in automated tests.
+  language: Go
+  tags: [oss]
+  added: 2026-11-10
+  verified: 2026-11-10

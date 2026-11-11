@@ -1,0 +1,83 @@
+- name: Cisco Duo Trusted Access Report
+  url: https://resources.duo.com/explore/assets/2024-duo-trusted-access-report
+  description: Report built on Duo authentication telemetry that tracks MFA usage, bypass methods, and device trust patterns.
+  tags: [free]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: CrowdStrike Global Threat Report
+  url: https://www.crowdstrike.com/en-us/global-threat-report/
+  description: Yearly adversary report from CrowdStrike covering malware-free intrusions, credential abuse, and cloud and identity attacks; download is form-gated.
+  tags: [free]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: ENISA Threat Landscape
+  url: https://www.enisa.europa.eu/topics/cyber-threats/threat-landscape
+  description: EU cybersecurity agency's yearly assessment of threats, actors, and trends across Europe, plus sector-specific editions.
+  tags: [free, gov]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: FIDO Passkey Index
+  url: https://fidoalliance.org/passkey-index/
+  description: FIDO Alliance benchmark compiled from large service providers that tracks passkey eligibility, sign-in share, and success rates.
+  tags: [free]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: IBM Cost of a Data Breach Report
+  url: https://www.ibm.com/reports/data-breach
+  description: Yearly study of breach costs and time to contain, broken down by initial attack vector, industry, and region.
+  tags: [free]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: Mandiant M-Trends
+  url: https://cloud.google.com/security/resources/m-trends
+  description: Yearly findings from Mandiant incident response engagements, including dwell time, initial infection vectors, and stolen credential use.
+  tags: [free]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: Microsoft Digital Defense Report
+  url: https://www.microsoft.com/en-us/corporate-responsibility/cybersecurity/microsoft-digital-defense-report-2025/
+  description: Microsoft's yearly threat landscape report drawing on its telemetry, with sections on identity attacks, password spray, and token theft.
+  tags: [free]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: Okta Businesses at Work
+  url: https://www.okta.com/reports/businesses-at-work/
+  description: Yearly report from Okta sign-in data on which apps organizations deploy and how MFA factor adoption is changing.
+  tags: [free]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: Red Canary Threat Detection Report
+  url: https://redcanary.com/threat-detection-report/
+  description: Yearly ranking of the ATT&CK techniques and threats Red Canary detected most, with detection guidance for each, including identity and cloud.
+  tags: [free]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: SpyCloud Identity Exposure Report
+  url: https://spycloud.com/resource/report/spycloud-annual-identity-exposure-report-2026/
+  description: Yearly analysis of recaptured breach, phishing, and infostealer data, with figures on exposed credentials, session cookies, and API keys.
+  tags: [free]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: Thales Digital Trust Index
+  url: https://cpl.thalesgroup.com/digital-trust-index
+  description: Consumer survey from Thales on trust in digital services, sharing personal data, and attitudes toward login and authentication.
+  tags: [free]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: Verizon Data Breach Investigations Report
+  url: https://www.verizon.com/business/resources/reports/dbir/
+  description: Yearly breach dataset analysis that breaks down how credentials, phishing, and the human element figure in confirmed breaches.
+  tags: [free]
+  added: 2026-11-10
+  verified: 2026-11-10

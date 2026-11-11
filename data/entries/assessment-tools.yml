@@ -1,0 +1,177 @@
+- name: AADInternals
+  url: https://aadinternals.com/aadinternals/
+  repo: https://github.com/Gerenios/AADInternals
+  description: PowerShell module for researching Entra ID and Microsoft 365 internals such as federation, pass-through auth, and tokens; no commits since September 2025.
+  tags: [oss, archived]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: AzureHound
+  url: https://github.com/SpecterOps/AzureHound
+  description: Collector that pulls Entra ID and Azure Resource Manager objects and permissions into BloodHound for attack path analysis.
+  tags: [oss]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: BloodHound Community Edition
+  url: https://github.com/SpecterOps/BloodHound
+  description: Attack path analysis that graphs Active Directory and Entra ID relationships to show how an account can reach privileged access.
+  tags: [oss]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: BloodHound.py
+  url: https://github.com/dirkjanm/BloodHound.py
+  description: Python ingestor for BloodHound that collects Active Directory data over LDAP and SMB from non-Windows hosts.
+  tags: [oss]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: Certify
+  url: https://github.com/GhostPack/Certify
+  description: C# tool from GhostPack that enumerates AD CS templates and certificate authorities and requests certificates to test escalation paths.
+  tags: [oss]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: Certipy
+  url: https://github.com/ly4k/Certipy
+  description: Python tool for finding and abusing Active Directory Certificate Services misconfigurations across the documented ESC escalation paths.
+  tags: [oss]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: Cloudsplaining
+  url: https://github.com/salesforce/cloudsplaining
+  description: AWS IAM assessment that flags least-privilege violations, including privilege escalation and data exfiltration actions, in a risk-ranked report.
+  tags: [oss]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: Coercer
+  url: https://github.com/p0dalirius/Coercer
+  description: Python script that tests whether Windows servers can be forced to authenticate to another host through a dozen MS-RPC methods.
+  tags: [oss]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: EntraFalcon
+  url: https://github.com/CompassSecurity/EntraFalcon
+  description: PowerShell tool that enumerates Entra ID users, groups, apps, and role assignments to surface privileged objects and risky grants.
+  tags: [oss]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: GraphRunner
+  url: https://github.com/dafthack/GraphRunner
+  description: Post-exploitation toolset for Microsoft Graph that enumerates permissions, searches mail and files, and tests OAuth app injection.
+  tags: [oss]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: Impacket
+  url: https://github.com/fortra/impacket
+  description: Python classes and example scripts for SMB, MSRPC, LDAP, and Kerberos, used widely for Active Directory credential and relay testing.
+  tags: [oss]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: jwt_tool
+  url: https://github.com/ticarpi/jwt_tool
+  description: Python toolkit for testing JSON Web Tokens against signature bypass, key confusion, claim tampering, and weak secrets; inactive since 2025.
+  tags: [oss, archived]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: Kerbrute
+  url: https://github.com/ropnop/kerbrute
+  description: Go utility that enumerates valid Active Directory usernames and tests passwords via Kerberos pre-authentication; last updated in 2024.
+  tags: [oss, archived]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: krbrelayx
+  url: https://github.com/dirkjanm/krbrelayx
+  description: Toolkit for Kerberos relaying and unconstrained delegation abuse, with helper scripts for adding DNS records and SPNs in Active Directory.
+  tags: [oss]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: Locksmith
+  url: https://github.com/jakehildreth/Locksmith
+  description: PowerShell script that finds and optionally fixes common AD CS misconfigurations; source available under a Commons Clause license.
+  tags: [free]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: Maester
+  url: https://maester.dev/
+  repo: https://github.com/maester365/maester
+  description: Pester-based test framework that checks Entra ID and Microsoft 365 configuration against security baselines on a schedule.
+  tags: [oss]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: MFASweep
+  url: https://github.com/dafthack/MFASweep
+  description: PowerShell script that signs in to Microsoft services over several protocols to find where an account is not prompted for MFA.
+  tags: [oss]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: Monkey365
+  url: https://github.com/silverhack/monkey365
+  description: PowerShell assessment of Microsoft 365, Azure, and Entra ID configuration against CIS benchmarks and other baselines.
+  tags: [oss]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: PingCastle
+  url: https://www.pingcastle.com/
+  repo: https://github.com/netwrix/pingcastle
+  description: Active Directory risk assessment that scores privileged groups, trusts, and stale objects; free Community Edition with paid tiers.
+  tags: [oss]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: PMapper
+  url: https://github.com/nccgroup/PMapper
+  description: Graphs AWS IAM principals and policies to find privilege escalation paths and answer who can perform an action; last updated in 2024.
+  tags: [oss, archived]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: Purple Knight
+  url: https://www.semperis.com/purple-knight/
+  description: Free scanner from Semperis that checks Active Directory, Entra ID, and Okta for indicators of exposure and compromise.
+  tags: [free]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: ROADtools
+  url: https://github.com/dirkjanm/ROADtools
+  description: Framework for exploring Microsoft Entra ID, including roadrecon for dumping tenant data and roadtx for token and device registration workflows.
+  tags: [oss]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: Rubeus
+  url: https://github.com/GhostPack/Rubeus
+  description: C# toolkit for Kerberos interaction and abuse, covering ticket requests, roasting, delegation, and pass-the-ticket testing.
+  tags: [oss]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: SAML Raider
+  url: https://github.com/PortSwigger/saml-raider
+  description: Burp Suite extension for intercepting and editing SAML messages, with XML signature wrapping attacks and certificate cloning.
+  tags: [oss]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: TokenTacticsV2
+  url: https://github.com/f-bader/TokenTacticsV2
+  description: PowerShell module for requesting and refreshing Entra ID tokens for first-party clients, forked from TokenTactics with CAE support.
+  tags: [oss]
+  added: 2026-11-10
+  verified: 2026-11-10

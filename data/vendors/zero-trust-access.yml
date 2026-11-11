@@ -1,0 +1,91 @@
+- name: Appgate
+  url: https://www.appgate.com/
+  description: "Zero trust network access built on a software-defined perimeter model, deployable on premises or as a service."
+  tags: [commercial]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: Cato Networks
+  url: https://www.catonetworks.com/
+  description: "SASE service combining SD-WAN, ZTNA, secure web gateway, and firewall functions on a global private backbone."
+  tags: [commercial]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: Check Point SASE
+  url: https://sase.checkpoint.com/
+  description: "Cloud-delivered network security and private app access, formerly Perimeter 81 and Harmony SASE."
+  tags: [commercial]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: Cisco Secure Access
+  url: https://www.cisco.com/site/us/en/products/security/secure-access/index.html
+  description: "Cisco security service edge providing ZTNA, secure web gateway, and CASB for users and devices."
+  tags: [commercial]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: Cloudflare Zero Trust
+  url: https://www.cloudflare.com/sase/
+  description: "Identity-aware access to private apps, secure web gateway, and CASB running on the Cloudflare network."
+  tags: [freemium]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: Illumio
+  url: https://www.illumio.com/
+  description: "Microsegmentation that maps application traffic and enforces workload-level policies to contain breaches."
+  tags: [commercial]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: Netskope One Private Access
+  url: https://www.netskope.com/products/private-access
+  description: "ZTNA service from Netskope that connects users to private applications without exposing them to the internet."
+  tags: [commercial]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: Prisma Access
+  url: https://www.paloaltonetworks.com/sase/access
+  description: "Cloud-delivered SASE from Palo Alto Networks covering ZTNA, secure web gateway, and firewall as a service."
+  tags: [commercial]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: SonicWall Cloud Secure Edge
+  url: https://www.sonicwall.com/products/cloud-edge-secure-access
+  description: "ZTNA service from SonicWall, formerly Banyan Security, for access to private apps and infrastructure."
+  tags: [commercial]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: Tailscale
+  url: https://tailscale.com/
+  description: "WireGuard-based mesh network with identity-based access controls for devices, servers, and private services."
+  tags: [freemium]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: Twingate
+  url: https://www.twingate.com/
+  description: "Zero trust network access that replaces VPNs with per-resource connections authorized by identity and device posture."
+  tags: [freemium]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: Zero Networks
+  url: https://zeronetworks.com/
+  description: "Network microsegmentation and identity segmentation with MFA-gated just-in-time access to ports and protocols."
+  tags: [commercial]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: Zscaler Private Access
+  url: https://www.zscaler.com/products-and-solutions/zscaler-private-access
+  description: "ZTNA service from Zscaler that brokers user-to-app connections to private applications through its cloud."
+  tags: [commercial]
+  added: 2026-11-10
+  verified: 2026-11-10
+

@@ -1,0 +1,105 @@
+- name: New to Identity
+  description: For people moving in from IT, help desk, or general security who need the vocabulary and the shape of the core protocols first.
+  steps:
+    - name: "Introduction to Security, Compliance, and Identity Concepts"
+      url: https://learn.microsoft.com/en-us/training/paths/describe-concepts-of-security-compliance-identity/
+      description: Free Microsoft Learn modules that define authentication, authorization, identity providers, and federation in plain terms.
+    - name: "Auth0 Identity Fundamentals"
+      url: https://auth0.com/docs/get-started/identity-fundamentals
+      description: Short primers on what IAM covers and why authentication and authorization are separate problems.
+    - name: "OAuth 2.0 and OpenID Connect (in plain English)"
+      url: https://www.youtube.com/watch?v=996OiexHze0
+      description: One-hour talk that explains delegated access, the authorization code flow, and where OIDC adds login on top.
+    - name: "OWASP Authentication Cheat Sheet"
+      url: https://cheatsheetseries.owasp.org/cheatsheets/Authentication_Cheat_Sheet.html
+      description: Covers login error messages, password rules, account lockout, and re-authentication in one page.
+    - name: "OWASP Multifactor Authentication Cheat Sheet"
+      url: https://cheatsheetseries.owasp.org/cheatsheets/Multifactor_Authentication_Cheat_Sheet.html
+      description: Compares factor types, explains which resist phishing, and lists recovery pitfalls to avoid.
+    - name: "NIST SP 800-63-4 Digital Identity Guidelines"
+      url: https://pages.nist.gov/800-63-4/sp800-63.html
+      description: Read the base volume to learn identity, authenticator, and federation assurance levels used in audits and contracts.
+    - name: "passkeys.dev"
+      url: https://passkeys.dev/
+      description: Explains what passkeys are, how syncing works across devices, and which platforms support which features.
+
+- name: Application Developer
+  description: For engineers adding login, API authorization, or passkeys to an app who want to get the protocol details right the first time.
+  steps:
+    - name: "OAuth 2.0 Simplified"
+      url: https://www.oauth.com/
+      description: Free online book that walks through client types, grants, tokens, and server design before you read the specs.
+    - name: "OAuth 2.1 draft"
+      url: https://datatracker.ietf.org/doc/draft-ietf-oauth-v2-1/
+      description: Read this instead of RFC 6749 alone, since it folds in PKCE everywhere and drops the implicit and password grants.
+    - name: "OpenID Connect Core 1.0"
+      url: https://openid.net/specs/openid-connect-core-1_0.html
+      description: Focus on ID token validation, nonce handling, and the authorization code flow sections.
+    - name: "RFC 9700: Best Current Practice for OAuth 2.0 Security"
+      url: https://datatracker.ietf.org/doc/html/rfc9700
+      description: The attack list every client and server should be checked against, from code injection to mix-up attacks.
+    - name: "RFC 8725: JSON Web Token Best Current Practices"
+      url: https://datatracker.ietf.org/doc/html/rfc8725
+      description: Rules for algorithm verification, audience and issuer checks, and avoiding token confusion across JWT uses.
+    - name: "RFC 10017: OAuth 2.0 for Browser-Based Applications"
+      url: https://datatracker.ietf.org/doc/rfc10017/
+      description: Compares backend-for-frontend, token-mediating backend, and pure browser client designs for single-page apps.
+    - name: "OWASP Session Management Cheat Sheet"
+      url: https://cheatsheetseries.owasp.org/cheatsheets/Session_Management_Cheat_Sheet.html
+      description: Cookie flags, session ID handling, timeouts, and logout behavior for what happens after login succeeds.
+    - name: "Passkeys with Form Autofill Codelab"
+      url: https://developers.google.com/codelabs/passkey-form-autofill
+      description: Hands-on exercise adding passkey registration and conditional UI sign-in to a sample web app.
+
+- name: Security Engineer
+  description: For defenders and testers who need to understand how identity systems are attacked and what the evidence of each attack looks like.
+  steps:
+    - name: "MITRE ATT&CK Credential Access Tactic"
+      url: https://attack.mitre.org/tactics/TA0006/
+      description: Map the techniques attackers use to steal and forge credentials, with detection and mitigation notes per technique.
+    - name: "Web Security Academy: OAuth 2.0 Authentication Vulnerabilities"
+      url: https://portswigger.net/web-security/oauth
+      description: Exploit redirect_uri, state, and implicit flow flaws in free labs to see why the specs insist on each check.
+    - name: "Web Security Academy: JWT Attacks"
+      url: https://portswigger.net/web-security/jwt
+      description: Labs on signature bypasses and header injection that show what weak token validation lets an attacker do.
+    - name: "Attacking Microsoft Kerberos, Kicking the Guard Dog of Hades"
+      url: https://www.youtube.com/watch?v=PUyhlN-E5MU
+      description: The DerbyCon talk that introduced Kerberoasting; a good entry point to ticket-based Active Directory attacks.
+    - name: "Six Degrees of Domain Admin"
+      url: https://www.youtube.com/watch?v=wP8ZCczC1OU
+      description: Learn how attack path graphs over AD group membership and sessions turn small footholds into domain admin.
+    - name: "Certified Pre-Owned"
+      url: https://specterops.io/blog/2021/06/17/certified-pre-owned/
+      description: SpecterOps research on AD CS misconfigurations, with the ESC escalation classes defenders still audit against.
+    - name: "I'm In Your Cloud: Pwning Your Azure Environment"
+      url: https://www.youtube.com/watch?v=xei8lAPitX8
+      description: Moves the same thinking into Entra ID, covering hybrid sync accounts, app permissions, and tenant privilege paths.
+    - name: "Securing Privileged Access: Enterprise Access Model"
+      url: https://learn.microsoft.com/en-us/security/privileged-access-workstations/privileged-access-access-model
+      description: Microsoft's model for separating control, management, and data planes, useful when turning findings into fixes.
+
+- name: Identity Architect
+  description: For people designing identity across many applications and organizations, where assurance, federation, and lifecycle choices last for years.
+  steps:
+    - name: "NIST SP 800-63-4 Digital Identity Guidelines"
+      url: https://pages.nist.gov/800-63-4/sp800-63.html
+      description: Use the risk management process and assurance levels to decide how strong proofing, authentication, and federation must be.
+    - name: "NIST SP 800-207 Zero Trust Architecture"
+      url: https://csrc.nist.gov/pubs/sp/800/207/final
+      description: Defines policy decision and enforcement points, which helps place the identity provider within a wider access design.
+    - name: "RFC 7644: SCIM Protocol"
+      url: https://datatracker.ietf.org/doc/html/rfc7644
+      description: The standard API for provisioning users and groups across systems; read alongside your joiner, mover, leaver process.
+    - name: "FAPI 2.0 Security Profile"
+      url: https://openid.net/specs/fapi-security-profile-2_0-final.html
+      description: A worked example of a high-assurance OAuth profile combining PAR, PKCE, and sender-constrained tokens.
+    - name: "OpenID Shared Signals Framework"
+      url: https://openid.net/specs/openid-sharedsignals-framework-1_0-final.html
+      description: How identity providers and apps exchange session revocation and risk events so access decisions keep updating after login.
+    - name: "W3C Verifiable Credentials Data Model 2.0"
+      url: https://www.w3.org/TR/vc-data-model-2.0/
+      description: The data model for issuer, holder, and verifier roles that wallet-based identity programs are built on.
+    - name: "OpenID for Verifiable Presentations 1.0"
+      url: https://openid.net/specs/openid-4-verifiable-presentations-1_0.html
+      description: The protocol a verifier uses to request credentials from a wallet, now referenced by government wallet programs.

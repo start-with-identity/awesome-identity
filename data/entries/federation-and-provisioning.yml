@@ -1,0 +1,132 @@
+- name: SAML 2.0 Technical Overview
+  url: https://docs.oasis-open.org/security/saml/Post2.0/sstc-saml-tech-overview-2.0.html
+  description: OASIS document that walks through SAML assertions, protocols, bindings, and profiles with example flows, before you open the normative specs.
+  tags: [standard]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: "SAML 2.0 Core: Assertions and Protocols"
+  url: https://docs.oasis-open.org/security/saml/v2.0/saml-core-2.0-os.pdf
+  description: Normative OASIS text for assertions, subject confirmation, conditions, and the AuthnRequest and logout protocol messages.
+  tags: [standard]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: "SAML 2.0 Bindings"
+  url: https://docs.oasis-open.org/security/saml/v2.0/saml-bindings-2.0-os.pdf
+  description: Maps SAML messages onto transports, including HTTP Redirect, HTTP POST, Artifact, and SOAP, with the signing rules for each.
+  tags: [standard]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: "SAML 2.0 Profiles"
+  url: https://docs.oasis-open.org/security/saml/v2.0/saml-profiles-2.0-os.pdf
+  description: Includes the Web Browser SSO profile that nearly every enterprise SAML integration follows, plus single logout and attribute profiles.
+  tags: [standard]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: "SAML 2.0 Metadata"
+  url: https://docs.oasis-open.org/security/saml/v2.0/saml-metadata-2.0-os.pdf
+  description: XML schema for describing identity providers and service providers, including endpoints, certificates, and NameID formats.
+  tags: [standard]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: SAML V2.0 Deployment Profile for Federation Interoperability (saml2int)
+  url: https://kantarainitiative.github.io/SAMLprofiles/saml2int.html
+  description: Narrows SAML options to a practical subset for SSO between organizations, covering metadata, signing, and algorithm requirements.
+  tags: [standard]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: "RFC 7522: SAML 2.0 Profile for OAuth 2.0 Client Authentication and Authorization Grants"
+  url: https://datatracker.ietf.org/doc/html/rfc7522
+  description: Lets a client present a SAML assertion at the token endpoint to get an OAuth access token or to authenticate itself.
+  tags: [standard]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: Web Services Federation Language (WS-Federation) 1.2
+  url: https://docs.oasis-open.org/wsfed/federation/v1.2/os/ws-federation-1.2-spec-os.html
+  description: OASIS federation protocol from the WS-* era, still found in ADFS and older Microsoft integrations, with passive browser sign-in.
+  tags: [standard]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: OpenID Federation 1.0
+  url: https://openid.net/specs/openid-federation-1_0.html
+  description: Trust chains of signed entity statements that let parties in a large federation discover and trust each other without bilateral setup.
+  tags: [standard]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: OpenID IPSIE Working Group
+  url: https://openid.net/wg/ipsie/
+  description: Working group writing interoperability profiles for enterprise SaaS covering SSO, provisioning, session control, and token revocation.
+  tags: [standard]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: "RFC 7643: System for Cross-domain Identity Management: Core Schema"
+  url: https://datatracker.ietf.org/doc/html/rfc7643
+  description: User, Group, and Enterprise User resource schemas for SCIM, along with attribute types, mutability, and the extension model.
+  tags: [standard]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: "RFC 7644: System for Cross-domain Identity Management: Protocol"
+  url: https://datatracker.ietf.org/doc/html/rfc7644
+  description: REST operations for creating, patching, filtering, and bulk-updating users and groups between an identity provider and an application.
+  tags: [standard]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: "RFC 9865: Cursor-Based Pagination of SCIM Resources"
+  url: https://datatracker.ietf.org/doc/html/rfc9865
+  description: Adds cursor-based pagination parameters to SCIM queries for services whose backends already page by cursor rather than by index.
+  tags: [standard]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: "RFC 9967: SCIM Profile for Security Event Tokens"
+  url: https://datatracker.ietf.org/doc/html/rfc9967
+  description: Defines SCIM security events carried as SETs for asynchronous change notification, plus an optional asynchronous request mode.
+  tags: [standard]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: "RFC 4511: Lightweight Directory Access Protocol (LDAP): The Protocol"
+  url: https://datatracker.ietf.org/doc/html/rfc4511
+  description: LDAPv3 wire protocol, with the bind, search, modify, and extended operations that Active Directory and OpenLDAP implement.
+  tags: [standard]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: "RFC 4513: LDAP Authentication Methods and Security Mechanisms"
+  url: https://datatracker.ietf.org/doc/html/rfc4513
+  description: Simple and SASL bind, StartTLS, and the anonymous and unauthenticated bind cases that often cause LDAP auth bypass bugs.
+  tags: [standard]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: "RFC 4120: The Kerberos Network Authentication Service (V5)"
+  url: https://datatracker.ietf.org/doc/html/rfc4120
+  description: Ticket-based protocol with the KDC, ticket-granting tickets, and service tickets, and the base of Active Directory domain authentication.
+  tags: [standard]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: "RFC 4556: Public Key Cryptography for Initial Authentication in Kerberos (PKINIT)"
+  url: https://datatracker.ietf.org/doc/html/rfc4556
+  description: Kerberos pre-authentication with certificates instead of passwords, the mechanism behind smart card logon to Windows domains.
+  tags: [standard]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: Federated Credential Management API (FedCM)
+  url: https://www.w3.org/TR/fedcm/
+  description: Browser API that mediates sign-in with an identity provider through a native prompt, replacing flows that relied on third-party cookies.
+  tags: [standard]
+  added: 2026-11-10
+  verified: 2026-11-10

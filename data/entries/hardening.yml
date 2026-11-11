@@ -1,0 +1,97 @@
+- name: AWS IAM Security Best Practices
+  url: https://docs.aws.amazon.com/IAM/latest/UserGuide/best-practices.html
+  description: AWS recommendations for federation, temporary credentials, root user protection, least privilege, and pruning unused access.
+  tags: [free]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: Best Practices for Securing Active Directory
+  url: https://learn.microsoft.com/en-us/windows-server/identity/ad-ds/plan/security-best-practices/best-practices-for-securing-active-directory
+  description: Microsoft guidance on reducing the Active Directory attack surface, protecting privileged groups, and monitoring for compromise.
+  tags: [free]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: CIS Microsoft 365 Foundations Benchmark
+  url: https://www.cisecurity.org/benchmark/microsoft_365
+  description: Consensus configuration benchmark covering Microsoft 365 and Entra ID settings, downloadable as a free PDF after registration.
+  tags: [free]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: CISA Secure Cloud Business Applications (SCuBA)
+  url: https://www.cisa.gov/resources-tools/services/secure-cloud-business-applications-scuba-project
+  description: CISA secure configuration baselines for Microsoft 365 and Google Workspace, including identity and Entra ID settings.
+  tags: [gov, free]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: Enterprise Access Model
+  url: https://learn.microsoft.com/en-us/security/privileged-access-workstations/privileged-access-access-model
+  description: Microsoft model that replaced the legacy AD tier model, separating control, management, data, and user access planes.
+  tags: [free]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: Google Cloud IAM Best Practices
+  url: https://docs.cloud.google.com/iam/docs/using-iam-securely
+  description: Google Cloud checklist for least-privilege roles, service account handling, policy management, and auditing IAM changes.
+  tags: [free]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: Google Workspace Security Checklist
+  url: https://knowledge.workspace.google.com/admin/security/security-checklist-for-medium-and-large-businesses-100-users
+  description: Admin checklist for Workspace tenants over 100 users, covering super admin protection, 2SV and security keys, and third-party app access.
+  tags: [free]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: Okta Admin Account Best Practices
+  url: https://support.okta.com/help/s/article/best-practices-for-securing-okta-workforce-identity-cloud-admin-accounts
+  description: Okta support article on locking down admin and service accounts in Workforce Identity Cloud, including session and sign-in policies.
+  tags: [free]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: Okta IDaaS STIG
+  url: https://sec.okta.com/articles/2026/02/okta-STIG-hardening-nhi/
+  description: Okta's notes on the DISA Okta IDaaS STIG, now at version 1.1 with checks for API tokens, network zones, and non-human identities.
+  tags: [free]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: Plan a Conditional Access Deployment
+  url: https://learn.microsoft.com/en-us/entra/identity/conditional-access/plan-conditional-access
+  description: Microsoft planning guide for designing, testing in report-only mode, and rolling out Entra Conditional Access policies.
+  tags: [free]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: ScubaGear
+  url: https://github.com/cisagov/ScubaGear
+  description: CISA PowerShell tool that checks a Microsoft 365 tenant, including Entra ID, against the SCuBA secure configuration baselines.
+  tags: [oss, gov]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: ScubaGoggles
+  url: https://github.com/cisagov/ScubaGoggles
+  description: CISA assessment tool and baselines that compare Google Workspace admin settings with SCuBA secure configuration guidance.
+  tags: [oss, gov]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: Securing Privileged Access
+  url: https://learn.microsoft.com/en-us/security/privileged-access-workstations/overview
+  description: Microsoft strategy for protecting privileged accounts, intermediaries, and admin workstations against credential theft.
+  tags: [free]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: Securing Privileged Access in Entra ID
+  url: https://learn.microsoft.com/en-us/entra/identity/role-based-access-control/security-planning
+  description: Staged roadmap for protecting Entra ID admin roles in hybrid and cloud tenants, from emergency accounts to PIM and phishing-resistant MFA.
+  tags: [free]
+  added: 2026-11-10
+  verified: 2026-11-10

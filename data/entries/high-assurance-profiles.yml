@@ -1,0 +1,63 @@
+- name: FAPI 2.0 Security Profile
+  url: https://openid.net/specs/fapi-security-profile-2_0-final.html
+  description: Hardened OAuth profile for open banking and other high-value APIs, requiring PAR, PKCE, and DPoP or mTLS sender-constrained tokens.
+  tags: [standard]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: FAPI 2.0 Message Signing
+  url: https://openid.net/specs/fapi-message-signing-2_0-final.html
+  description: Optional layer on top of the FAPI 2.0 Security Profile that signs requests, responses, and introspection results for non-repudiation.
+  tags: [standard]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: FAPI 2.0 Attacker Model
+  url: https://openid.net/specs/fapi-attacker-model-2_0-final.html
+  description: Formal list of attacker capabilities and security goals that the FAPI 2.0 profiles were analyzed against.
+  tags: [standard]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: "Financial-grade API Security Profile 1.0, Part 2: Advanced"
+  url: https://openid.net/specs/openid-financial-api-part-2-1_0.html
+  description: FAPI 1.0 Advanced, which uses signed request objects, hybrid flow or JARM, and mTLS, and is still mandated by several open banking regimes.
+  tags: [standard]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: JWT Secured Authorization Response Mode for OAuth 2.0 (JARM)
+  url: https://openid.net/specs/oauth-v2-jarm.html
+  description: Wraps the authorization response in a signed JWT so the client can verify where the code came from and that it was not altered.
+  tags: [standard]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: OpenID Connect for Identity Assurance 1.0
+  url: https://openid.net/specs/openid-connect-4-identity-assurance-1_0-final.html
+  description: How a provider returns verified_claims, telling a relying party which trust framework and evidence were used to check identity data.
+  tags: [standard]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: OpenID Identity Assurance Schema Definition 1.0
+  url: https://openid.net/specs/openid-ida-verified-claims-1_0-final.html
+  description: JSON schema for the verified_claims structure, including evidence types like documents and electronic records, reusable outside OIDC.
+  tags: [standard]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: International Government Assurance Profile (iGov) for OAuth 2.0
+  url: https://openid.net/specs/openid-igov-oauth2-1_0.html
+  description: Implementer's draft profiling OAuth 2.0 for government and citizen-facing services, with fixed client authentication and token rules.
+  tags: [standard]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: International Government Assurance Profile (iGov) for OpenID Connect
+  url: https://openid.net/specs/openid-igov-openid-connect-1_0.html
+  description: Draft OIDC profile for public sector identity, covering ID token contents, acr values, and claims handling across agencies.
+  tags: [standard]
+  added: 2026-11-10
+  verified: 2026-11-10
+

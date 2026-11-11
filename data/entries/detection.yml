@@ -1,0 +1,91 @@
+- name: Elastic Detection Rules
+  url: https://github.com/elastic/detection-rules
+  description: Rule set behind Elastic Security, with integration rules for Okta, Entra ID, Microsoft 365, and AWS under the Elastic License 2.0.
+  tags: [free]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: Hayabusa
+  url: https://github.com/Yamato-Security/hayabusa
+  description: Sigma-based threat hunting and timeline generator for Windows event logs, useful for spotting logon and Kerberos abuse on domain controllers.
+  tags: [oss]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: Hunting Queries and Detection Rules
+  url: https://github.com/Bert-JanP/Hunting-Queries-Detection-Rules
+  description: Community KQL queries for Defender XDR and Microsoft Sentinel, with sections on Entra ID, identity, and cloud app activity.
+  tags: [oss]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: Microsoft Entra Security Operations Guide
+  url: https://learn.microsoft.com/en-us/entra/architecture/security-operations-introduction
+  description: Microsoft guidance on which Entra ID user, privileged account, application, and device events to monitor and alert on.
+  tags: [free]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: Microsoft Incident Response Playbooks
+  url: https://learn.microsoft.com/en-us/security/operations/incident-response-playbooks
+  description: Step-by-step investigation guides from Microsoft for password spray, phishing, and app consent grant incidents.
+  tags: [free]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: Microsoft Sentinel Solution for Entra ID
+  url: https://github.com/Azure/Azure-Sentinel/tree/master/Solutions/Microsoft%20Entra%20ID
+  description: Analytic rules, workbooks, and playbooks in the Azure-Sentinel repository for Entra ID sign-in and audit logs.
+  tags: [oss]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: Microsoft-Extractor-Suite
+  url: https://github.com/invictus-ir/Microsoft-Extractor-Suite
+  description: PowerShell module from Invictus IR for collecting Microsoft 365 and Entra ID evidence such as unified audit and sign-in logs.
+  tags: [oss]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: MITRE ATT&CK Identity Provider Matrix
+  url: https://attack.mitre.org/matrices/enterprise/cloud/identityprovider/
+  description: ATT&CK matrix filtered to identity provider platforms, mapping techniques like valid accounts, MFA request generation, and token theft.
+  tags: [free]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: Okta Security Detection Catalog
+  url: https://github.com/okta/customer-detections
+  description: Detections, hunting queries, and System Log field notes published by Okta's incident response team for Okta customers.
+  tags: [oss]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: Panther Analysis
+  url: https://github.com/panther-labs/panther-analysis
+  description: Python detection rules for Panther, including rule packs for Okta, Auth0, Duo, OneLogin, Entra ID sign-ins, and Google Workspace.
+  tags: [oss]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: Sigma
+  url: https://github.com/SigmaHQ/sigma
+  description: Vendor-neutral detection rule format and community rules, with cloud folders for Azure, Microsoft 365, AWS, and GCP; rules under DRL 1.1.
+  tags: [free]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: Splunk Security Content
+  url: https://research.splunk.com/
+  repo: https://github.com/splunk/security_content
+  description: Analytic stories and detections from the Splunk Threat Research Team, searchable by ATT&CK technique and data source.
+  tags: [oss]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: Untitled Goose Tool
+  url: https://github.com/cisagov/untitledgoosetool
+  description: CISA incident response tool that exports Entra ID, Azure, and Microsoft 365 audit and sign-in data for offline review.
+  tags: [oss, gov]
+  added: 2026-11-10
+  verified: 2026-11-10

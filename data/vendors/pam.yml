@@ -1,0 +1,97 @@
+- name: Apono
+  url: https://www.apono.io
+  description: "Just-in-time access to cloud, database, and Kubernetes resources with automatic revocation; now part of 1Password."
+  tags: [commercial]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: ARCON
+  url: https://arconnet.com
+  description: "Privileged access management with credential vaulting, session monitoring, and just-in-time elevation for on-premises and cloud."
+  tags: [commercial]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: BeyondTrust
+  url: https://www.beyondtrust.com
+  description: "Privileged access products covering password and session management, endpoint privilege management, and remote support."
+  tags: [commercial]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: Delinea
+  url: https://delinea.com
+  description: "Privileged access platform with credential vaulting, server and cloud privilege control, and StrongDM infrastructure access."
+  tags: [commercial]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: Fudo Security
+  url: https://fudosecurity.com
+  description: "Privileged session monitoring and recording combined with credential management and just-in-time access."
+  tags: [commercial]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: HashiCorp Boundary
+  url: https://www.hashicorp.com/en/products/boundary
+  description: "Identity-based remote access to hosts, databases, and Kubernetes with session recording and credential injection, from IBM."
+  tags: [freemium]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: Idira
+  url: https://www.paloaltonetworks.com/idira
+  description: "Identity security platform from Palo Alto Networks, formerly CyberArk, centered on privileged access and session isolation."
+  tags: [commercial]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: Kron PAM
+  url: https://krontech.com/kron-pam
+  description: "Privileged access management suite from Kron with password vaulting, session management, and database access control."
+  tags: [commercial]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: ManageEngine PAM360
+  url: https://www.manageengine.com/privileged-access-management/
+  description: "Privileged access management from ManageEngine with password vaulting, session recording, and certificate management."
+  tags: [commercial]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: Netwrix Privilege Secure
+  url: https://netwrix.com/en/products/privilege-secure/
+  description: "Just-in-time privileged access that creates temporary accounts on demand and removes standing administrator rights."
+  tags: [commercial]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: Segura
+  url: https://segura.security
+  description: "Privileged access platform, formerly senhasegura, covering credential vaulting, session recording, and DevOps secrets."
+  tags: [commercial]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: Teleport
+  url: https://goteleport.com
+  description: "Infrastructure access for SSH, Kubernetes, databases, and internal apps using short-lived certificates and session recording."
+  tags: [oss]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: WALLIX
+  url: https://www.wallix.com
+  description: "Privileged access management covering session management, password vaulting, and remote access to OT environments."
+  tags: [commercial]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: Devolutions
+  url: https://devolutions.net/
+  description: Remote connection manager, password vault, and privileged access server for IT teams, sold as Remote Desktop Manager and Devolutions Server.
+  tags: [freemium]
+  added: 2026-11-10
+  verified: 2026-11-10

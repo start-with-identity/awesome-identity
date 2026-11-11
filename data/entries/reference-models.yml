@@ -1,0 +1,139 @@
+- name: NIST CSRC Glossary
+  url: https://csrc.nist.gov/glossary
+  description: Searchable definitions pulled from NIST publications, with each term linked to the documents that define it.
+  tags: [gov, free]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: "RFC 4949: Internet Security Glossary, Version 2"
+  url: https://datatracker.ietf.org/doc/html/rfc4949
+  description: Long-standing IETF glossary of security terms, useful for settling what words like authentication and credential mean in RFCs.
+  tags: [free]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: IDPro Body of Knowledge
+  url: https://bok.idpro.org/
+  description: Peer-reviewed articles by identity practitioners on IAM fundamentals, protocols, governance, and operations, free to read.
+  tags: [free]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: OWASP Authentication Cheat Sheet
+  url: https://cheatsheetseries.owasp.org/cheatsheets/Authentication_Cheat_Sheet.html
+  description: Login implementation checklist covering password rules, generic error messages, account lockout, and protection against automated attacks.
+  tags: [free]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: OWASP Session Management Cheat Sheet
+  url: https://cheatsheetseries.owasp.org/cheatsheets/Session_Management_Cheat_Sheet.html
+  description: Session ID entropy, cookie attributes, idle and absolute timeouts, and renewing the ID after login to stop fixation.
+  tags: [free]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: OWASP Multifactor Authentication Cheat Sheet
+  url: https://cheatsheetseries.owasp.org/cheatsheets/Multifactor_Authentication_Cheat_Sheet.html
+  description: Pros and cons of each second factor, when to prompt for MFA, and how to handle recovery when a user loses theirs.
+  tags: [free]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: OWASP OAuth2 Cheat Sheet
+  url: https://cheatsheetseries.owasp.org/cheatsheets/OAuth2_Cheat_Sheet.html
+  description: Condensed OAuth hardening checklist for clients and servers, drawn largely from the OAuth security BCP.
+  tags: [free]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: OWASP SAML Security Cheat Sheet
+  url: https://cheatsheetseries.owasp.org/cheatsheets/SAML_Security_Cheat_Sheet.html
+  description: XML signature wrapping, schema validation, and assertion replay checks that SAML service providers commonly get wrong.
+  tags: [free]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: OWASP JSON Web Token Cheat Sheet
+  url: https://cheatsheetseries.owasp.org/cheatsheets/JSON_Web_Token_Cheat_Sheet.html
+  description: Common JWT mistakes such as accepting alg none, weak HMAC secrets, and token sidejacking, with fixes for each.
+  tags: [free]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: OWASP Password Storage Cheat Sheet
+  url: https://cheatsheetseries.owasp.org/cheatsheets/Password_Storage_Cheat_Sheet.html
+  description: Recommended hashing algorithms and parameters, with Argon2id, scrypt, bcrypt, and PBKDF2 work factors and peppering.
+  tags: [free]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: OWASP Forgot Password Cheat Sheet
+  url: https://cheatsheetseries.owasp.org/cheatsheets/Forgot_Password_Cheat_Sheet.html
+  description: Designing password reset without user enumeration, with single-use tokens, expiry, and safe handling after the reset.
+  tags: [free]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: OWASP Authorization Cheat Sheet
+  url: https://cheatsheetseries.owasp.org/cheatsheets/Authorization_Cheat_Sheet.html
+  description: Deny by default, check permissions on every request, and prefer attribute or relationship models over ad hoc role checks.
+  tags: [free]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: "OWASP ASVS 5.0: V6 Authentication"
+  url: https://github.com/OWASP/ASVS/blob/master/5.0/en/0x15-V6-Authentication.md
+  description: Verification requirements for passwords, MFA, out-of-band factors, and account recovery, graded by ASVS level.
+  tags: [free]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: "OWASP ASVS 5.0: V7 Session Management"
+  url: https://github.com/OWASP/ASVS/blob/master/5.0/en/0x16-V7-Session-Management.md
+  description: Testable requirements for session creation, timeout, termination, and federated re-authentication behavior.
+  tags: [free]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: "OWASP ASVS 5.0: V9 Self-contained Tokens"
+  url: https://github.com/OWASP/ASVS/blob/master/5.0/en/0x18-V9-Self-contained-Tokens.md
+  description: Checks for JWT and similar tokens, including signature and algorithm validation, expiry, and audience restriction.
+  tags: [free]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: "OWASP ASVS 5.0: V10 OAuth and OIDC"
+  url: https://github.com/OWASP/ASVS/blob/master/5.0/en/0x19-V10-OAuth-and-OIDC.md
+  description: Requirements split by role, for OAuth clients, resource servers, and authorization servers, OIDC clients and providers, and consent.
+  tags: [free]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: OpenID Foundation Specifications
+  url: https://openid.net/developers/specs/
+  description: Index of every OpenID Foundation spec with its status, from OIDC and FAPI to Shared Signals and OpenID4VC.
+  tags: [standard, free]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: IETF OAuth Working Group Documents
+  url: https://datatracker.ietf.org/wg/oauth/documents/
+  description: Live list of active OAuth drafts and published RFCs with their current state, the place to check whether a draft has moved.
+  tags: [standard, free]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: FIDO Alliance Specifications Overview
+  url: https://fidoalliance.org/specifications-overview/
+  description: Landing page for FIDO's user authentication specs (UAF, U2F, CTAP), FIDO Device Onboard, and the credential exchange drafts.
+  tags: [standard, free]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: IANA JOSE Registries
+  url: https://www.iana.org/assignments/jose/jose.xhtml
+  description: Registered JWS and JWE header parameters, algorithm identifiers, and JWK parameters, with deprecation status for each.
+  tags: [standard, free]
+  added: 2026-11-10
+  verified: 2026-11-10

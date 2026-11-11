@@ -1,0 +1,93 @@
+- name: Devise
+  url: https://github.com/heartcombo/devise
+  description: Rails authentication engine built on Warden, with modules for confirmable, lockable, recoverable, and OmniAuth integration.
+  tags: [oss]
+  language: Ruby
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: Doorkeeper
+  url: https://doorkeeper.gitbook.io/guides/
+  repo: https://github.com/doorkeeper-gem/doorkeeper
+  description: OAuth 2.0 provider for Rails and Grape apps, with doorkeeper-openid_connect available as an OIDC extension.
+  tags: [oss]
+  language: Ruby
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: json-jwt
+  url: https://github.com/nov/json-jwt
+  description: JWT, JWS, JWE, and JWK handling for Ruby by the author of the openid_connect gem, which depends on it.
+  tags: [oss]
+  language: Ruby
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: OmniAuth
+  url: https://github.com/omniauth/omniauth
+  description: Rack middleware that standardizes multi-provider login, with hundreds of strategy gems for OAuth, OIDC, SAML, and LDAP.
+  tags: [oss]
+  language: Ruby
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: OmniAuth OAuth2
+  url: https://github.com/omniauth/omniauth-oauth2
+  description: Generic OAuth 2.0 strategy base class that most provider-specific OmniAuth gems extend.
+  tags: [oss]
+  language: Ruby
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: omniauth_openid_connect
+  url: https://github.com/omniauth/omniauth_openid_connect
+  description: OmniAuth strategy for any OpenID Connect provider, with discovery, PKCE, and ID token validation.
+  tags: [oss]
+  language: Ruby
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: openid_connect
+  url: https://github.com/nov/openid_connect
+  description: OpenID Connect client and server building blocks for Ruby, covering discovery, dynamic registration, and ID tokens.
+  tags: [oss]
+  language: Ruby
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: rack-oauth2
+  url: https://github.com/nov/rack-oauth2
+  description: Rack-level OAuth 2.0 client and server components for Ruby, including bearer token handling and client authentication methods.
+  tags: [oss]
+  language: Ruby
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: Rodauth
+  url: https://rodauth.jeremyevans.net/
+  repo: https://github.com/jeremyevans/rodauth
+  description: Ruby auth framework with dozens of features including WebAuthn, OTP, and JWT, storing password hashes in a separate locked-down table.
+  tags: [oss]
+  language: Ruby
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: rodauth-oauth
+  url: https://gitlab.com/os85/rodauth-oauth
+  description: Rodauth extension that adds an OAuth 2.0 and OpenID Connect provider, including PAR, DPoP, and dynamic client registration.
+  tags: [oss]
+  language: Ruby
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: ruby-jwt
+  url: https://github.com/jwt/ruby-jwt
+  description: Ruby implementation of RFC 7519 for signing and verifying JWTs, with JWK support and pluggable algorithms.
+  tags: [oss]
+  language: Ruby
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: ruby-saml
+  url: https://github.com/SAML-Toolkits/ruby-saml
+  description: SAML 2.0 service provider library for Ruby, used by omniauth-saml and many Rails apps for enterprise SSO.
+  tags: [oss]
+  language: Ruby
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: Sorcery
+  url: https://github.com/Sorcery/sorcery
+  description: Lean Rails authentication library offering password login, remember-me, activation, and external OAuth via opt-in submodules.
+  tags: [oss]
+  language: Ruby
+  added: 2026-11-10
+  verified: 2026-11-10

@@ -1,0 +1,132 @@
+- name: AuthMind
+  url: https://www.authmind.com/
+  description: "Identity observability that analyzes access activity to detect identity threats, shadow access, and posture gaps."
+  tags: [commercial]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: Cayosoft
+  url: https://www.cayosoft.com
+  description: "Management, change monitoring, and recovery for Active Directory, Entra ID, and Microsoft 365, including forest recovery."
+  tags: [commercial]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: CrowdStrike Falcon Identity Protection
+  url: https://www.crowdstrike.com/en-us/platform/next-gen-identity-security/identity-protection/
+  description: "Identity threat detection on the Falcon platform for Active Directory and Entra ID, with risk-based conditional access."
+  tags: [commercial]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: Grip Security
+  url: https://www.grip.security
+  description: "SaaS identity security that discovers applications in use, maps user accounts, and flags risky access."
+  tags: [commercial]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: Gurucul
+  url: https://gurucul.com
+  description: "Security analytics with UEBA and identity analytics for detecting compromised accounts and insider threats."
+  tags: [commercial]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: Microsoft Defender for Identity
+  url: https://www.microsoft.com/en-us/security/business/siem-and-xdr/microsoft-defender-for-identity
+  description: "Sensor-based detection of identity attacks against on-premises Active Directory, part of Microsoft Defender XDR."
+  tags: [commercial]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: Nudge Security
+  url: https://www.nudgesecurity.com
+  description: "Discovers SaaS and AI apps and accounts created by employees, then prompts users to fix risky access and settings."
+  tags: [commercial]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: Obsidian Security
+  url: https://www.obsidiansecurity.com
+  description: "Detection and posture management for SaaS applications and AI agents, focused on account compromise and token misuse."
+  tags: [commercial]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: Proofpoint Identity Threat Defense
+  url: https://www.proofpoint.com/us/products/identity-threat-detection-response
+  description: "Finds exposed credentials on endpoints and detects lateral movement with deception techniques, from Proofpoint."
+  tags: [commercial]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: Push Security
+  url: https://pushsecurity.com
+  description: "Browser extension that detects phishing, session hijacking, and weak credentials as employees sign in to web apps."
+  tags: [commercial]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: Quest Change Auditor
+  url: https://www.quest.com/products/change-auditor/
+  description: "Real-time auditing and alerting on changes to Active Directory, Entra ID, Exchange, and file servers."
+  tags: [commercial]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: Semperis
+  url: https://www.semperis.com
+  description: "Active Directory and Entra ID protection with threat detection, change rollback, and forest recovery."
+  tags: [commercial]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: Sharelock
+  url: https://www.sharelock.ai
+  description: "Identity threat detection and posture management based on AI analysis of identity provider and access logs."
+  tags: [commercial]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: Silverfort
+  url: https://www.silverfort.com
+  description: "Runtime identity protection that adds MFA and access policies to Active Directory, service accounts, and legacy systems."
+  tags: [commercial]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: SpyCloud
+  url: https://spycloud.com
+  description: "Collects credentials and session cookies exposed in breaches and malware logs to flag compromised employee and customer accounts."
+  tags: [commercial]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: Tenable Identity Exposure
+  url: https://www.tenable.com/products/identity-exposure
+  description: "Assesses Active Directory and Entra ID for misconfigurations and attack paths and detects identity attacks in progress."
+  tags: [commercial]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: Valence Security
+  url: https://www.valencesecurity.com
+  description: "SaaS security posture and identity risk management covering app integrations, permissions, and AI tools."
+  tags: [commercial]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: VanishID
+  url: https://vanishid.com
+  description: "Monitors and removes personal data about employees and executives exposed online to reduce social engineering risk."
+  tags: [commercial]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: Vectra AI
+  url: https://www.vectra.ai
+  description: "Threat detection that correlates attacker behavior across network traffic, Active Directory, and cloud identity."
+  tags: [commercial]
+  added: 2026-11-10
+  verified: 2026-11-10

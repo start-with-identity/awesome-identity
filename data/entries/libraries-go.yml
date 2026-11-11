@@ -1,0 +1,80 @@
+- name: crewjam/saml
+  url: https://github.com/crewjam/saml
+  description: SAML 2.0 service provider and IdP package for Go, including samlsp middleware that guards net/http handlers.
+  tags: [oss]
+  language: Go
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: Fosite
+  url: https://github.com/ory/fosite
+  description: Extensible OAuth 2.0 and OpenID Connect framework for building authorization servers in Go; it is the engine inside Ory Hydra.
+  tags: [oss]
+  language: Go
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: go-jose
+  url: https://github.com/go-jose/go-jose
+  description: JOSE implementation for Go covering JWS, JWE, JWK, and JWT, maintained as the community fork of square/go-jose.
+  tags: [oss]
+  language: Go
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: go-oidc
+  url: https://github.com/coreos/go-oidc
+  description: OpenID Connect client support for Go that verifies ID tokens against provider discovery and JWKS, pairing with x/oauth2.
+  tags: [oss]
+  language: Go
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: go-pkgz/auth
+  url: https://go-pkgz.umputun.dev/auth/
+  repo: https://github.com/go-pkgz/auth
+  description: Drop-in social and email login for Go web services, issuing JWT cookies with a built-in dev OAuth server for local testing.
+  tags: [oss]
+  language: Go
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: golang-jwt
+  url: https://golang-jwt.github.io/jwt/
+  repo: https://github.com/golang-jwt/jwt
+  description: Community-maintained continuation of dgrijalva/jwt-go for parsing, validating, and signing JWTs in Go.
+  tags: [oss]
+  language: Go
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: gosaml2
+  url: https://github.com/russellhaering/gosaml2
+  description: SAML 2.0 service provider library in pure Go, using goxmldsig for XML signature validation.
+  tags: [oss]
+  language: Go
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: Goth
+  url: https://github.com/markbates/goth
+  description: Multi-provider OAuth and OpenID login for Go web apps, with a gothic helper package for net/http style handlers.
+  tags: [oss]
+  language: Go
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: jwx
+  url: https://github.com/lestrrat-go/jwx
+  description: Go modules for JWA, JWE, JWK, JWS, and JWT, including a JWK set cache that refreshes remote keys in the background.
+  tags: [oss]
+  language: Go
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: x/oauth2
+  url: https://pkg.go.dev/golang.org/x/oauth2
+  repo: https://github.com/golang/oauth2
+  description: Go team's OAuth 2.0 client package with token sources, auto refresh, PKCE helpers, and endpoints for common providers.
+  tags: [oss]
+  language: Go
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: ZITADEL OIDC
+  url: https://github.com/zitadel/oidc
+  description: Certified OpenID Connect client and provider packages for Go, usable on their own without running ZITADEL.
+  tags: [oss]
+  language: Go
+  added: 2026-11-10
+  verified: 2026-11-10

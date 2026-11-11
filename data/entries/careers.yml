@@ -1,0 +1,24 @@
+- name: IAM Interview Questions
+  url: https://github.com/start-with-identity/iam-interview-questions
+  description: Open question bank for IAM job interviews across 17 topics, from OAuth and SAML to PAM and system design, with notes on strong answers.
+  tags: [free]
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: IDPro Job Specifications Library
+  url: https://idpro.org/educational-resources/idpro-job-specifications-library/
+  description: Sample job descriptions for IAM roles such as entry-level analyst, IAM developer, standards architect, and CIAM product manager.
+  tags: [free]
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: IDPro Skills, Programs and Diversity Survey Analysis
+  url: https://idpro.org/idpro-survey-2025/
+  description: Breakdown of IDPro survey data showing which identity skills practitioners hold at 0 to 2, 3 to 5, and later years of experience.
+  tags: [free]
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: IDPro on YouTube
+  url: https://www.youtube.com/@idpro6736
+  description: Recorded IDPro webinars, mostly CIDPRO exam preparation and membership sessions for identity practitioners.
+  tags: [free]
+  added: 2026-11-10
+  verified: 2026-11-10

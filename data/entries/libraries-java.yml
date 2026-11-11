@@ -1,0 +1,82 @@
+- name: Apache Santuario
+  url: https://santuario.apache.org/
+  repo: https://github.com/apache/santuario-xml-security-java
+  description: XML Signature and XML Encryption implementation for Java, the layer that SAML stacks such as OpenSAML depend on for signing.
+  tags: [oss]
+  language: Java
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: Apache Shiro
+  url: https://shiro.apache.org/
+  repo: https://github.com/apache/shiro
+  description: Java security framework handling authentication, role and permission checks, session management, and cryptography outside any container.
+  tags: [oss]
+  language: Java
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: Java Apereo CAS Client
+  url: https://github.com/apereo/java-cas-client
+  description: Servlet filters and validators that let Java web apps authenticate against a CAS server, with SAML 1.1 ticket validation support.
+  tags: [oss]
+  language: Java
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: java-jwt
+  url: https://github.com/auth0/java-jwt
+  description: JWT creation and verification for Java and Android from Auth0, with a fluent builder API and pluggable key providers for rotation.
+  tags: [oss]
+  language: Java
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: JJWT
+  url: https://github.com/jwtk/jjwt
+  description: Java JWT library with full JWS and JWE support, JWK handling, and a builder API for creating and parsing compact tokens.
+  tags: [oss]
+  language: Java
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: Nimbus JOSE + JWT
+  url: https://connect2id.com/products/nimbus-jose-jwt
+  description: Java library for JWS, JWE, JWK, and JWT used under the hood by Spring Security's resource server and many other JVM stacks.
+  tags: [oss]
+  language: Java
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: Nimbus OAuth 2.0 SDK with OpenID Connect extensions
+  url: https://connect2id.com/products/nimbus-oauth-openid-connect-sdk
+  description: Java model and parsers for OAuth 2.0 and OpenID Connect messages, including PAR, CIBA, DPoP, and OpenID Federation.
+  tags: [oss]
+  language: Java
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: OpenSAML
+  url: https://shibboleth.atlassian.net/wiki/spaces/OSAML/overview
+  repo: https://codeberg.org/Shibboleth/java-opensaml
+  description: Shibboleth Consortium's Java SAML 1.1 and 2.0 library for building, signing, encrypting, and validating protocol messages.
+  tags: [oss]
+  language: Java
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: pac4j
+  url: https://www.pac4j.org/
+  repo: https://github.com/pac4j/pac4j
+  description: Security engine for JVM web frameworks with OAuth, OIDC, SAML, CAS, LDAP, and JWT clients, plus adapters for Spring, Play, and others.
+  tags: [oss]
+  language: Java
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: Spring Authorization Server
+  url: https://github.com/spring-attic/spring-authorization-server
+  description: Standalone OAuth 2.1 and OIDC server project for Spring, now archived; its code moved into Spring Security 7 and 1.5.x is the final line.
+  tags: [oss, archived]
+  language: Java
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: Spring Security
+  url: https://spring.io/projects/spring-security
+  repo: https://github.com/spring-projects/spring-security
+  description: Authentication and access control for Spring apps, with OAuth 2.0 client, resource server, SAML 2.0 SP, and authorization server modules.
+  tags: [oss]
+  language: Java
+  added: 2026-11-10
+  verified: 2026-11-10

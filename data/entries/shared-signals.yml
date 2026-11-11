@@ -1,0 +1,56 @@
+- name: OpenID Shared Signals Framework 1.0
+  url: https://openid.net/specs/openid-sharedsignals-framework-1_0-final.html
+  description: Stream configuration, transmitter metadata, and subject management for exchanging security events between cooperating services.
+  tags: [standard]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: OpenID Continuous Access Evaluation Profile (CAEP) 1.0
+  url: https://openid.net/specs/openid-caep-1_0-final.html
+  description: Event types such as session-revoked, credential-change, and device-compliance-change, so apps can cut access mid-session.
+  tags: [standard]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: OpenID RISC Profile 1.0
+  url: https://openid.net/specs/openid-risc-1_0-final.html
+  description: Account security events like account-disabled, credential-compromise, and identifier-recycled shared between providers and relying parties.
+  tags: [standard]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: CAEP Interoperability Profile 1.0 (draft)
+  url: https://openid.net/specs/openid-caep-interoperability-profile-1_0-ID1.html
+  description: Narrows SSF and CAEP options to a common baseline of delivery methods, events, and subject formats so implementations work together.
+  tags: [standard]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: "RFC 8417: Security Event Token (SET)"
+  url: https://datatracker.ietf.org/doc/html/rfc8417
+  description: JWT profile for statements that something happened to a subject, the envelope used by SSF, CAEP, RISC, and SCIM events.
+  tags: [standard]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: "RFC 8935: Push-Based Security Event Token (SET) Delivery Using HTTP"
+  url: https://datatracker.ietf.org/doc/html/rfc8935
+  description: Transmitter POSTs each SET to a receiver endpoint and gets an acknowledgment or a structured error back.
+  tags: [standard]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: "RFC 8936: Poll-Based Security Event Token (SET) Delivery Using HTTP"
+  url: https://datatracker.ietf.org/doc/html/rfc8936
+  description: Receiver pulls batches of SETs and acknowledges them, for receivers that cannot expose an inbound endpoint.
+  tags: [standard]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: "RFC 9493: Subject Identifiers for Security Event Tokens"
+  url: https://datatracker.ietf.org/doc/html/rfc9493
+  description: Formats for naming who an event is about, such as email, phone number, iss_sub, opaque ID, or a combination of these.
+  tags: [standard]
+  added: 2026-11-10
+  verified: 2026-11-10
+

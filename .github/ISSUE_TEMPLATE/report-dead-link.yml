@@ -1,0 +1,25 @@
+name: Report a dead link
+description: A link is broken, redirects somewhere unrelated, or the project is gone.
+title: "Dead link: "
+labels: [dead-link]
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Entry name
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: URL in the list
+    validations:
+      required: true
+  - type: input
+    id: replacement
+    attributes:
+      label: New URL, if you know it
+  - type: textarea
+    id: details
+    attributes:
+      label: What happens when you open it?

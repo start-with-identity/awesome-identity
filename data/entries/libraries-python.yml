@@ -1,0 +1,123 @@
+- name: Authlib
+  url: https://authlib.org/
+  repo: https://github.com/authlib/authlib
+  description: OAuth 1.0, OAuth 2.0, and OpenID Connect for Python clients and servers, with Flask, Django, Starlette, and httpx integrations.
+  tags: [oss]
+  language: Python
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: dj-rest-auth
+  url: https://dj-rest-auth.readthedocs.io/
+  repo: https://github.com/iMerica/dj-rest-auth
+  description: REST endpoints for login, logout, registration, and password reset in Django REST Framework, with optional allauth social login.
+  tags: [oss]
+  language: Python
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: django-allauth
+  url: https://allauth.org/
+  repo: https://github.com/pennersr/django-allauth
+  description: Django app covering local accounts, email verification, MFA, social login across many providers, and SAML or OIDC enterprise SSO.
+  tags: [oss]
+  language: Python
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: Django OAuth Toolkit
+  url: https://django-oauth-toolkit.readthedocs.io/
+  repo: https://github.com/django-oauth/django-oauth-toolkit
+  description: Turns a Django project into an OAuth 2.0 authorization server with OIDC support, built on top of OAuthLib.
+  tags: [oss]
+  language: Python
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: FastAPI Users
+  url: https://fastapi-users.github.io/fastapi-users/
+  repo: https://github.com/fastapi-users/fastapi-users
+  description: Registration, login, password reset, and OAuth social login routes for FastAPI, with JWT or database-backed sessions.
+  tags: [oss]
+  language: Python
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: Flask-Security
+  url: https://github.com/pallets-eco/flask-security
+  description: Flask extension for session and token auth, roles, two-factor codes, WebAuthn, and password recovery, maintained under Pallets-Eco.
+  tags: [oss]
+  language: Python
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: idpy-oidc
+  url: https://github.com/IdentityPython/idpy-oidc
+  description: IdentityPython building blocks for OpenID Connect and OAuth 2.0 clients and servers, the successor to the older pyoidc package.
+  tags: [oss]
+  language: Python
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: joserfc
+  url: https://jose.authlib.org/
+  repo: https://github.com/authlib/joserfc
+  description: Typed implementation of JWS, JWE, JWK, JWA, and JWT from the Authlib author, kept separate so it can be used without Authlib.
+  tags: [oss]
+  language: Python
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: mozilla-django-oidc
+  url: https://mozilla-django-oidc.readthedocs.io/
+  repo: https://github.com/mozilla/mozilla-django-oidc
+  description: Django authentication backend that logs users in through an external OpenID Connect provider using the authorization code flow.
+  tags: [oss]
+  language: Python
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: MSAL for Python
+  url: https://github.com/AzureAD/microsoft-authentication-library-for-python
+  description: Microsoft Authentication Library for acquiring Entra ID tokens from Python apps, daemons, and CLIs, with token cache helpers.
+  tags: [oss]
+  language: Python
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: OAuthLib
+  url: https://oauthlib.readthedocs.io/
+  repo: https://github.com/oauthlib/oauthlib
+  description: Framework-neutral logic for OAuth 1.0 and OAuth 2.0 request signing and validation that other Python auth libraries build on.
+  tags: [oss]
+  language: Python
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: PyJWT
+  url: https://pyjwt.readthedocs.io/
+  repo: https://github.com/jpadilla/pyjwt
+  description: Widely used Python package for encoding and decoding JWTs, with JWKS fetching and HMAC, RSA, ECDSA, and EdDSA algorithms.
+  tags: [oss]
+  language: Python
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: pysaml2
+  url: https://github.com/IdentityPython/pysaml2
+  description: Pure Python SAML 2.0 implementation for building IdPs and SPs, relying on xmlsec1 for signatures and encryption.
+  tags: [oss]
+  language: Python
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: python3-saml
+  url: https://github.com/SAML-Toolkits/python3-saml
+  description: SAML 2.0 service provider toolkit for Python, with examples for Django, Flask, and Pyramid; no PyPI release since 2023.
+  tags: [oss]
+  language: Python
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: Python Social Auth
+  url: https://python-social-auth.readthedocs.io/
+  repo: https://github.com/python-social-auth/social-core
+  description: Social login core with backends for many OAuth and OpenID providers, plus separate integration packages for Django and Flask.
+  tags: [oss]
+  language: Python
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: Simple JWT
+  url: https://django-rest-framework-simplejwt.readthedocs.io/
+  repo: https://github.com/jazzband/djangorestframework-simplejwt
+  description: JWT access and refresh token authentication for Django REST Framework, with token blacklisting and sliding tokens.
+  tags: [oss]
+  language: Python
+  added: 2026-11-10
+  verified: 2026-11-10

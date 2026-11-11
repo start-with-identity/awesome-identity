@@ -1,0 +1,315 @@
+- name: Alloy
+  url: https://www.alloy.com/
+  description: "Identity and fraud decisioning that orchestrates data sources for customer onboarding and ongoing monitoring in financial services."
+  tags: [commercial]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: AU10TIX
+  url: https://www.au10tix.com/
+  description: "Automated ID document authentication and biometric checks for customer onboarding and fraud prevention."
+  tags: [commercial]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: BioCatch
+  url: https://www.biocatch.com/
+  description: "Behavioral biometrics that analyze how users interact with devices to detect account takeover and fraudulent account opening."
+  tags: [commercial]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: Bureau
+  url: https://bureau.id/
+  description: "Identity decisioning and fraud prevention using device, phone, and behavioral signals for onboarding and transactions."
+  tags: [commercial]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: CLEAR
+  url: https://www.clearme.com/
+  description: "Biometric identity network used at airports and venues, with identity verification offered to businesses for online use."
+  tags: [commercial]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: ComplyAdvantage
+  url: https://complyadvantage.com/
+  description: "AML screening against sanctions, PEP, and adverse media data, plus transaction monitoring for regulated firms."
+  tags: [commercial]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: Daon
+  url: https://www.daon.com/
+  description: "Biometric identity verification and authentication for onboarding and account access, delivered as SDKs and cloud services."
+  tags: [commercial]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: Didit
+  url: https://didit.me/
+  description: "KYC service with document checks, passive liveness, face matching, and AML screening priced per verification."
+  tags: [freemium]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: Entrust Identity Verification
+  url: https://www.entrust.com/products/identity-verification
+  description: "Document and biometric identity verification from Entrust, formerly sold under the Onfido brand."
+  tags: [commercial]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: Experian CrossCore
+  url: https://www.experian.com/business/products/crosscore
+  description: "Identity and fraud orchestration from Experian that combines verification data sources and rules in one decision layer."
+  tags: [commercial]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: FaceTec
+  url: https://www.facetec.com/
+  description: "3D face liveness detection and face matching SDKs used for remote onboarding and reauthentication."
+  tags: [commercial]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: Footprint
+  url: https://onefootprint.com/
+  description: "KYC and KYB onboarding with identity data vaulting and fraud risk signals for fintech and lending."
+  tags: [commercial]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: GBG
+  url: https://www.gbgplc.com/
+  description: "Identity verification, location data, and fraud prevention services drawing on international identity data sources."
+  tags: [commercial]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: HyperVerge
+  url: https://hyperverge.co/
+  description: "AI-based KYC with document OCR, face match, and liveness checks, used in India and other markets."
+  tags: [commercial]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: ID.me
+  url: https://www.id.me/
+  description: "Digital identity network that verifies people once for reuse across government agencies, healthcare, and retailers."
+  tags: [commercial]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: iDenfy
+  url: https://idenfy.com/
+  description: "Remote identity verification with document checks, face biometrics, AML screening, and KYB."
+  tags: [commercial]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: IDfy
+  url: https://www.idfy.com/
+  description: "Identity verification, KYC, and background verification services focused on Indian and Southeast Asian markets."
+  tags: [commercial]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: IDnow
+  url: https://idnow.io/
+  description: "Identity verification for European regulated industries, offering automated, video-based, and eID verification methods."
+  tags: [commercial]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: Incode
+  url: https://www.incode.com/
+  description: "Identity verification with document authentication, face biometrics, and liveness detection for onboarding and authentication."
+  tags: [commercial]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: Innovatrics
+  url: https://www.innovatrics.com/
+  description: "Biometric technology for face, fingerprint, and iris recognition, plus a digital onboarding toolkit."
+  tags: [commercial]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: iProov
+  url: https://www.iproov.com/
+  description: "Face biometric verification with liveness detection for remote onboarding and authentication, used by governments and banks."
+  tags: [commercial]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: itsme
+  url: https://www.itsme-id.com/
+  description: "Belgian digital identity app for logging in, confirming transactions, and signing documents online."
+  tags: [commercial]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: Jumio
+  url: https://www.jumio.com/
+  description: "Identity verification with ID document checks, selfie biometrics, liveness detection, and AML screening."
+  tags: [commercial]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: LexisNexis Risk Solutions
+  url: https://risk.lexisnexis.com/
+  description: "Identity verification, fraud, and risk data services built on public records and digital identity networks."
+  tags: [commercial]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: Middesk
+  url: https://www.middesk.com/
+  description: "Business identity verification (KYB) that checks registrations, ownership, and tax records for US companies."
+  tags: [commercial]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: Mitek
+  url: https://www.miteksystems.com/
+  description: "Mobile ID document capture, identity verification, and biometric liveness for digital onboarding and deposits."
+  tags: [commercial]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: Ondato
+  url: https://ondato.com/
+  description: "KYC and KYB compliance suite with identity verification, AML screening, and ongoing customer due diligence."
+  tags: [commercial]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: Persona
+  url: https://withpersona.com/
+  description: "Configurable identity verification with government ID, selfie, database, and document checks plus case management."
+  tags: [freemium]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: Plaid Identity Verification
+  url: https://plaid.com/products/identity-verification/
+  description: "KYC product from Plaid that verifies users with ID document, selfie, and data source checks."
+  tags: [commercial]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: Prove
+  url: https://www.prove.com/
+  description: "Phone-number-based identity verification and authentication for onboarding and fraud prevention."
+  tags: [commercial]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: Regula
+  url: https://regulaforensics.com/
+  description: "Document authentication software and forensic hardware for checking passports and ID cards, with face biometrics."
+  tags: [commercial]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: Sardine
+  url: https://www.sardine.ai/
+  description: "Fraud prevention and AML compliance using device intelligence and behavioral signals, including onboarding checks."
+  tags: [commercial]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: SentiLink
+  url: https://www.sentilink.com/
+  description: "Detects synthetic identities and identity theft in US credit and account applications."
+  tags: [commercial]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: SEON
+  url: https://seon.io/
+  description: "Fraud prevention and AML screening that combines digital footprint, device, and IP signals."
+  tags: [commercial]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: Shufti
+  url: https://shuftipro.com/
+  description: "Identity verification, KYC, KYB, and AML screening service with document and biometric checks."
+  tags: [freemium]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: Signicat
+  url: https://www.signicat.com/
+  description: "European digital identity hub combining eID access, identity verification, electronic signatures, and authentication."
+  tags: [commercial]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: Signzy
+  url: https://www.signzy.com/
+  description: "No-code onboarding and KYC APIs for banks and fintechs, with identity, business, and AML checks."
+  tags: [commercial]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: Socure
+  url: https://www.socure.com/
+  description: "Identity verification and fraud risk scoring for customer onboarding using identity data and document checks."
+  tags: [commercial]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: Stripe Identity
+  url: https://stripe.com/identity
+  description: "Identity verification from Stripe that checks government IDs and selfies, with optional ID number lookups."
+  tags: [commercial]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: Sumsub
+  url: https://sumsub.com/
+  description: "Identity verification, KYB, AML screening, and transaction monitoring for regulated businesses."
+  tags: [commercial]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: Trinsic
+  url: https://www.trinsic.id/
+  description: "Single API for accepting eIDs, mobile driver licenses, bank IDs, and government wallets from many countries."
+  tags: [commercial]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: Trulioo
+  url: https://www.trulioo.com/
+  description: "Global identity and business verification using document checks and data sources across many countries."
+  tags: [commercial]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: Veriff
+  url: https://www.veriff.com/
+  description: "Identity verification with document and biometric checks, AML screening, and fraud signals, available as self-serve plans."
+  tags: [commercial]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: Vouched
+  url: https://www.vouched.id/
+  description: "Identity verification for onboarding, with ID document and selfie checks, including verification of AI agents acting for users."
+  tags: [commercial]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: Yoti
+  url: https://www.yoti.com/
+  description: "Digital identity app and verification services, including facial age estimation and electronic signatures."
+  tags: [commercial]
+  added: 2026-11-10
+  verified: 2026-11-10
+

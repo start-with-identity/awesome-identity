@@ -1,0 +1,49 @@
+- name: Amazon Verified Permissions
+  url: https://aws.amazon.com/verified-permissions/
+  description: "Managed AWS authorization service that evaluates application permissions written in the Cedar policy language."
+  tags: [commercial]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: Auth0 FGA
+  url: https://auth0.com/fine-grained-authorization
+  description: "Hosted relationship-based authorization service from Okta, built on the OpenFGA project."
+  tags: [commercial]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: AuthZed
+  url: https://authzed.com/
+  description: "Hosted and dedicated deployments of SpiceDB, an open-source permissions database modeled on Google Zanzibar."
+  tags: [oss]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: Cerbos
+  url: https://www.cerbos.dev/
+  description: "Open-source policy decision point with Cerbos Hub, a managed service for authoring, testing, and distributing policies."
+  tags: [oss]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: Oso
+  url: https://www.osohq.com/
+  description: "Authorization service with a declarative policy language for application permissions and access controls for AI agents."
+  tags: [freemium]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: Permit.io
+  url: https://www.permit.io/
+  description: "Authorization service for RBAC, ABAC, and ReBAC policies, with a UI for permission management and OPA-based enforcement."
+  tags: [freemium]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: PlainID
+  url: https://www.plainid.com/
+  description: "Policy-based access control for applications, APIs, and data, managed centrally and enforced at runtime."
+  tags: [commercial]
+  added: 2026-11-10
+  verified: 2026-11-10
+

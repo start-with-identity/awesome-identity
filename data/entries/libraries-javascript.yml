@@ -1,0 +1,147 @@
+- name: angular-auth-oidc-client
+  url: https://github.com/damienbod/angular-auth-oidc-client
+  description: Angular library for OIDC code flow with PKCE, silent token renewal, and support for multiple configured identity providers.
+  tags: [oss]
+  language: TypeScript
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: angular-oauth2-oidc
+  url: https://github.com/manfredsteyer/angular-oauth2-oidc
+  description: OAuth 2.0 and OIDC client for Angular apps, handling code flow with PKCE, token refresh, and session checks.
+  tags: [oss]
+  language: TypeScript
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: AppAuth for JS
+  url: https://github.com/openid/AppAuth-JS
+  description: OpenID Foundation reference client for OAuth 2.0 and OIDC in browsers and Node, following the native-app guidance of RFC 8252.
+  tags: [oss]
+  language: TypeScript
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: Arctic
+  url: https://arctic.pilcrowonpaper.com/
+  repo: https://github.com/pilcrowonpaper/arctic
+  description: Collection of small OAuth 2.0 clients for dozens of social and enterprise providers, built on the Fetch API with no framework coupling.
+  tags: [oss]
+  language: TypeScript
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: Auth.js
+  url: https://authjs.dev/
+  repo: https://github.com/nextauthjs/next-auth
+  description: OAuth and session library behind NextAuth.js; now stewarded by the Better Auth team, who point new projects to Better Auth.
+  tags: [oss]
+  language: TypeScript
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: Better Auth
+  url: https://better-auth.com/
+  repo: https://github.com/better-auth/better-auth
+  description: Framework-agnostic TypeScript auth library with a plugin system for 2FA, organizations, passkeys, SSO, and acting as an OIDC provider.
+  tags: [oss]
+  language: TypeScript
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: jose
+  url: https://github.com/panva/jose
+  description: JWT, JWS, JWE, JWK, and JWKS implementation with zero dependencies that runs on Node, browsers, Deno, Bun, and edge runtimes.
+  tags: [oss]
+  language: TypeScript
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: jwt-decode
+  url: https://github.com/auth0/jwt-decode
+  description: Tiny browser helper that base64-decodes a JWT payload or header so client code can read claims; it does not verify signatures.
+  tags: [oss]
+  language: TypeScript
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: Lucia
+  url: https://lucia-auth.com/
+  repo: https://github.com/lucia-auth/lucia
+  description: Session library deprecated in March 2025; the site now serves as a guide to writing your own session handling in TypeScript.
+  tags: [oss, archived]
+  language: TypeScript
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: MSAL.js
+  url: https://github.com/AzureAD/microsoft-authentication-library-for-js
+  description: Microsoft Authentication Library packages for browser, Node, React, and Angular apps that sign users in with Entra ID.
+  tags: [oss]
+  language: TypeScript
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: node-jsonwebtoken
+  url: https://github.com/auth0/node-jsonwebtoken
+  description: Long-standing Node.js package for signing and verifying JWTs with HMAC, RSA, and ECDSA keys, published on npm as jsonwebtoken.
+  tags: [oss]
+  language: JavaScript
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: node-oidc-provider
+  url: https://github.com/panva/node-oidc-provider
+  description: Certified OpenID Provider for Node.js that you embed in your own server, with support for FAPI 2.0, PAR, DPoP, and CIBA.
+  tags: [oss]
+  language: JavaScript
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: node-saml
+  url: https://github.com/node-saml/node-saml
+  description: SAML 2.0 service provider core for Node.js that builds AuthnRequests and validates signed responses and logout messages.
+  tags: [oss]
+  language: TypeScript
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: oauth4webapi
+  url: https://github.com/panva/oauth4webapi
+  description: Low-level OAuth 2.0 and OIDC client primitives on Web APIs, covering PKCE, DPoP, PAR, JAR, and JARM for any JS runtime.
+  tags: [oss]
+  language: TypeScript
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: oidc-client-ts
+  url: https://authts.github.io/oidc-client-ts/
+  repo: https://github.com/authts/oidc-client-ts
+  description: Browser OIDC and OAuth 2.0 client that handles code flow with PKCE, silent renew, and user session storage for SPAs.
+  tags: [oss]
+  language: TypeScript
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: openid-client
+  url: https://github.com/panva/openid-client
+  description: Certified OpenID Connect relying party for server-side JavaScript, with discovery, PKCE, DPoP, and Passport strategy helpers.
+  tags: [oss]
+  language: TypeScript
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: Passport
+  url: https://www.passportjs.org/
+  repo: https://github.com/jaredhanson/passport
+  description: Express authentication middleware with hundreds of strategy packages; no core release since 2023 and little recent activity.
+  tags: [oss, archived]
+  language: JavaScript
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: passport-saml
+  url: https://github.com/node-saml/passport-saml
+  description: Passport strategy that wraps node-saml so Express apps can act as a SAML 2.0 service provider.
+  tags: [oss]
+  language: TypeScript
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: react-oidc-context
+  url: https://github.com/authts/react-oidc-context
+  description: React context provider and hooks around oidc-client-ts for adding OIDC login and token access to single-page apps.
+  tags: [oss]
+  language: TypeScript
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: samlify
+  url: https://samlify.js.org/
+  repo: https://github.com/tngan/samlify
+  description: Node.js SAML 2.0 toolkit that can act as either IdP or SP, with metadata parsing, signing, and encryption support.
+  tags: [oss]
+  language: TypeScript
+  added: 2026-11-10
+  verified: 2026-11-10

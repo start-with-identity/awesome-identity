@@ -1,0 +1,84 @@
+- name: Affinidi
+  url: https://www.affinidi.com/
+  description: "Open-source tooling and hosted services for issuing, storing, and verifying verifiable credentials, including for AI agents."
+  tags: [oss]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: cheqd
+  url: https://cheqd.io/
+  description: "Public network and APIs for decentralized identifiers and credential status, with payment models for credential reuse."
+  tags: [oss]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: Dentity
+  url: https://www.dentity.com/
+  description: "Reusable identity and verifiable credential wallet infrastructure for people, enterprises, and AI agents."
+  tags: [commercial]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: Gataca
+  url: https://www.gataca.io/
+  description: "Verifiable credential issuance and verification software and digital identity wallets aligned with eIDAS 2.0."
+  tags: [commercial]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: Indicio
+  url: https://indicio.tech/
+  description: "Verifiable credential platform for issuing and verifying credentials, used in travel, government, and finance."
+  tags: [commercial]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: MATTR
+  url: https://mattr.global/
+  description: "Verifiable credential and mobile driver license (mDL) issuance, wallet, and verification products."
+  tags: [commercial]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: Microsoft Entra Verified ID
+  url: https://www.microsoft.com/en-us/security/business/identity-access/microsoft-entra-verified-id
+  description: "Microsoft service for issuing and verifying W3C verifiable credentials, integrated with Entra ID."
+  tags: [commercial]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: Procivis One
+  url: https://www.procivis.ch/
+  description: "Modular open-source software for issuing, holding, and verifying digital credentials, including EUDI wallet support."
+  tags: [oss]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: SpruceID
+  url: https://spruceid.com/
+  description: "Builds digital credential, mobile driver license, and verification systems for government agencies."
+  tags: [commercial]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: Talao
+  url: https://www.talao.io/
+  description: "EUDI wallet provider offering white-label mobile wallets and backend services, with open-source code."
+  tags: [oss]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: Truvera
+  url: https://truvera.io/
+  description: "Verifiable credential issuance, ID wallet, and mDL verification platform from Dock Labs."
+  tags: [commercial]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: walt.id
+  url: https://walt.id/
+  description: "Open-source libraries and APIs for credential issuance, verification, and wallets, with enterprise hosting and support."
+  tags: [oss]
+  added: 2026-11-10
+  verified: 2026-11-10
+

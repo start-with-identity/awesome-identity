@@ -1,0 +1,91 @@
+- name: firebase/php-jwt
+  url: https://github.com/googleapis/php-jwt
+  description: Small PHP library for encoding and decoding JWTs, with JWK set parsing and a cached key set for remote JWKS endpoints.
+  tags: [oss]
+  language: PHP
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: HWIOAuthBundle
+  url: https://github.com/hwi/HWIOAuthBundle
+  description: Symfony bundle that adds OAuth 1.0a and OAuth 2.0 social login with dozens of preconfigured resource owners.
+  tags: [oss]
+  language: PHP
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: JWT Framework
+  url: https://docs.spomky-labs.com/jwt/
+  repo: https://github.com/web-token/jwt-framework
+  description: PHP implementation of the full JOSE family, including JWE and nested tokens, with Symfony bundle integration.
+  tags: [oss]
+  language: PHP
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: Laravel Passport
+  url: https://laravel.com/framework/docs/passport
+  repo: https://github.com/laravel/passport
+  description: First-party package that runs a full OAuth 2.0 authorization server inside a Laravel app, built on league/oauth2-server.
+  tags: [oss]
+  language: PHP
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: Laravel Sanctum
+  url: https://laravel.com/framework/docs/sanctum
+  repo: https://github.com/laravel/sanctum
+  description: Lightweight API token and cookie-based SPA authentication for Laravel, for cases where full OAuth is more than you need.
+  tags: [oss]
+  language: PHP
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: Laravel Socialite
+  url: https://laravel.com/framework/docs/socialite
+  repo: https://github.com/laravel/socialite
+  description: Official Laravel package for OAuth sign-in with GitHub, Google, Facebook, and others, with community providers for many more.
+  tags: [oss]
+  language: PHP
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: lcobucci/jwt
+  url: https://lcobucci-jwt.readthedocs.io/
+  repo: https://github.com/lcobucci/jwt
+  description: Strictly typed PHP library for issuing, parsing, and validating JWS tokens with explicit constraint checks.
+  tags: [oss]
+  language: PHP
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: LexikJWTAuthenticationBundle
+  url: https://github.com/lexik/LexikJWTAuthenticationBundle
+  description: Symfony bundle that issues and checks JWT bearer tokens for stateless API authentication.
+  tags: [oss]
+  language: PHP
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: OAuth 2.0 Client
+  url: https://oauth2-client.thephpleague.com/
+  repo: https://github.com/thephpleague/oauth2-client
+  description: PHP League base client for OAuth 2.0 providers, with official and third-party provider packages for most major services.
+  tags: [oss]
+  language: PHP
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: OAuth 2.0 Server
+  url: https://oauth2.thephpleague.com/
+  repo: https://github.com/thephpleague/oauth2-server
+  description: Spec-compliant OAuth 2.0 authorization and resource server library from the PHP League, with PSR-7 request handling.
+  tags: [oss]
+  language: PHP
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: OpenID-Connect-PHP
+  url: https://github.com/jumbojett/OpenID-Connect-PHP
+  description: Minimal OpenID Connect relying party for PHP that handles discovery, the code flow, and ID token signature checks.
+  tags: [oss]
+  language: PHP
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: php-saml
+  url: https://github.com/SAML-Toolkits/php-saml
+  description: SAML 2.0 service provider toolkit for PHP, originally from OneLogin, handling SSO, SLO, and metadata generation.
+  tags: [oss]
+  language: PHP
+  added: 2026-11-10
+  verified: 2026-11-10

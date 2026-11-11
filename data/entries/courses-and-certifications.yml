@@ -1,0 +1,96 @@
+- name: CIDPRO
+  url: https://idpro.org/cidpro/
+  description: Vendor-neutral Certified Identity Professional exam from IDPro, built around the IDPro Body of Knowledge and practitioner experience.
+  tags: [paid]
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: "Microsoft SC-300: Identity and Access Administrator"
+  url: https://learn.microsoft.com/en-us/credentials/certifications/identity-and-access-administrator/
+  description: Associate-level certification covering Entra ID user and app management, authentication methods, Conditional Access, and identity governance.
+  tags: [paid]
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: "Microsoft SC-900: Security, Compliance, and Identity Fundamentals"
+  url: https://learn.microsoft.com/en-us/credentials/certifications/security-compliance-and-identity-fundamentals/
+  description: Entry-level Microsoft exam whose identity domain covers authentication, authorization, federation, and Entra ID basics.
+  tags: [paid]
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: Implement an Identity Management Solution (Microsoft Learn)
+  url: https://learn.microsoft.com/en-us/training/paths/implement-identity-management-solution/
+  description: Free self-paced modules on configuring Entra ID tenants, users, groups, external identities, and hybrid sync, mapped to SC-300.
+  tags: [free]
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: Implement an Authentication and Access Management Solution (Microsoft Learn)
+  url: https://learn.microsoft.com/en-us/training/paths/implement-authentication-access-management-solution/
+  description: Free Microsoft Learn path on securing Entra ID users with MFA, building Conditional Access policies, and Entra ID Protection.
+  tags: [free]
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: Okta Certification
+  url: https://www.okta.com/services/certification/
+  description: Okta and Auth0 certification tracks for administrators, consultants, technical architects, and developers, each with a study guide.
+  tags: [paid]
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: Okta Learning
+  url: https://learning.okta.com/
+  description: Okta's on-demand training catalog of learning plans and paths, including recent material on non-human identities and AI agents.
+  tags: [freemium]
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: SailPoint Identity University
+  url: https://www.sailpoint.com/university
+  description: SailPoint's on-demand and instructor-led training, with role-based paths that prepare for its IdentityIQ and Identity Security Cloud exams.
+  tags: [paid]
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: Certified Identity and Access Manager (CIAM)
+  url: https://identitymanagementinstitute.org/ciam-certification/
+  description: Vendor-neutral IAM certification run by the Identity Management Institute, a membership body separate from IDPro.
+  tags: [paid]
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: Introduction to OAuth 2.0 and OpenID Connect
+  url: https://courses.pragmaticwebsecurity.com/courses/introduction-to-oauth-2-0-and-openid-connect
+  description: Philippe De Ryck's free video course on why OAuth and OIDC use redirects, which flow fits which app, and where to keep tokens.
+  tags: [free]
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: "Web Security Academy: Authentication Vulnerabilities"
+  url: https://portswigger.net/web-security/authentication
+  description: PortSwigger lessons and hands-on labs on brute force, broken 2FA logic, and flawed password reset and account recovery flows.
+  tags: [free]
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: "Web Security Academy: OAuth 2.0 Authentication Vulnerabilities"
+  url: https://portswigger.net/web-security/oauth
+  description: Free labs where you exploit redirect_uri handling, missing state, implicit flow flaws, and OpenID Connect misconfigurations.
+  tags: [free]
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: "Web Security Academy: JWT Attacks"
+  url: https://portswigger.net/web-security/jwt
+  description: Interactive labs on unverified signatures, the none algorithm, weak HMAC keys, and jwk, jku, and kid header injection.
+  tags: [free]
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: "Web Security Academy: Access Control"
+  url: https://portswigger.net/web-security/access-control
+  description: PortSwigger material and labs on IDOR, vertical and horizontal privilege escalation, and broken authorization checks.
+  tags: [free]
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: Passkeys with Form Autofill Codelab
+  url: https://developers.google.com/codelabs/passkey-form-autofill
+  description: Google codelab that adds passkey registration and conditional UI sign-in to a sample web app using the WebAuthn API.
+  tags: [free]
+  added: 2026-11-10
+  verified: 2026-11-10
+- name: Auth0 Identity Fundamentals
+  url: https://auth0.com/docs/get-started/identity-fundamentals
+  description: Short free primers from Auth0 on what IAM covers and how authentication differs from authorization, before any product setup.
+  tags: [free]
+  added: 2026-11-10
+  verified: 2026-11-10

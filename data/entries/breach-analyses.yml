@@ -1,0 +1,153 @@
+- name: "23andMe: 2023 Credential Stuffing Incident"
+  url: https://www.23andme.org/blog/articles/addressing-data-security-concerns/
+  description: Company statement on attackers logging in with credentials reused from other breaches and scraping DNA Relatives profile data.
+  tags: [free]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: "CircleCI: January 2023 Security Incident"
+  url: https://circleci.com/blog/jan-4-2023-incident-report/
+  description: Incident report describing malware on an engineer's laptop that stole a 2FA-backed SSO session cookie used to reach production.
+  tags: [free]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: "CISA: Post-Compromise Activity in Microsoft Cloud (AA21-008A)"
+  url: https://www.cisa.gov/news-events/cybersecurity-advisories/aa21-008a
+  description: Advisory issued during the SolarWinds response on forged SAML tokens, abused app credentials, and how to hunt for them in Entra ID.
+  tags: [gov]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: "CISA and FBI: Scattered Spider Advisory (AA23-320A)"
+  url: https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-320a
+  description: Joint advisory on Scattered Spider tradecraft, including help desk social engineering, SIM swapping, MFA fatigue, and IdP abuse.
+  tags: [gov]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: "Cisco: May 2022 Corporate Network Intrusion"
+  url: https://blog.talosintelligence.com/recent-cyber-attack/
+  description: Talos write-up of credentials synced from an employee's personal Google account, then vishing and repeated MFA pushes to get VPN access.
+  tags: [free]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: "Cloudflare: Thanksgiving 2023 Security Incident"
+  url: https://blog.cloudflare.com/thanksgiving-2023-security-incident
+  description: Account of a nation-state actor reaching Atlassian systems with a token and service account credentials stolen in the Okta breach and not rotated.
+  tags: [free]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: "CSRB: Review of the Summer 2023 Exchange Online Intrusion"
+  url: https://www.cisa.gov/resources-tools/resources/CSRB-Review-Summer-2023-MEO-Intrusion
+  description: Cyber Safety Review Board findings on Storm-0558 forging tokens with a stolen Microsoft consumer signing key to read cloud mailboxes.
+  tags: [gov]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: "CSRB: Review of Lapsus$ and Related Groups"
+  url: https://www.cisa.gov/sites/default/files/2023-08/CSRB_Lapsus%24_508c.pdf
+  description: Cyber Safety Review Board report on how Lapsus$ used SIM swapping, MFA fatigue, and insider recruitment against large companies.
+  tags: [gov]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: "Dirk-jan Mollema: Entra ID Actor Token Flaw (CVE-2025-55241)"
+  url: https://dirkjanm.io/obtaining-global-admin-in-every-entra-id-tenant-with-actor-tokens/
+  description: Researcher write-up showing how undocumented Actor tokens and an Azure AD Graph validation flaw allowed cross-tenant Global Admin impersonation.
+  tags: [free]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: "GitHub: Stolen OAuth User Tokens (April 2022)"
+  url: https://github.blog/news-insights/company-news/security-alert-stolen-oauth-user-tokens/
+  description: GitHub notice on OAuth user tokens issued to Heroku and Travis CI being stolen and used to download private repositories.
+  tags: [free]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: "Google GTIG: Salesloft Drift OAuth Token Theft"
+  url: https://cloud.google.com/blog/topics/threat-intelligence/data-theft-salesforce-instances-via-salesloft-drift
+  description: Threat intelligence report on UNC6395 using stolen Drift OAuth tokens to export Salesforce data and hunt it for further credentials.
+  tags: [free]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: "Google GTIG: UNC6040 Salesforce Vishing Campaign"
+  url: https://cloud.google.com/blog/topics/threat-intelligence/voice-phishing-data-extortion
+  description: Report on callers posing as IT support who talked staff into authorizing a malicious connected app in their Salesforce org.
+  tags: [free]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: "LastPass: 2022 Incident Update and Recommended Actions"
+  url: https://blog.lastpass.com/posts/security-incident-update-recommended-actions
+  description: LastPass update on a DevOps engineer targeted through vulnerable third-party software, whose stolen secrets opened cloud backup storage.
+  tags: [free]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: "Mandiant: UNC5537 Snowflake Customer Data Theft"
+  url: https://cloud.google.com/blog/topics/threat-intelligence/unc5537-snowflake-data-theft-extortion
+  description: Investigation of a campaign that used infostealer-harvested credentials against Snowflake customer accounts that lacked MFA.
+  tags: [free]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: "Microsoft: Midnight Blizzard Corporate Email Intrusion"
+  url: https://www.microsoft.com/en-us/msrc/blog/2024/01/microsoft-actions-following-attack-by-nation-state-actor-midnight-blizzard
+  description: MSRC disclosure of a password spray against a legacy test tenant account whose permissions were used to read corporate mailboxes.
+  tags: [free]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: "Microsoft: Storm-0558 Key Acquisition Investigation"
+  url: https://www.microsoft.com/en-us/msrc/blog/2023/09/results-of-major-technical-investigations-for-storm-0558-key-acquisition
+  description: MSRC findings on how a consumer signing key may have left its secure environment, with a 2024 note that the crash dump theory is unconfirmed.
+  tags: [free]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: "NYDFS: Twitter July 2020 Investigation Report"
+  url: https://www.dfs.ny.gov/system/files/documents/2026/07/Twitter-Investigation-Report.pdf
+  description: Regulator report on attackers posing as Twitter IT staff by phone to collect employee credentials and reach internal account tools.
+  tags: [gov]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: "Okta: January 2022 Lapsus$ Compromise"
+  url: https://www.okta.com/blog/company-and-culture/oktas-investigation-of-the-january-2022-compromise/
+  description: Okta's investigation of Lapsus$ remote access to a Sitel support engineer's computer and what that engineer could see in customer tenants.
+  tags: [free]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: "Okta: October 2023 Support System Incident"
+  url: https://sec.okta.com/articles/2023/11/unauthorized-access-oktas-support-case-management-system-root-cause/
+  description: Root cause analysis of a service account saved to a personal Google profile, used to pull session tokens from customer HAR files.
+  tags: [free]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: "Retool: SMS Phishing and Authenticator Sync Breach"
+  url: https://retool.com/blog/mfa-isnt-mfa
+  description: Retool's account of an SMS phishing link and a voice call that obtained an MFA code, with Google Authenticator cloud sync exposing more codes.
+  tags: [free]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: "Twilio: August 2022 Social Engineering Attack"
+  url: https://www.twilio.com/en-us/blog/archive/2022/august-2022-social-engineering-attack
+  description: Twilio's incident report on SMS phishing messages that harvested employee credentials and exposed customer account data.
+  tags: [free]
+  added: 2026-11-10
+  verified: 2026-11-10
+
+- name: "Uber: September 2022 Security Incident"
+  url: https://www.uber.com/us/en/newsroom/security-update/
+  description: Uber's update on a contractor's stolen password and repeated MFA push requests that the contractor eventually accepted.
+  tags: [free]
+  added: 2026-11-10
+  verified: 2026-11-10
