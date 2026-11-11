@@ -6,8 +6,8 @@ timeout = 30
 max_concurrency = 16
 user_agent = "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0 Safari/537.36"
 
-# 403 and 429 usually mean bot protection or rate limiting, not a dead page.
-accept = ["200..=299", "403", "429"]
+# 403, 429, and 444 usually mean bot protection or rate limiting, not a dead page.
+accept = ["200..=299", "403", "429", "444"]
 
 exclude = [
   # Sites that block automated requests outright
